@@ -97,44 +97,80 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.3" "A R I A" "Wie hurtig iſt man im Verheißen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\WieHurtigViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+% 							\WieHurtigViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Tenore"
+% 					\new Voice = "Tenore" { \dynamicUp \WieHurtigTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \WieHurtigTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\WieHurtigOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WieHurtigBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.3" "A R I A" "Wie hurtig iſt man im Verheißen"
+			movement = \movementTitle "1.4" "R E C I T A T I V O" "Du trittſt, mein Jeſu, nun in Hof Gethſemane"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
 			systems-per-page = #3
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\WieHurtigViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\WieHurtigViolinoII
-						}
-					>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \DuTrittstMeinSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DuTrittstMeinSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DuTrittstMeinAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DuTrittstMeinAltoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "Tenore"
-					\new Voice = "Tenore" { \dynamicUp \WieHurtigTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \WieHurtigTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\WieHurtigOrgano
+						\set Staff.instrumentName = "Organo"
+						\DuTrittstMeinOrgano
 					}
 				>>
-				\new FiguredBass { \WieHurtigBassFigures }
+				\new FiguredBass { \DuTrittstMeinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

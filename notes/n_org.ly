@@ -247,6 +247,70 @@ WieHurtigBassFigures = \figuremode {
 	<[_+]>2 %83 finis
 }
 
+DuTrittstMeinOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoDuTrittstMein
+		fis,2 g
+		a b~
+		b a~
+		a g
+		es' d4 g, %5
+		c2 d
+		es c
+		b h~
+		h1
+		c2 f %10
+		g4 c, b!2~
+		b1
+		as2 g
+		f es'!
+		d b %15
+		a4 c f,2
+		fis g
+		as a~
+		a b
+		es f4 b, %20
+		es2 d~
+		d g,4 g
+		g g g g
+		g g f f
+		f f f f %25
+		g gis a a
+		d,2 r\fermata \bar "|." %27 finis
+	}
+}
+
+DuTrittstMeinBassFigures = \figuremode {
+	<6>1
+	<6 5>
+	<4! 2>2 <6>
+	<6\\>1
+	<7>4 <6> <6 4>8 <5 _+>4. %5
+	<6->2 <6 5->
+	r <7>4 <6!>
+	r2 <7->4. <6>8
+	<\t>1
+	r2 <_-> %10
+	<6 4>8 <5 _!>4. <4! 2>2
+	r1
+	<6>2 <7>4 <6!>
+	<[_-]> <[_!]> <4 2>2
+	<_+> <6>4 <4! 2> %15
+	<6>4 <[_!]>2.
+	<6 5>1
+	<2>2 <6 5>
+	r1
+	r %20
+	<7>4 <6> <_+>2
+	<7 5 _+>4 <6 4>8 <5 _+> r2
+	r1
+	<6!>2 <4>8 <3> <7->4
+	<7 5>8 <6 4> <\t \t>4 <7 6>8 <\t 5> <9 7>4 %25
+	<[5 3]>4 <[7 _!]> <6 4> <[5] _+>
+	r1 %27 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -308,6 +308,7 @@ tempoMarkup =
 tempoJesuDeine = \tempoMarkup "Choral"
 tempoSoTustDu = \tempoMarkup "Recitativo"
 tempoWieHurtig = \tempoMarkup "Aria"
+tempoDuTrittstMein = \tempoMarkup "Recitativo"
 
 
 

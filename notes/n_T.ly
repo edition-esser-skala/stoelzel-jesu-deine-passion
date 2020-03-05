@@ -65,16 +65,16 @@ SoTustDuTenoreNotes = {
 }
 
 SoTustDuTenoreLyrics = \lyricmode {
-	So thuſt Du dann, nach dem ge --
+	So thuſt du dann, nach dem ge --
 	ſproch -- nen Lob -- ge -- ſang, mein
 	Hey -- land, ü -- ber Kid -- rons
 	Fluth den erſ -- ten Lei -- dens
-	Gang. Dir fol -- gen Dei -- ne Jün -- ger %5
+	Gang. Dir fol -- gen dei -- ne Jün -- ger %5
 	zwar, und fa -- ßen den fe -- ſten
-	Schluß, mit tap -- fern Muth Dich
+	Schluß, mit tap -- fern Muth dich
 	nicht in der Ge -- fahr, ja nicht im
 	To -- de zu ver -- la -- ßen. Doch
-	Du ſagſt es vor -- her, daß %10
+	du ſagſt es vor -- her, daß %10
 	er von ſchlech -- ter Dau -- er
 	ſey, und giebſt das zwey -- te Hahn -- ge --
 	ſchrey zu ei -- nem Zei -- chen, daß Pe -- trus
