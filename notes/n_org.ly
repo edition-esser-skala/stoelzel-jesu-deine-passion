@@ -71,6 +71,182 @@ SoTustDuBassFigures = \figuremode {
 	<6 4>8 <5 3> r2. %15 finis
 }
 
+WieHurtigOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key b \major \time 2/4 \tempoWieHurtig
+		b'8\fE b, es f
+		g f g a
+		b a b b,
+		f' a16. c32 f8 f,
+		g g, g g %5
+		c es16. g32 c8 es,
+		f f, f f
+		b b'16-! b-! a-! a-! g-! g-!
+		f-! f-! g-! g-! f-! f-! es-! es-!
+		d-! d-! es-! es-! d-! d-! c-! c-! %10
+		b4 r
+		es8 es f f
+		g g g g
+		es es f f
+		b b,[\pE es f] %15
+		g f g a
+		b a b b,
+		f' a16. c32 f8 f,
+		g g, g g
+		c es16. g32 c8 c, %20
+		f f, f f
+		b b'16-! b-! a-! a-! g-! g-!
+		f4 r
+		b,8 b c c
+		f, f'[\fE b c] %25
+		d c d e
+		f e f f,
+		c e16. g32 c8 c,
+		d d, d d
+		g b16. d32 g8 b, %30
+		c c, c c
+		f f''16-! f-! e-! e-! d-! d-!
+		c-! c-! d-! d-! c-! c-! b-! b-!
+		a-! a-! b-! b-! a-! a-! g-! g-!
+		f8 d[\pE es! f] %35
+		g f g a
+		b a b b,
+		f' a16. c32 f8 f,
+		g g, g g
+		c es16. g32 c8 c, %40
+		f f, f f
+		b b'16-! b-! a-! a-! g-! g-!
+		f-! f-! g-! g-! f-! f-! es-! es-!
+		d-! d-! es-! es-! d-! d-! c-! c-!
+		b4 r %45
+		es8 es f f
+		g g g, g
+		a a f f
+		b b'16-! b-! a-! a-! g-! g-!
+		f-! f-! g-! g-! f-! f-! es-! es-! %50
+		d-! d-! es-! es-! d-! d-! c-! c-!
+		b4 r
+		es8 es f f
+		b, d16.[\fE f32] b8 g
+		a a, a a %55
+		d f16. a32 d8 f,
+		g g, g g
+		c es16. g32 c8 es,
+		f f, f f
+		b4 r %60
+		es8 es f f
+		g g g g
+		es es f f
+		b,\fermata b'[\pE c d]
+		es d es fis, %65
+		g fis g g,
+		d' fis16. a32 d8 fis,
+		g g, g g
+		c c'16-! c-! h-! h-! a-! a-!
+		g-! g-! as-! as-! g-! g-! f-! f-! %70
+		es-! es-! f-! f-! es-! es-! d-! d-!
+		c8 es f g
+		as g as h,
+		c h c c,
+		g'' g, g g %75
+		c c c' c
+		d d, d d
+		g, g'16-! g-! fis-! fis-! e-! e-!
+		d-! d-! es-! es-! d-! d-! c-! c-!
+		b-! b-! c-! c-! b-! b-! a-! a-! %80
+		g4 r
+		es'2
+		d4 r \markDaCaPo %83 finis
+	}
+}
+
+WieHurtigBassFigures = \figuremode {
+	r2
+	r
+	r
+	r4. <6 _->8
+	<_!>2 %5
+	r4. <[6]>8
+	r2
+	r
+	r
+	r %10
+	r
+	r
+	r
+	r
+	r %15
+	r
+	r
+	r4. <6 _->8
+	<[_!]>2
+	r %20
+	r
+	r
+	r
+	r4 <[7 _!]>
+	r4. <[_!]>8 %25
+	r2
+	r
+	<[_!]>4. <6 _->8
+	<_+>2
+	r4. <[6]>8 %30
+	<[_!]>2
+	r
+	r
+	r
+	r %35
+	r
+	r
+	r4. <6 _->8
+	<[_!]>2
+	r %40
+	r
+	r
+	r
+	r
+	r %45
+	<[6]>
+	r4 q
+	<[6 5]> <[7]>
+	r2
+	r %50
+	r
+	r
+	r
+	r4 <6>8 <6!>
+	<[5!] _+>2 %55
+	r4. <6 _->8
+	<_!>2
+	r4. <6>8
+	r2
+	r %60
+	r
+	r
+	r
+	r8 <[6]> r <[_+]>
+	r2 %65
+	r
+	<[_+]>
+	<[_!]>
+	r
+	r %70
+	r
+	r8 <[6]> <[_-]> <[_!]>
+	r2
+	r
+	<[_!]> %75
+	r
+	<[_+]>
+	r
+	r
+	r %80
+	r
+	<7>4 <6\\>
+	<[_+]>2 %83 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

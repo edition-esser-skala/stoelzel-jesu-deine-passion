@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+WieHurtigViola = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoWieHurtig
+		
+	}
+}

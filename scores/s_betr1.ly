@@ -69,70 +69,72 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			movement = \movementTitle "1.2" "R E C I T A T I V O" "So thuſt Du dann"
-		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
-		}
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = "Tenore"
-					\new Voice = "Tenore" { \dynamicUp \SoTustDuTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \SoTustDuTenoreLyrics
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\SoTustDuOrgano
-					}
-				>>
-				\new FiguredBass { \SoTustDuBassFigures }
-			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "1.3" "A R I A" "Ach wo bin ich hingerathen"
+% 			movement = \movementTitle "1.2" "R E C I T A T I V O" "So thuſt Du dann"
 % 		}
 % 		\paper {
-% 			system-system-spacing.basic-distance = #22
-% 			system-system-spacing.minimum-distance = #22
-% 			systems-per-page = #3
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
 % 		}
 % 		\score {
 % 			<<
 % 				\new Staff {
-% 					\set Staff.instrumentName = "Oboe solo"
-% 					\AchWoBinOboeI
+% 					\set Staff.instrumentName = "Tenore"
+% 					\new Voice = "Tenore" { \dynamicUp \SoTustDuTenoreNotes }
 % 				}
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
-% 						\AchWoBinViolinoI
-% 					}
-% 				>>
-% 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" "(Canto I)" } }
-% 					\new Voice = "Soprano" { \dynamicUp \AchWoBinSopranoNotes }
-% 				}
-% 				\new Lyrics \lyricsto Soprano \AchWoBinSopranoLyrics
+% 				\new Lyrics \lyricsto Tenore \SoTustDuTenoreLyrics
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Organo"
-% 						\AchWoBinOrgano
+% 						\SoTustDuOrgano
 % 					}
 % 				>>
-% 				\new FiguredBass { \AchWoBinBassFigures }
+% 				\new FiguredBass { \SoTustDuBassFigures }
 % 			>>
 % 			\layout { }
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.3" "A R I A" "Wie hurtig iſt man im Verheißen"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\WieHurtigViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\WieHurtigViolinoII
+						}
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "Tenore"
+					\new Voice = "Tenore" { \dynamicUp \WieHurtigTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \WieHurtigTenoreLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\WieHurtigOrgano
+					}
+				>>
+				\new FiguredBass { \WieHurtigBassFigures }
+			>>
+			\layout { }
+			\midi { \tempo 4 = 100 }
+		}
+	}
 }

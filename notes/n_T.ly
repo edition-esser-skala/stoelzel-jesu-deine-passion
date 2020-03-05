@@ -82,6 +82,123 @@ SoTustDuTenoreLyrics = \lyricmode {
 	wei -- chen. %15 finis
 }
 
+WieHurtigTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoWieHurtig
+		R2*14 %14
+		r8 f \appoggiatura { es16[ f] } g8 a, %15
+		b a b c
+		c4 \appoggiatura es16 d8.[\trill c16]
+		c4 r
+		r8 as' g f
+		es4 c\trill %20
+		r8 g' f es
+		d b f'4~
+		f16[ e d c] b[ a g f]
+		d'4 \appoggiatura c16 b8.([\trill a32 b)]
+		a4 r %25
+		R2*9 %34
+		r8 f' \appoggiatura { es!16[ f] } g8 a, %35
+		b a b c
+		c4 \appoggiatura es16 d8.([\trill c32 d)]
+		c4 r
+		r8 as' g f
+		es4 c %40
+		r8 g' f es
+		d b f'4~
+		f8 b, f'4~
+		f8 b, f' g16([ a)]
+		b([ a)] g([ f)] es([ d)] c([ b]) %45
+		g'4 a,\trill
+		b8 g es' es
+		es es es es
+		es16([ d)] c b f'4~
+		f8 b, f'4~ %50
+		f8 b, f'8.([ g32 a)]
+		b16([ a g f)] es([ d c b)]
+		g'4 es8.([\trill d32 es)]
+		d4 r
+		R2*9 %63
+		r8\fermata d \appoggiatura { c16[ d] } es8 fis,
+		g fis g a %65
+		a4 \appoggiatura c16 b8.([\trillE a32 b)]
+		a8 es' d c
+		\tuplet 3/2 8 { h16([ c d)] } g,8 r4
+		r8 c g'4~
+		g8 c, g'4~ %70
+		g8 c, g'4~
+		g16 es c8 as' h,
+		c h c d
+		d4 \appoggiatura f16 es8.([\trillE d32 es)]
+		d4 r %75
+		r8 g g g
+		\tuplet 3/2 8 { fis16([ g a)] } d,8 r4
+		r8 g, d'4~
+		d8 g, d'4~
+		d8 g, d'4~ %80
+		d16 b g8 g'4~
+		g8 g, cis8. d16
+		d4 r \markPo %83
+	}
+}
+
+WieHurtigTenoreLyrics = \lyricmode {
+	Wie hur -- tig %15
+	iſt man im Ver --
+	hei -- _
+	ßen,
+	wie leicht ge --
+	lobt man, %20
+	wie leicht ge --
+	lobt man al --
+	_
+	_ les __
+	an, %25
+	
+	wie hur -- tig %35
+	iſt man im Ver --
+	hei -- _
+	ßen,
+	wie leicht ge --
+	lobt man, %40
+	wie leicht ge --
+	lobt man al --
+	les an, __
+	wie leicht ge --
+	lobt man al -- les, %45
+	al -- les
+	an, wie hur -- tig
+	iſt man im Ver --
+	hei -- ßen, wie leicht __
+	ge -- lobt __ %50
+	man al --
+	_ _
+	_ les __
+	an.
+
+	Doch wenn mans %64
+	ſoll im Werck er -- %65
+	wei -- _
+	ſen, ſo bleibt es
+	lei -- der,
+	ſo bleibt __
+	es lei -- %70
+	der un --
+	ge -- than, wenn mans
+	ſoll im Werck er --
+	wei -- _
+	ſen, %75
+	ſo bleibt es
+	lei -- der,
+	ſo bleibt __
+	es lei --
+	der un -- %80
+	ge -- than, lei --
+	der un -- ge --
+	than. %83 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
