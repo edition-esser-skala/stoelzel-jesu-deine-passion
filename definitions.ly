@@ -286,6 +286,7 @@ tempoMarkup =
 %
 
 tempoJesuDeine = \tempoMarkup "Choral"
+tempoSoTustDu = \tempoMarkup "Recitativo"
 
 
 

@@ -31,6 +31,46 @@ JesuDeineBassFigures = \figuremode {
 	r2 <6> q r <4> <3> r1 %8 finis
 }
 
+SoTustDuOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoSoTustDu
+		g1~
+		g
+		e'
+		d2 g,
+		a4 d f2 %5
+		e1~
+		e2 f~
+		f1
+		fis2 g
+		es d~ %10
+		d1
+		c2 a!~
+		a b
+		d es4 e
+		f b, r2\fermata \bar "|." %15 finis
+	}
+}
+
+SoTustDuBassFigures = \figuremode {
+	<5 3>2 <4 2>
+	<7+ 4 2> <8 3>
+	<7>4 <6\\>2.
+	r1
+	<6 4>8 <5! _+> r4 <4! 2>2 %5
+	<6>1
+	<5->
+	r
+	<6>
+	<7>4 <6> <6!>2 %10
+	r1
+	r2 <6>
+	r1
+	<6>2. <7>4
+	<6 4>8 <5 3> r2. %15 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

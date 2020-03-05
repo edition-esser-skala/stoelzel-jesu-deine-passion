@@ -11,92 +11,92 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "I."
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
-		\header {
-			movement = \movementTitle "1.1" "C H O R A L" "Jeſu, deine Paßion"
-		}
-		\paper { indent = 3\cm systems-per-page = #2 }
-		\score {
-			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \JesuDeineSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \JesuDeineSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \JesuDeineAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \JesuDeineTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \JesuDeineTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \JesuDeineBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \JesuDeineBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\JesuDeineOrgano
-					}
-				>>
-				\new FiguredBass { \JesuDeineBassFigures }
-			>>
-			\layout { }
-			\midi { \tempo 2 = 90 }
-		}
-	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partTitle "I."
+% 	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\markup \null
+% 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "1.2" "R E C I T A T I V O" "Betrübter Fall! ach unglückſeelger Bißen!"
+% 			movement = \movementTitle "1.1" "C H O R A L" "Jeſu, deine Paßion"
 % 		}
-% 		\paper {
-% 			system-system-spacing.basic-distance = #23
-% 			system-system-spacing.minimum-distance = #23
-% 			systems-per-page = #5
-% 		}
+% 		\paper { indent = 3\cm systems-per-page = #2 }
 % 		\score {
 % 			<<
-% 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" "(Canto I)" } }
-% 					\new Voice = "Soprano" { \dynamicUp \BetruebterFallSopranoNotes }
-% 				}
-% 				\new Lyrics \lyricsto Soprano \BetruebterFallSopranoLyrics
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \JesuDeineSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \JesuDeineSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \JesuDeineAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \JesuDeineTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \JesuDeineTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \JesuDeineBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \JesuDeineBassoLyrics
+% 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Organo"
-% 						\BetruebterFallOrgano
+% 						\JesuDeineOrgano
 % 					}
 % 				>>
-% 				\new FiguredBass { \BetruebterFallBassFigures }
+% 				\new FiguredBass { \JesuDeineBassFigures }
 % 			>>
 % 			\layout { }
-% 			\midi { \tempo 4 = 60 }
+% 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.2" "R E C I T A T I V O" "So thuſt Du dann"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Tenore"
+					\new Voice = "Tenore" { \dynamicUp \SoTustDuTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \SoTustDuTenoreLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\SoTustDuOrgano
+					}
+				>>
+				\new FiguredBass { \SoTustDuBassFigures }
+			>>
+			\layout { }
+			\midi { \tempo 4 = 60 }
+		}
+	}
 % 	\bookpart {
 % 		\header {
 % 			movement = \movementTitle "1.3" "A R I A" "Ach wo bin ich hingerathen"
