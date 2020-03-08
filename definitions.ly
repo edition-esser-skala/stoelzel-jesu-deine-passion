@@ -293,6 +293,8 @@ markPo = {
 markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 alwaysScriptOut = \override Script.avoid-slur = #'outside
+xE = \override LyricText.font-shape = #'italic
+x = \revert LyricText.font-shape
 
 
 
@@ -309,6 +311,7 @@ tempoJesuDeine = \tempoMarkup "Choral"
 tempoSoTustDu = \tempoMarkup "Recitativo"
 tempoWieHurtig = \tempoMarkup "Aria"
 tempoDuTrittstMein = \tempoMarkup "Recitativo"
+tempoWachtUnd = \tempoMarkup "Duetto"
 
 
 

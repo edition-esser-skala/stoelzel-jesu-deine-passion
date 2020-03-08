@@ -93,3 +93,82 @@ WieHurtigViolinoII = {
 		d4 r \markCa %83 finis
 	}
 }
+
+WachtUndViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWachtUnd
+		R2.
+		a'8.[\fE d,16 a'8. d,16] d'8.(\trill cis32 d)
+		cis4( c) c8.(\trill b32 c)
+		\tuplet 3/2 4 { b8([ a g)] } g2\trill
+		fis4-! a-! r %5
+		b-! h-! r
+		c8 a16 c c4\trill r
+		b8 g16 b b4\trill r
+		a8 fis16 a a4\trill r
+		g16. b'32 a16( g) fis( g) d( es) a,( b) fis( g) %10
+		es16. b''32 a16( g) fis( g) d( es) a,( b) fis( g)
+		d16. b''32 a16( g) fis( g) d( es) a,( b) fis( g)
+		c,8. es16 d4 d
+		g, b8.[\p b16 g8. g16]
+		d'8.[ d16 d8. d16 d8. d16] %15
+		a'8.[ a16 a8. a16 a8. a16]
+		g8.[ g16 cis,8. cis16 cis8. cis16]
+		d8.[ d16 b8. b16 b'8. b16]
+		c8.[ c16 f,8. f16 d8. d16]
+		g8. es16 f4 f %20
+		b,4\fE^\critnote r r
+		c'8.[ f,16 c'8. f,16] f'8.(\trill e32 f)
+		e4( es) es8.(\trill d32 es)
+		\tuplet 3/2 4 { d8([ c b)] } b2\trill
+		a4-! c-! r %25
+		b d,8.[\p d16 d8. d16]
+		f8.[ f16 f8. f16 f8. f16]
+		c8.[ c16 c8. c16 c8. c16]
+		b8.[ b16 e8. e16 e8. e16]
+		f8.[ f16 f8. f16 f8. f16] %30
+		fis8.[ fis16 g8. g16 cis,8. cis16]
+		d4-! a'-! r
+		b-! h-! r
+		c8 a16 c c4\trill r
+		b8 g16 b b4\trill r %35
+		a8 fis16 a a4\trill r
+		g8 d16 g g4\trill r
+		fis8.[ d16 b8. b16 b'8. b16]
+		c8.[ c16 f,8. f16 a8. a16]
+		b,8. c16 d4 d %40
+		g8.[ g16 f8. f16 es8. es16]
+		d4 d2
+		\kneeBeam g,16. b''32\f a16( g) fis( g) d( es) a,( b) fis( g)
+		es16. b''32\f a16( g) fis( g) d( es) a,( b) fis( g)
+		d16. b''32\f a16( g) fis( g) d( es) a,( b) fis( g) %45
+		c,8. es16 d4 d
+		g,\fermata r r
+		\kneeBeam b16.\p d''32 c16( b) a( b) e,( f) a,( b) e,( f)
+		b,4 e8.[ e16 e8. e16]
+		f4 r r %50
+		\kneeBeam c16. es''32 d16( c) h( c) fis,( g) h,( c) fis,( g)
+		c,4 fis8.[ fis16 fis8. fis16]
+		g4 r r
+		d'8 h16 d d4\trill r
+		c8 a16 c c4\trill r %55
+		b!8 g16 b b4\trill r
+		a8 fis16 a a4\trill r
+		g8.[ g,16 g8. g16 g'8. g16]
+		a4 e' r
+		f fis r %60
+		g d r
+		es e r
+		f c r
+		d8 b16 d d4\trill r
+		c8 a16 c c4\trill r %65
+		b8 g16 b b4\trill r
+		a8 fis16 a a4\trill r
+		g8.[ g,16 g8. g16 g'8. g16]
+		a2.~
+		a %70
+		a,
+		d \markCa %72 finis
+	}
+}

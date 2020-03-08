@@ -93,6 +93,123 @@ DuTrittstMeinAltoLyrics = \lyricmode {
 	will ver -- ſchlie -- ßen. %26 finis
 }
 
+WachtUndAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoWachtUnd
+		R2.*14 %14
+		a'8. d,16 a'8. d,16 d'8([ cis16)] d %15
+		cis4 c~ c8[ b16] c
+		b([ a)] g8 g4.\trillE fis8
+		fis4 r8 g16. fis32 g4~
+		g16 g c b a4 f8. f16
+		b8. g16 a2 %20
+		b4 r r
+		R2.*4 %25
+		f8. b,16 f'8. b,16 b'8([ a16)] b
+		a4 as~ as8[ g16] as
+		g8 c, a'4~ a8[ g16] a
+		b8. d,16 d4 c
+		c8 es!16. d32 es4~ es16. g32 f16 es %30
+		d4~ d16.[ d32 e16. fis32] g4
+		fis r r
+		R2.
+		r4 c'8 a c a
+		r4 b8 g b4 %35
+		r a8 fis a fis
+		g4 g2\trill
+		fis4 r8 g16. fis32 g4~
+		g16. g32 c16 b a4 f8. f16
+		b8. a16 g4( fis) %40
+		g r8 r16 g c4~
+		c16. a32 b16 g \appoggiatura b4 a2
+		g4 r r
+		R2.*3 %46
+		r4\fermata g8.([ a16)] a4\trillE
+		b b2
+		b b4
+		a a8.([ h16)] h4\trill %50
+		c c2
+		c c4
+		h h8.([ cis16)] cis4\trill
+		d4. h8 d h
+		c4. a8 c a %55
+		b!4. g8 b g
+		a4. fis8 a fis
+		g8. a16 b4 g
+		\tuplet 3/2 4 { e8([ d e)] } a4 r
+		a8. d,16 a'8. d,16 d'8 fis, %60
+		g4 r r
+		g8. c,16 g'8. c,16 c'8 e,
+		f16([ e)] f8 r4 r
+		r d'4. h8
+		c4. a8 c a %65
+		b!4. g8 b g
+		a4. fis8 a fis
+		g d b'4 g
+		e4. g8 a[ e]
+		f4. a8[ f d] %70
+		e g e2\trill
+		d2. \markDa %72 finis
+	}
+}
+
+WachtUndAltoLyrics = \lyricmode {
+	Wacht und be -- thet! ruf -- feſt %15
+	du den __ be --
+	trüb -- ten Jün -- gern
+	zu und zu -- gleich __
+	auch al -- len Chriſ -- ten, auch
+	al -- len Chriſ -- %20
+	ten,
+	
+	wacht und be -- thet! ruf -- feſt %26
+	du den __ be --
+	trüb -- ten, den __ be --
+	trüb -- ten Jün -- gern
+	zu und zu -- gleich __ auch al -- len %30
+	Chriſ --  _
+	ten,
+	
+	wacht und be -- thet!
+	ruf -- feſt du %35
+	den be -- trüb -- ten
+	Jün -- gern
+	zu und zu -- gleich __
+	auch al -- len Chriſ -- ten, auch
+	al -- len Chriſ -- %40
+	ten, zu -- gleich __
+	auch al -- len Chriſ --
+	ten.
+	
+	Wer mit %47
+	dir den
+	Lei -- dens
+	Plan als ein %50
+	treu -- er
+	Un -- ter --
+	than, liebſ -- ter
+	Je -- ſu, will be --
+	tre -- ten, muß mit %55
+	Wa -- chen und mit
+	Be -- then Au -- gen,
+	Hertz und See -- le
+	rüſ -- ten,
+	wer mit dir den Lei -- dens %60
+	Plan,
+	liebſ -- ter Je -- ſu, will be --
+	tre -- ten,
+	muß mit
+	Wa -- chen und mit %65
+	Be -- then Au -- gen,
+	Hertz und See -- le
+	rüſ -- ten, Au -- gen,
+	Hertz und See --
+	_ _ %70
+	_ le rüſ --
+	ten. %72 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

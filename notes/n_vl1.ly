@@ -94,6 +94,85 @@ WieHurtigViolinoI = {
 	}
 }
 
+WachtUndViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWachtUnd
+		d'8.[\fE g,16 d'8. g,16] g'8.(\trill fis32 g)
+		fis4( f) f8.(\trill e32 f)
+		e8.[ a,16 e'8. a,16] fis'8.(\trill e32 fis)
+		g8 b,4 g' b,8
+		a4-! fis'-! r %5
+		g-! d-! r
+		es8 c16 es es4\trill r
+		d8 b16 d d4\trill r
+		c8 a16 c c4\trill r
+		b16. b'32 a16( g) fis( g) d( es) a,( b) fis( g) %10
+		es16. b''32 a16( g) fis( g) d( es) a,( b) fis( g)
+		d16. b''32 a16( g) fis( g) d( es) a,( b) fis( g)
+		c,8. es16 d4 d
+		g, b8.[\p b16 g8. g16]
+		d'8.[ d16 d8. d16 d8. d16] %15
+		a'8.[ a16 a8. a16 a8. a16]
+		g8.[ g16 cis,8. cis16 cis8. cis16]
+		d8.[ d16 b8. b16 b'8. b16]
+		c8.[ c16 f,8. f16 d8. d16]
+		g8. es16 f4 f %20
+		f'8.[\f b,16 f'8. b,16] b'8.(\trill a32 b)
+		a4( as) as8.(\trill g32 as)
+		g8.[ c,16 g'8. c,16] a'8.(\trillE g32 a)
+		b8 d,4 b' d,8
+		c4-! a'-! r %25
+		b d,,8.[\p d16 d8. d16]
+		f8.[ f16 f8. f16 f8. f16]
+		c8.[ c16 c8. c16 c8. c16]
+		b8.[ b16 e8. e16 e8. e16]
+		f8.[ f16 f8. f16 f8. f16] %30
+		fis8.[ fis16 g8. g16 cis,8. cis16]
+		d4-! fis'-! r
+		g-! d-! r
+		es8 c16 es es4\trill r
+		d8 b16 d d4\trill r %35
+		c8 a16 c c4\trill r
+		b8 g16 b b4\trill r
+		a8.[ d,16 b8. b16 b'8. b16]
+		c8.[ c16 f,8. f16 a8. a16]
+		b,8. c16 d4 d %40
+		g8.[ g16 f8. f16 es8. es16]
+		d4 d2
+		\kneeBeam g,16. b''32\f a16( g) fis( g) d( es) a,( b) fis( g)
+		es16. b''32\f a16( g) fis( g) d( es) a,( b) fis( g)
+		d16. b''32\f a16( g) fis( g) d( es) a,( b) fis( g) %45
+		c,8. es16 d4 d
+		g,\fermata r r
+		\kneeBeam b16.\p d''32 c16( b) a( b) e,( f) a,( b) e,( f)
+		b,4 e8.[ e16 e8. e16]
+		f4 r r %50
+		\kneeBeam c16. es''32 d16( c) h( c) fis,( g) h,( c) fis,( g)
+		c,4 fis8.[ fis16 fis8. fis16]
+		g4 r r
+		f'8 d16 f f4\trill r
+		es!8 c16 es es4\trill r %55
+		d8 b16 d d4\trill r
+		c8 a16 c c4\trill r
+		b8.[ g,16 g8. g16 g'8. g16]
+		a4 cis' r
+		d a r %60
+		b h r
+		c g r
+		as4 a r
+		b8 d,16 f f4\trill r
+		es8 c16 es es4\trill r %65
+		d8 b16 d d4\trill r
+		c8 a16 c c4\trill r
+		b8.[ g,16 g8. g16 g'8. g16]
+		\once \tieDashed a2.~
+		a %70
+		a,
+		d \markDa %72 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

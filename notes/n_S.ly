@@ -92,6 +92,123 @@ DuTrittstMeinSopranoLyrics = \lyricmode {
 	ßen, ver -- ſchlie -- ßen. %26 finis
 }
 
+WachtUndSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoWachtUnd
+		R2.*13 %13
+		d'8. g,16 d'8. g,16 g'8([ fis16)] g
+		fis4 f~ f8[ e16] f %15
+		e8 a, fis'4~ fis8[ e16] fis
+		g8. b,16 b4.\trill a8
+		a8 d16. cis32 d4~ d16 d g f!
+		es4 c8. c16 f8. f16
+		d8. es16 c2 %20
+		b4 r r
+		R2.*5 %26
+		c8. f,16 c'8. f,16 f'8([ e16)] f
+		e4 es~ es8[ d16] es
+		d([ c)] b8 b4. a8
+		a4 r8 c16. b32 c4~ %30
+		c16. es32 d16 c \appoggiatura c4 b2
+		a4 r r
+		R2.
+		r4 es'8 c es c
+		r4 d8 b d4 %35
+		r c8 a c a
+		b4 b2\trill
+		a8 d16. cis32 d4~ d16. d32 g16 f!
+		es4 c8. c16 f8. es16
+		d8. c16 b4( a) %40
+		g8. d'16 g4. g,8
+		fis'8. g16 \appoggiatura g4 fis2
+		g4 r r
+		R2.*3 %46
+		r4\fermata b,8.([ c16)] c4\trill
+		d d2
+		d4 c2\trill
+		c4 c8.([ d16)] d4\trill %50
+		es es2
+		es4 d2
+		d4 d8.([ e16)] e4\trill
+		f4. d8 f d
+		es!4. c8 es c %55
+		d4. b8 d b
+		c4. a8 c a
+		b g g'4 e
+		cis a r
+		R2. %60
+		d8. g,16 d'8. g,16 g'8 h,
+		c4 r r
+		c8. f,16 c'8. f,16 f'8 a,
+		b16([ a)] b8 f'4. d8
+		es4. c8 es c %65
+		d4. b8 d b
+		c4. a8 c a
+		b g g'4 e
+		cis8 a e'2~
+		e8[ a,] d2~ %70
+		d8 h cis2\trill
+		d2. \markPo %72 finis
+	}
+}
+
+WachtUndSopranoLyrics = \lyricmode {
+	Wacht und be -- thet! ruf -- feſt %14
+	du den __ be -- %15
+	trüb -- ten, den __ be --
+	trüb -- ten Jün -- gern
+	zu und zu -- gleich __ auch al -- len
+	Chriſ -- ten, zu -- gleich auch
+	al -- len Chriſ --
+	ten,
+	
+	wacht und be -- thet! ruf -- feſt %27
+	du den __ be --
+	trüb -- ten Jün -- gern
+	zu und zu -- gleich __ %30
+	auch al -- len Chriſ --
+	ten,
+	
+	wacht und be -- thet!
+	ruf -- feſt du %35
+	den be -- trüb -- ten
+	Jün -- gern
+	zu und zu -- gleich auch al -- len
+	Chriſ -- ten, zu -- gleich auch
+	al -- len Chriſ -- %40
+	ten, zu -- gleich auch
+	al -- len Chriſ --
+	ten.
+	
+	Wer mit %47
+	dir \xE den
+	Lei -- dens
+	Plan als ein %50
+	treu -- er
+	Un -- ter --
+	than, liebſ -- ter
+	Je -- ſu, will be --
+	tre -- ten, muß mit %55
+	Wa -- chen und mit
+	Be -- then Au -- gen, \x
+	Hertz und See -- le
+	rüſ -- ten,
+	%60
+	wer mit dir den Lei -- dens
+	Plan,
+	liebſ -- ter Je -- ſu, will be --
+	tre -- ten, muß mit
+	Wa -- chen und mit %65
+	Be -- then Au -- gen,
+	Hertz und See -- le
+	rüſ -- ten, Au -- gen,
+	Hertz und See --
+	_ %70
+	le rüſ --
+	ten. %72 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
