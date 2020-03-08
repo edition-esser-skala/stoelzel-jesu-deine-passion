@@ -235,6 +235,30 @@ WachetAufAltoLyrics = \lyricmode {
 	Wa -- chet! %7 finis
 }
 
+JudasDerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/1 \autoBeamOff \tempoJudasDer
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g g g f f e1\fermata
+		\time 5/1 g2 g g g h, c d1 e\fermata \bar ":|."
+		\time 4/1 g2 g e g g g g1\fermata
+		g2 g a g g g g1\fermata \bar "|." %4 finis
+	}
+}
+
+JudasDerAltoLyricsA = \lyricmode {
+	Ju -- das, der Ver -- rä -- ther, küßt
+	Je -- ſum, ach! er wird ge -- fan -- gen.
+	Zu des Him -- mels Frey -- heits Thür,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JudasDerAltoLyricsB = \lyricmode {
+	In den Ban -- den Chriſ -- tus büßt
+	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

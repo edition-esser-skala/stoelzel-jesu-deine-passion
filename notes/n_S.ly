@@ -234,6 +234,30 @@ WachetAufSopranoLyrics = \lyricmode {
 	Wa -- chet! %7 finis
 }
 
+JudasDerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/1 \autoBeamOff \tempoJudasDer
+			\set Staff.timeSignatureFraction = 4/4
+		c'2 c h c a h c1\fermata
+		\time 5/1 e2 e d g f e d1 c\fermata \bar ":|."
+		\time 4/1 e2 d c d e e d1\fermata
+		e2 g f e d2. d4 c1\fermata \bar "|." %4 finis
+	}
+}
+
+JudasDerSopranoLyricsA = \lyricmode {
+	Ju -- das, der Ver -- rä -- ther, küßt
+	Je -- ſum, ach! er wird ge -- fan -- gen.
+	Zu des Him -- mels Frey -- heits Thür,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JudasDerSopranoLyricsB = \lyricmode {
+	In den Ban -- den Chriſ -- tus büßt
+	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -56,6 +56,30 @@ WachetAufBassoLyrics = \lyricmode {
 	Wa -- chet! %7 finis
 }
 
+JudasDerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/1 \autoBeamOff \tempoJudasDer
+			\set Staff.timeSignatureFraction = 4/4
+		c2 e g e f g c,1\fermata
+		\time 5/1 c2 e g e d c g'1 c,\fermata \bar ":|."
+		\time 4/1 c2 g' a g c, e g1\fermata
+		c2 h a c g2. g4 c,1\fermata \bar "|." %4 finis
+	}
+}
+
+JudasDerBassoLyricsA = \lyricmode {
+	Ju -- das, der Ver -- rä -- ther, küßt
+	Je -- ſum, ach! er wird ge -- fan -- gen.
+	Zu des Him -- mels Frey -- heits Thür,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JudasDerBassoLyricsB = \lyricmode {
+	In den Ban -- den Chriſ -- tus büßt
+	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

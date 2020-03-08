@@ -6,8 +6,8 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/s_betr1.ly"
-% \include "scores/s_betr2.ly"
+% \include "scores/s_betr1.ly"
+\include "scores/s_betr2.ly"
 % \include "scores/s_betr3.ly"
 % \include "scores/s_betr4.ly"
 % \include "scores/s_betr5.ly"

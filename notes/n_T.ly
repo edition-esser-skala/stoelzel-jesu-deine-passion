@@ -224,6 +224,30 @@ WachetAufTenoreLyrics = \lyricmode {
 	Wa -- chet! %7 finis
 }
 
+JudasDerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/1 \autoBeamOff \tempoJudasDer
+			\set Staff.timeSignatureFraction = 4/4
+		e2 e d c c4( f) d2 c1\fermata
+		\time 5/1 c2 c h c d g,4( c) c2( h) c1\fermata \bar ":|."
+		\time 4/1 c2 h a h c c h1\fermata
+		c2 d c c c h e1\fermata \bar "|." %4 finis
+	}
+}
+
+JudasDerTenoreLyricsA = \lyricmode {
+	Ju -- das, der Ver -- rä -- ther, küßt
+	Je -- ſum, ach! er wird ge -- fan -- gen.
+	Zu des Him -- mels Frey -- heits Thür,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JudasDerTenoreLyricsB = \lyricmode {
+	In den Ban -- den Chriſ -- tus büßt
+	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

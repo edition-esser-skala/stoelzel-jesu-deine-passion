@@ -569,6 +569,25 @@ WachetAufBassFigures = \figuremode {
 	<6> <_!> %7 finis
 }
 
+JudasDerOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/1 \tempoJudasDer
+			\set Staff.timeSignatureFraction = 4/4
+		c2 e g e f g c,1\fermata
+		\time 5/1 c2 e g e d c g'1 c,\fermata \bar ":|."
+		\time 4/1 c2 g' a g c, e g1\fermata
+		c2 h a c g g, c1\fermata \bar "|." %4 finis
+	}
+}
+
+JudasDerBassFigures = \figuremode {
+	r2 <6> r <[6]> r1 r
+	r2 <6> r <6> q r <4> <3> r1
+	r r r2 <6> r1
+	r2 <6> q r <5 4> <\l 3> r1 %4 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
