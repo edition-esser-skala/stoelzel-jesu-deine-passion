@@ -544,6 +544,31 @@ WachtUndBassFigures = \figuremode {
 	r4. %72 finis
 }
 
+WachetAufOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/1 \tempoWachetAuf
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g fis d g c, d d\fermata
+		\time 5/1 r d d' cis d f,4( g) a2 a, d1\fermata
+		r2 d g f! b b, f' g d d\fermata
+		r2 d d' cis d f,4( g) a2 a, d1\fermata
+		r2 c b h c d es2. es4 d1\fermata %5
+		r2 d g g f! d es es, d1\fermata
+		\time 2/1 h'2( c) g1\fermata \bar "|." %7 finis
+	}
+}
+
+WachetAufBassFigures = \figuremode {
+	r1 <6>2 <_+> r <6> <_+>1
+	r2 <_!> r <6 [_!]> r <6>4 <[7]> <[5! 4]>2 <[\t _+]> r1
+	r2 <_+> r1 r r <_+>
+	r2 <_!> r <6 [_!]> r <6>4 <[7]> <[5! 4]>2 <[\t _+]> r1
+	r2 <4\+ 2> <6> <6> r <_+> <7> <6> <_+>1 %5
+	r2 <[_+]> r1 <6> <7>2 <6> <_+>1
+	<6> <_!> %7 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

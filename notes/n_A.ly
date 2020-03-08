@@ -210,6 +210,31 @@ WachtUndAltoLyrics = \lyricmode {
 	ten. %72 finis
 }
 
+WachetAufAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/1 \autoBeamOff \tempoWachetAuf
+			\set Staff.timeSignatureFraction = 4/4
+		d2 d d fis g a fis fis\fermata
+		\time 5/1 r2 f a a a2. b4 e,2 a a1\fermata
+		r2 a g a b b a g fis fis\fermata
+		r f a a a2. b4 e,2 a a1\fermata
+		r2 a g g g fis g2. g4 fis1\fermata %5
+		r2 fis? g d f2. a4 g2 es' a,1\fermata
+		\time 2/1 g2( es) d1\fermata \bar "|." %7 finis
+	}
+}
+
+WachetAufAltoLyrics = \lyricmode {
+	Wa -- chet auf, ihr fau -- len Chriſ -- ten,
+	be -- den -- cket, daß euch Got -- tes Gnad
+	vom tie -- fen Schlaf der Sün -- den Lüſ -- ten
+	zu le -- ben auf -- er -- we -- cket hat.
+	Ver -- laß -- et doch die finſ -- tre Gruft %5
+	und hö -- ret, wenn euch Je -- ſus ruft:
+	Wa -- chet! %7 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

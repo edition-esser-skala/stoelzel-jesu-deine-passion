@@ -173,52 +173,96 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.5" "D U E T T O" "Wacht und bethet! ruffeſt du"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WachtUndViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WachtUndViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \WachtUndSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WachtUndSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \WachtUndAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WachtUndAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "[Violoncello]" 
+% 						\WachtUndCello
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\WachtUndOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WachtUndBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.5" "D U E T T O" "Wacht und bethet! ruffeſt du"
+			movement = \movementTitle "1.6" "C H O R A L" "Wachet auf, ihr faulen Chriſten"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WachtUndViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WachtUndViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \WachtUndSopranoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \WachetAufSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WachtUndSopranoLyrics
+					\new Lyrics \lyricsto Soprano \WachetAufSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WachtUndAltoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \WachetAufAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \WachtUndAltoLyrics
+					\new Lyrics \lyricsto Alto \WachetAufAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \WachetAufTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \WachetAufTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \WachetAufBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \WachetAufBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "[Violoncello]" 
-						\WachtUndCello
-					}
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\WachtUndOrgano
+						\set Staff.instrumentName = "Organo"
+						\WachetAufOrgano
 					}
 				>>
-				\new FiguredBass { \WachtUndBassFigures }
+				\new FiguredBass { \WachetAufBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

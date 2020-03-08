@@ -199,6 +199,31 @@ WieHurtigTenoreLyrics = \lyricmode {
 	than. %83 finis
 }
 
+WachetAufTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/1 \autoBeamOff \tempoWachetAuf
+			\set Staff.timeSignatureFraction = 4/4
+		b2 b a2. d4 d2 es d d\fermata
+		\time 5/1 r a f'! e d d d cis f1\fermata
+		r2 fis d f f f f d d d\fermata
+		r a f'! e d d d cis f1\fermata
+		r2 d d d c a g es' a,1\fermata %5
+		r2 d d b a d d c d1\fermata
+		\time 2/1 d2( c) h1\fermata \bar "|."
+	}
+}
+
+WachetAufTenoreLyrics = \lyricmode {
+	Wa -- chet auf, ihr fau -- len Chriſ -- ten,
+	be -- den -- cket, daß euch Got -- tes Gnad
+	vom tie -- fen Schlaf der Sün -- den Lüſ -- ten
+	zu le -- ben auf -- er -- we -- cket hat.
+	Ver -- laß -- et doch die finſ -- tre Gruft %5
+	und hö -- ret, wenn euch Je -- ſus ruft:
+	Wa -- chet! %7 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

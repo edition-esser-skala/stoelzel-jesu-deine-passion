@@ -209,6 +209,31 @@ WachtUndSopranoLyrics = \lyricmode {
 	ten. %72 finis
 }
 
+WachetAufSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/1 \autoBeamOff \tempoWachetAuf
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g d'2. c4 b2 c a a\fermata
+		\time 5/1 r d d e f f e2. e4 d1\fermata
+		r2 d b c d d c b a a\fermata
+		r d d e f f e2. e4 d1\fermata
+		r2 fis g2. f4 es2 d d c d1\fermata %5
+		r2 d b g d' d g2. g4 fis1\fermata
+		\time 2/1 g1 g\fermata \bar "|." %7 finis
+	}
+}
+
+WachetAufSopranoLyrics = \lyricmode {
+	Wa -- chet auf, ihr fau -- len Chriſ -- ten,
+	be -- den -- cket, daß euch Got -- tes Gnad
+	vom tie -- fen Schlaf der Sün -- den Lüſ -- ten
+	zu le -- ben auf -- er -- we -- cket hat.
+	Ver -- laß -- et doch die finſ -- tre Gruft %5
+	und hö -- ret, wenn euch Je -- ſus ruft:
+	Wa -- chet! %7 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

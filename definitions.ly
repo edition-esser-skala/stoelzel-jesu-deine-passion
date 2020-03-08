@@ -312,6 +312,7 @@ tempoSoTustDu = \tempoMarkup "Recitativo"
 tempoWieHurtig = \tempoMarkup "Aria"
 tempoDuTrittstMein = \tempoMarkup "Recitativo"
 tempoWachtUnd = \tempoMarkup "Duetto"
+tempoWachetAuf = \tempoMarkup "Choral"
 
 
 
