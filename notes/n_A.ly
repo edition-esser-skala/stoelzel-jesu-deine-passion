@@ -303,6 +303,112 @@ WasKoemmestAltoLyrics = \lyricmode {
 	ſcho -- nen. %17 finis
 }
 
+LiebsteHandAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \autoBeamOff \tempoLiebsteHand
+		R4.*11 \bar "S-S" %11
+		r8 c' f,
+		d'16. g,32 g8([ b16)] a
+		a8 as as
+		as8. g16 as g %15
+		g8 c c
+		c8. h16 c h
+		h8[ c16 d g, c]~
+		c32[ h64 a g32 f] e8[ d]
+		c4 r8 %20
+		R4.*2
+		r8 c' f,
+		d'16. g,32 g8([ b16)] a
+		a8 as as %25
+		as8.[ g16 as g]~
+		g[ e f g c, f]~
+		f32[ e!64 d c32 b] a!8[ g]
+		f16 f' e! es d des
+		c c' h b a as %30
+		g[ e f g c, f]~
+		f8 h4
+		c16.[\fermata f,32] g4
+		f r8
+		R4.*7 %41
+		r8\fermata a f
+		d16([ cis)] d8 r
+		r d' g,
+		es'16. a,32 a8([ c16)] b %45
+		b8 b b
+		b8. a16 b a
+		a d, f!8 f
+		f8. e16 f e
+		e4 r8 %50
+		r c'! f,
+		d'16. g,32 g8([ b16)] a
+		a8 as as
+		as8. g16 as g
+		g c, es8 es %55
+		es8. d16 es d
+		d4 r8
+		r b'! b
+		b8. a16 b a
+		a d cis c h b %60
+		a d, e([ fis)] g8
+		cis16 a h([ cis)] d([ gis,)]
+		a([ d,)] e4
+		d8 a' f
+		d4 r8 %65
+		R4. \bar "S-S" %66 finis
+	}
+}
+
+LiebsteHandAltoLyrics = \lyricmode {
+	Liebſ -- te %12
+	Hand, ich kü -- ße
+	dich, denn du
+	lä -- ßeſt auch vor %15
+	mich dich mit
+	Ban -- den hart be --
+	le --
+	_
+	gen, %20
+	
+	liebſ -- te %23
+	Hand, ich kü -- ße
+	dich, denn du %25
+	lä --
+	
+	_
+	ßeſt, du lä -- ßeſt dich vor
+	mich mit Ban -- den hart be -- %30
+	le --
+	_
+	_ _
+	gen.
+	
+	Ich ge -- %42
+	hör -- te,
+	ich ge --
+	hör -- te e -- wig -- %45
+	lich mei -- ner
+	Mi -- ße -- tha -- ten
+	we -- gen in der
+	Höl -- le Fol -- ter --
+	hauß, %50
+	ich ge --
+	hör -- te e -- wig --
+	lich mei -- ner
+	Mi -- ße -- tha -- ten
+	we -- gen in der %55
+	Höl -- le Fol -- ter --
+	hauß,
+	doch du
+	zie -- heſt mich he --
+	raus, du zie -- heſt mich he -- %60
+	raus, du zie -- heſt
+	mich, du zie -- heſt
+	mich he --
+	raus, liebſ -- te
+	Hand! %65 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

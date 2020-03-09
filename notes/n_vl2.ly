@@ -172,3 +172,76 @@ WachtUndViolinoII = {
 		d \markCa %72 finis
 	}
 }
+
+LiebsteHandViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \tempoLiebsteHand
+		r16 f\fE f f f f
+		a, a a a a a
+		b b c c c c
+		f32 f'16 c f as, f' f,32
+		h, f''16 d f h, d g,32 %5
+		c,16 e'( f g c, f)
+		e c'( h b a as)
+		g32 c16 g c e, c' c,32
+		f, a'16 d, b' d, b' b,32
+		e, g'16 c, g' b, g' b,32 %10
+		a16 f f f f f \bar "S-S"
+		a, a a\pE a a a
+		b b c c c c
+		f32 f'16 c f as, f' f,32
+		d f'16 d f h, f' f,32 %15
+		e! c'16 es, c' g es' es,32
+		d a''16 c, a' a, a' d,,32
+		g,16 g g g g g
+		g g g g g g
+		c e'(\fE f g c, f) %20
+		e c'( h b a as)
+		g32 c16 g c e, c' c,32
+		f,16 f a,\pE a a a
+		b b c c c c
+		f32 f'16 c f as, f' f,32 %25
+		h, f''16 d f h, f' g,32
+		c,16 c c c c c
+		c c c c c c
+		d f'( e! es d des)
+		c \once \slurDashed g( f g c, f) %30
+		e c''( h b a as)
+		g8 d4\trill
+		c8 c,4\fermata
+		f32 f'16\fE c f as, f' f,32
+		d f'16 d f h, f' g,32 %35
+		c, c''16 g c e, c' c,32
+		f, a'16 d, b' d, b' b,32
+		e, g'16 c, g' b, g' b,32
+		a16 \once \slurDashed a'( b c f, b)~
+		b a as4~ %40
+		\tuplet 6/4 8 { as32 g f g as d, } e4
+		f16\fermata f,\pE f f f f
+		f f f f fis fis
+		g g b, b b b
+		c c d d d d %45
+		g,32 g''16 d g b, g' g,32
+		e g'16 e g cis, e g,32
+		fis d'16 f, d' a d d,32
+		h d'16 h d gis, h d,32
+		cis16 cis'( d e a, d) %50
+		cis a a, a a a
+		b! b c c c c
+		f32 f'16 c f as, f' f,32
+		d f'16 d f h, d f,32
+		e! c'16 es, c' g c c,32 %55
+		a c'16 a c fis, a c,32
+		h16 \once \slurDashed h'( c d g, c)
+		h32 g'16 d g b, g' g,32
+		cis, g''16 e g cis, e a,32
+		d,16 \once \slurDashed d'( cis c h b) %60
+		a4 r8
+		r16 \once \slurDashed a'( gis g fis f)~
+		f8 cis4
+		d r8
+		R4. %65
+		r16 f,16\fE f f f f \bar "S-S" %66 finis
+	}
+}

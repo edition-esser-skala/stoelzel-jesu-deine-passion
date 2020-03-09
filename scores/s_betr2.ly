@@ -67,32 +67,83 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.2" "R E C I T A T I V O" "Was kömmeſtu, verruchte Schaar"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Alto"
+% 					\new Voice = "Alto" { \dynamicUp \WasKoemmestAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \WasKoemmestAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WasKoemmestOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WasKoemmestBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.2" "R E C I T A T I V O" "Was kömmeſtu, verruchte Schaar"
+			movement = \movementTitle "2.3" "A R I A" "Liebſte Hand, ich küße dich"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "[in F]"
+						\new Staff {
+							\set Staff.instrumentName = "Grand oboe I"
+							\LiebsteHandOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Grand oboe II"
+							\LiebsteHandOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\LiebsteHandViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\LiebsteHandViolinoII
+						}
+					>>
+				>>
 				\new Staff {
 					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \WasKoemmestAltoNotes }
+					\new Voice = "Alto" { \dynamicUp \LiebsteHandAltoNotes }
 				}
-				\new Lyrics \lyricsto Alto \WasKoemmestAltoLyrics
+				\new Lyrics \lyricsto Alto \LiebsteHandAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\WasKoemmestOrgano
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\LiebsteHandOrgano
 					}
 				>>
-				\new FiguredBass { \WasKoemmestBassFigures }
+				\new FiguredBass { \LiebsteHandBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 8 = 80 }
 		}
 	}
 }

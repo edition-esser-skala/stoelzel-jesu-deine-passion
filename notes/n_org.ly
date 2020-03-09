@@ -632,6 +632,148 @@ WasKoemmestBassFigures = \figuremode {
 	<_+>1 %17 finis
 }
 
+LiebsteHandOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/8 \tempoLiebsteHand
+		f8\fE f f
+		a a a
+		b c c,
+		f f f
+		h h h %5
+		c c c
+		c16 \once \slurDashed c,( d e f h,)
+		c8 c b
+		a b a
+		g c c, %10
+		f f f \bar "S-S"
+		a a\pE a
+		b c c,
+		f f' f
+		h h h %15
+		c c c
+		fis, fis fis
+		g g g
+		g, g g
+		c c\fE c %20
+		c16( c' d e f h,)
+		c8 c, b!
+		a a'\pE a
+		b c c,
+		f f f %25
+		h, h h
+		c c c
+		c, c c
+		\slurDashed d16 d'( g a b e,!)
+		f e( d e f h,) \slurSolid %30
+		c8 c c
+		c,4.~
+		c\fermata
+		f8 f\fE f
+		h' h h %35
+		c c b
+		a b a
+		g c c,
+		f,16 f'( g a b e,!)
+		f8 h, h %40
+		c c,4
+		f8\fermata f'\pE f
+		f f fis
+		g b, b
+		c d d, %45
+		g g' g
+		cis, cis cis
+		d d d
+		gis, gis gis
+		a a a %50
+		a a a
+		b! c c,
+		f f' f
+		h h h
+		c c c %55
+		fis, fis fis
+		g g g
+		g g g
+		cis, cis cis
+		d d d %60
+		d16 \once \slurDashed d'( cis c h b)
+		a8 a a
+		a, a a
+		d4 r8
+		R4. %65
+		r8 f\fE f \bar "S-S" %66 finis
+	}
+}
+
+LiebsteHandBassFigures = \figuremode {
+	r4.
+	<6>
+	<6 5>8 <4> <3>
+	r <_->4
+	<7-> <6>8 %5
+	r4.
+	r8 <6!>16 <5-> <3> <7->
+	r4 <2>8
+	<6> r <2>
+	<6> <7>4 %10
+	r4.
+	<6>
+	<[6 5]>8 <4> <3>
+	r <_->4
+	<7-> <6 5>8 %15
+	<_!> <_->4
+	<7-> <6 5>8
+	<[_!]>4 <[6 4]>16 <[6- \t]>
+	<5 4> <\t _!> <6 4>8 <5 _!>
+	r4. %20
+	r8 <6!>16 <5-> r <7->
+	r4 <2>8
+	<6>4.
+	<[6 5]>8 <[4]> <[3]>
+	r <_->4 %25
+	<7-> <6 5>8
+	r4 <6 4>16 <6- \t>
+	<5 4> <\t 3> <6! 4>8 <5 3>
+	r <6!>16 <5-> <_!> <7->
+	r <6> <6!> <5-> <_!> <[7-]> %30
+	r4 <6 4>16 <6- \t>
+	<5 4>8 <7! 4 2>4
+	<5 3>4.
+	<_!>8 <_->4
+	<7-> <6>8 %35
+	r4 <2>8
+	<6>4 <2>8
+	<6> <7>4
+	r8 <6>16 <5-> r <7->
+	<4> <_!> <7->4 %40
+	<6- 4>8 <5 3>4
+	<_!>4.
+	<6>4 <\t>8
+	r <6>4
+	<6 5 _->8 <4> <_+> %45
+	r4.
+	<7>4 <6>8
+	<_+> <_!>4
+	<7 _!>4 <6 \t>8
+	<_+>4. %50
+	<_+>8 <6 _!>4
+	<6 5>8 <4> <3>
+	<_!> <_->4
+	<7->4 <6 5!>8
+	<_!> <_->4 %55
+	<7-> <6 5>8
+	<_!>4.
+	<\t>8 <_->4
+	<[7]>4 <[6]>8
+	<_+>4 <[6! 4]>16 <[6- \t]> %60
+	<_+>8 <6>16 <4+ 2> <6> <\t>
+	<5 _+>4 <6+ 4>16 <7+ 6! 4>
+	<8 \t \t>8 <5 _+>4
+	r4.
+	r %65
+	r %66 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
