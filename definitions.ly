@@ -315,6 +315,7 @@ tempoWachtUnd = \tempoMarkup "Duetto"
 tempoWachetAuf = \tempoMarkup "Choral"
 
 tempoJudasDer = \tempoMarkup "Choral"
+tempoWasKoemmest = \tempoMarkup "Recitativo"
 
 
 

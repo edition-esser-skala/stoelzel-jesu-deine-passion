@@ -259,6 +259,50 @@ JudasDerAltoLyricsB = \lyricmode {
 	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
 }
 
+WasKoemmestAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoWasKoemmest
+		r8 e f e d8. d16 e8 h
+		c4 r16 c e a, a'8. a16 gis8 a
+		h h r16 e, f e c'8. c16 a8 g
+		e e r16 g g g c4 a
+		f!8. f16 a8 g e4 r16 e e c %5
+		fis8. fis16 fis8 fis a4 r8 a
+		c c c h g8. d16 f8 e
+		e4 r16 e e e gis8. gis16 h8 e,
+		c'4 r8 a c8. c16 c8 h
+		h4 r8 g g d d4 %10
+		r r8 h' h fis fis g
+		a8. a16 h8 fis g g r g
+		g f! a f d8. e16 f8 e
+		e e r c g'8. g16 g g b a
+		f4 r8 c b' b b a %15
+		a a  r16 a a a a8. d,16 g8 a
+		a a r4 r2\fermata \bar "|." %17 finis
+	}
+}
+
+WasKoemmestAltoLyrics = \lyricmode {
+	Was köm -- meſ -- tu, ver -- ruch -- te
+	Schaar mit Fa -- ckeln, lan -- gen Schwerd und
+	Stan -- gen? Mein Hey -- land läßt ſich wil -- lig
+	fan -- gen. Es braucht es nicht, un --
+	treu -- er Bö -- ſe -- wicht, daß dein ver -- %5
+	rä -- the -- ri -- ſcher Kuß das
+	Zei -- chen ge -- ben muß, wer Je -- ſus
+	ſey: Er ſagt es ſel -- ber oh -- ne
+	Scheu und rei -- chet ſei -- ne
+	Hand den Ban -- den dar. %10
+	Laß ſte -- cken nur das
+	Schwerd in ſei -- ner Schei -- den, jetzt
+	iſt die Stun -- de da, daß Je -- ſus
+	lei -- de; ſonſt wür -- de ja ein Him -- mels
+	Heer von En -- gel Le -- gi -- %15
+	o -- nen der bö -- ſen Rot -- te nicht ver --
+	ſcho -- nen. %17 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

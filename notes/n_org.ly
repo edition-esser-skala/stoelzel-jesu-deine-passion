@@ -588,6 +588,50 @@ JudasDerBassFigures = \figuremode {
 	r2 <6> q r <5 4> <\l 3> r1 %4 finis
 }
 
+WasKoemmestOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoWasKoemmest
+		gis1
+		a2 f
+		e a
+		h4 e c2~
+		c1 %5
+		\once \tieDashed a~
+		a2 h
+		c h
+		a fis
+		g4 cis d d, %10
+		g2 dis'~
+		dis e
+		a, h
+		c b
+		a g %15
+		f b
+		a r\fermata \bar "|." %17 finis
+	}
+}
+
+WasKoemmestBassFigures = \figuremode {
+	<6>1
+	r2 q
+	<_+>1
+	<6 4>8 <5+ _+>4. <5 3>4 <6 4>
+	<\t \t>2 <5 3> %5
+	<6\\>1
+	r2 <6>4 <5!>
+	r2 <6\\>
+	r <6 5>
+	r4 <7> <6 4> <5 _+> %10
+	r2 <6 _+>
+	r1
+	<6!>2 <6>
+	r <2>
+	<6> <6 _-> %15
+	r <7>4 <6>
+	<_+>1 %17 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
