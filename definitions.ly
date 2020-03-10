@@ -319,6 +319,7 @@ tempoWasKoemmest = \tempoMarkup "Recitativo"
 tempoLiebsteHand = \tempoMarkup "Aria"
 tempoUndWieIhr = \tempoMarkup "Recitativo"
 tempoAchIhrJuenger = \tempoMarkup "Duetto"
+tempoHerrLass = \tempoMarkup "Choral"
 
 
 

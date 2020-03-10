@@ -203,6 +203,32 @@ AchIhrJuengerBassoLyrics = \lyricmode {
 	Hertz. %78 finis
 }
 
+HerrLassBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 5/1 \autoBeamOff \tempoHerrLass
+			\set Staff.timeSignatureFraction = 4/4
+		r2 h' c g a a, e'1 d\fermata
+		r2 cis d f cis? d a'1( d,)\fermata \bar ":|."
+		r2 g c a \bar "" e f d g c,1\fermata
+		r2 c' a g f e f( c) f1\fermata
+		\time 4/1 r2 f c' d g, a d,1\fermata \bar "|." %5 finis
+	}
+}
+
+HerrLassBassoLyricsA = \lyricmode {
+	Herr, laß dein bit -- ter Ley -- den
+	mich reit -- zen für und für, __
+	daß mir nie kom -- me aus dem Sinn
+	wie viel es dich ge -- koſ -- tet,
+	daß ich er -- lö -- ſet bin. %5 finis
+}
+
+HerrLassBassoLyricsB = \lyricmode {
+	mit al -- lem Ernſt zu mey -- den
+	die ſünd -- li -- che Be -- gier: __
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

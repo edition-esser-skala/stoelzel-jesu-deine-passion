@@ -174,60 +174,108 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.5" "D U E T T O" "Ach, ihr Jünger, denckt zurücke"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\AchIhrJuengerViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+% 							\AchIhrJuengerViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\AchIhrJuengerViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff \with { \smallerStaffDistance } {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \AchIhrJuengerTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \AchIhrJuengerTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \AchIhrJuengerBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \AchIhrJuengerBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
+% 						\AchIhrJuengerCello
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AchIhrJuengerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AchIhrJuengerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.5" "D U E T T O" "Ach, ihr Jünger, denckt zurücke"
+			movement = \movementTitle "2.6" "C H O R A L" "Herr, laß dein bitter Leyden"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\AchIhrJuengerViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\AchIhrJuengerViolinoII
-						}
-					>>
+				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\AchIhrJuengerViola
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \HerrLassSopranoNotes }
 					}
-				>>
-				\new ChoirStaff <<
-					\new Staff \with { \smallerStaffDistance } {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \AchIhrJuengerTenoreNotes }
+					\new Lyrics \lyricsto Soprano \HerrLassSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \HerrLassSopranoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \HerrLassAltoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \AchIhrJuengerTenoreLyrics
+					\new Lyrics \lyricsto Alto \HerrLassAltoLyricsA
+					\new Lyrics \lyricsto Alto \HerrLassAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \HerrLassTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \HerrLassTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \HerrLassTenoreLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \AchIhrJuengerBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \HerrLassBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \AchIhrJuengerBassoLyrics
+					\new Lyrics \lyricsto Basso \HerrLassBassoLyricsA
+					\new Lyrics \lyricsto Basso \HerrLassBassoLyricsB
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
-						\AchIhrJuengerCello
-					}
-					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AchIhrJuengerOrgano
+						\HerrLassOrgano
 					}
 				>>
-				\new FiguredBass { \AchIhrJuengerBassFigures }
+				\new FiguredBass { \HerrLassBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

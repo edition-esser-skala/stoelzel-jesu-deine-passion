@@ -407,6 +407,32 @@ AchIhrJuengerTenoreLyrics = \lyricmode {
 	Hertz. %78 finis
 }
 
+HerrLassTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 5/1 \autoBeamOff \tempoHerrLass
+			\set Staff.timeSignatureFraction = 4/4
+		r2 d c h a c4( e) e1 f\fermata
+		r2 e d c e d cis1( d)\fermata \bar ":|."
+		r2 h c c c c d h c1\fermata
+		r2 e c g' a^\critnote g f( e) c1\fermata
+		\time 4/1 r2 f e d d cis f1\fermata \bar "|." %5 finis
+	}
+}
+
+HerrLassTenoreLyricsA = \lyricmode {
+	Herr, laß dein bit -- ter Ley -- den
+	mich reit -- zen für und für, __
+	daß mir nie kom -- me aus dem Sinn
+	wie viel es dich ge -- koſ -- tet,
+	daß ich er -- lö -- ſet bin. %5 finis
+}
+
+HerrLassTenoreLyricsB = \lyricmode {
+	mit al -- lem Ernſt zu mey -- den
+	die ſünd -- li -- che Be -- gier: __
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

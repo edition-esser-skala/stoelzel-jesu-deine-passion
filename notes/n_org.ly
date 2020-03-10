@@ -905,6 +905,27 @@ AchIhrJuengerBassFigures = \figuremode {
 	r2 %78 finis
 }
 
+HerrLassOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 5/1 \tempoHerrLass
+			\set Staff.timeSignatureFraction = 4/4
+		r2 h' c g a a, e'1 d\fermata
+		r2 cis d f cis? d a'1( d,)\fermata \bar ":|."
+		r2 g c a e f d g c,1\fermata
+		r2 c' a g f e f( c) f1\fermata
+		\time 4/1 r2 f c' d g, a d,1\fermata \bar "|." %5 finis
+	}
+}
+
+HerrLassBassFigures = \figuremode {
+	r2 <6> r <_!> r1 <6>2 <6\\> r1
+	r2 <6> r1 <[7]> <_+> r
+	r2 <_!> r <6> q1 r2 <_!> r1
+	r <6>2 <[6]> r <6> r1 r
+	r r <6 5>2 <_+> r1 %5 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

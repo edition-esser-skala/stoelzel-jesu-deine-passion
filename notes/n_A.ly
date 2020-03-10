@@ -409,6 +409,32 @@ LiebsteHandAltoLyrics = \lyricmode {
 	Hand! %65 finis
 }
 
+HerrLassAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 5/1 \autoBeamOff \tempoHerrLass
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g' g g e e g1 a\fermata
+		r2 a a a b a a1( f)\fermata \bar ":|."
+		r2 g g a g f a g g1\fermata
+		r2 g a b c c c1 a\fermata
+		\time 4/1 r2 c c a b a a1\fermata \bar "|." %5 finis
+	}
+}
+
+HerrLassAltoLyricsA = \lyricmode {
+	Herr, laß dein bit -- ter Ley -- den
+	mich reit -- zen für und für, __
+	daß mir nie kom -- me aus dem Sinn
+	wie viel es dich ge -- koſ -- tet,
+	daß ich er -- lö -- ſet bin. %5 finis
+}
+
+HerrLassAltoLyricsB = \lyricmode {
+	mit al -- lem Ernſt zu mey -- den
+	die ſünd -- li -- che Be -- gier: __
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

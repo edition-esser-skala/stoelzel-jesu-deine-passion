@@ -258,6 +258,32 @@ JudasDerSopranoLyricsB = \lyricmode {
 	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
 }
 
+HerrLassSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 5/1 \autoBeamOff \tempoHerrLass
+			\set Staff.timeSignatureFraction = 4/4
+		r2 d' e d c a c( cis) d1\fermata
+		r2 e f a g f e1( d)\fermata \bar ":|."
+		r2 d e f g a f d e1\fermata
+		r2 c f e f g a( g) f1\fermata
+		\time 4/1 r2 a g f e e d1\fermata \bar "|." %5 finis
+	}
+}
+
+HerrLassSopranoLyricsA = \lyricmode {
+	Herr, laß dein bit -- ter Ley -- den
+	mich reit -- zen für und für, __
+	daß mir nie kom -- me aus dem Sinn
+	wie viel es dich ge -- koſ -- tet,
+	daß ich er -- lö -- ſet bin. %5 finis
+}
+
+HerrLassSopranoLyricsB = \lyricmode {
+	mit al -- lem Ernſt zu mey -- den
+	die ſünd -- li -- che Be -- gier: __
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
