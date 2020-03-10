@@ -311,85 +311,6 @@ DuTrittstMeinBassFigures = \figuremode {
 	r1 %27 finis
 }
 
-WachtUndCello = {
-	\relative c {
-		\clef bass
-		\key g \minor \time 3/4 \tempoWachtUnd
-		g'8.[\fE g16 b8. b16 g8. g16]
-		d'8.[-! d16 d8.-! d16 d8. d16]-!
-		a8.[-! a16 a8.-! a16 a8.-! a16]
-		g8.[-! g16 cis8.-! cis16 cis8.-! cis16]
-		d16( es) d( es) d( es) d( es) fis, es'( d c) %5
-		b( as) g( as) g( as) g( as) h, as'( g f)
-		es c' es c a c es c f, c' es c
-		b, b' d b g b d b es, b' d b
-		a, a' c a fis a c a d, a' c a
-		g,16. d''32 c16( b) a( b) fis( g) fis'( g) d( es) %10
-		c,16. d'32 c16( b) a( b) fis( g) fis'( g) d( es)
-		b,16. d'32 c16( b) a( b) fis( g) fis'( g) d( es)
-		c,8. es16 d4 d,
-		g8. g16 b8.[\pE b16 g8. g16]
-		d'8.[ d16 d8. d16 d8. d16] %15
-		a'8.[ a16 a8. a16 a8. a16]
-		g8.[ g16 cis8. cis16 cis8. cis16]
-		d,8.[ d16 b8. b16 b'8. b16]
-		c8.[ c16 f,8. f16 d8. d16]
-		g8. es16 f4 f, %20
-		b8.[\fE b16 d8. d16 b8. b16]
-		f'8.[-! f16 f8.-! f16 f8.-! f16]
-		c8.[-! c16 c8.-! c16 c8.-! c16]
-		b8.[ b16 e'8. e16 e8. e16]
-		\slurDashed f16( g) f( g) f( g) f( g) a, g'( f es) \slurSolid %25
-		d8. b16 d,8.[\pE d16 b8. b16]
-		f'8.[ f16 f8. f16 f8. f16]
-		c'8.[ c16 c8. c16 c8. c16]
-		b8.[ b16 e8. e16 e8. e16]
-		f8.[ f,16 f8. f16 f8. f16] %30
-		fis8.[ fis16 g8. g16 cis8. cis16]
-		\slurDashed d16(\fE es) d( es) d( es) d( es) fis, es'( d c) \slurSolid
-		b( as) g( as) g( as) g( as) h, as'( g f)
-		es\pE c' es c a c es c f, c' es c
-		b, b' d b g b d b es, b' d b %35
-		a, a' c a fis a c a d, a' c a
-		g, g' b g e g b g cis, g' b g
-		d8.[ d16 b8. b16 b'8. b16]
-		c8.[ c16 f,8. f16 a8. a16]
-		b,8. c16 d4 d, %40
-		g'8.[ g16 f8. f16 es8. es16]
-		d4 d,2
-		g16. d''32\fE c16( b) a( b) fis( g) fis'( g) d( es)
-		c,16. d'32 c16( b) a( b) fis( g) fis'( g) d( es)
-		b,16. d'32 c16( b) a( b) fis( g) fis'( g) d( es) %45
-		c,8. es16 d4 d,
-		g\fermata g'8.[\pE g16 f8. f16]
-		b8.[ b16 b8. b16 b8. b16]
-		b,8.[ b16 e8. e16 e8. e16]
-		f8.[ f16 es8. es16 d8. d16] %50
-		c8.[ c16 c8. c16 c8. c16]
-		c8.[ c16 fis8. fis16 fis8. fis16]
-		g8.[ g16 f8. f16 e?8. e16]
-		d d' f d h d f d g, d' f d
-		c, c'es c a c es c f, c' es c %55
-		b, b' d b g b d b es, b' d b
-		a, a' c a fis a c a d, a' c a
-		g,8.[ g16 g8. g16 g'8. g16]
-		a16( b) a( b) a( b) a( b) cis, b'( a g)
-		f es'! d( es) d( es) d( es) fis, es'( d c) %60
-		b( as) g( as) g( as) g( as) h, as'( g f)
-		es des' c( des) c( des) c( des) e, des'( c b)
-		as( g) f( g) f( g) f( g) a, g'( f es)
-		d d' f d h d f d g, d' f d
-		c, c'es c a c es c f, c' es c %65
-		b, b' d b g b d b es, b' d b
-		a, a' c a fis a c a d, a' c a
-		g,8.[ g16 g8. g16 g'8. g16]
-		a2.~
-		a %70
-		a,
-		d \markCa %72 finis
-	}
-}
-
 WachtUndOrgano = {
 	\relative c {
 		\clef bass
@@ -772,6 +693,216 @@ LiebsteHandBassFigures = \figuremode {
 	r4.
 	r %65
 	r %66 finis
+}
+
+UndWieIhrOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoUndWieIhr
+		h1
+		c2 f~
+		f e~
+		e a,
+		b c4 f, %5
+		a2 b
+		h c
+		e!1
+		es2 d
+		c!1 %10
+		b
+		a2 d
+		gis,1
+		h!2 a
+		e' f %15
+		a, b
+		a r\fermata \bar "|." %17 finis
+	}
+}
+
+UndWieIhrBassFigures = \figuremode {
+	<6>1
+	r2 <5>
+	<6> <_+>
+	<[7 _+]>2 <[5]>4 <6>
+	r2 <6 4>8 <5 3>4. %5
+	<6\\>2 <6>
+	<7->4 <6> <_->2
+	<6>2 <5->
+	<4 2> <_+>
+	<4+ 2>1 %10
+	<6>
+	<7 _+>2 <_!>
+	<7 _!>1
+	<6\\>
+	<6>4 <5->2. %15
+	<6>2 <7>4 <6\\>
+	<_+>1 %17 finis
+}
+
+AchIhrJuengerOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key d \minor \time 2/4 \tempoAchIhrJuenger
+		d8\fE e f e
+		f d f g
+		a a, r f'
+		g b c, e
+		f a b, d %5
+		e g a, cis
+		d4 d,
+		f'8 f f f
+		g g a a
+		gis2 %10
+		e
+		a8 d, a' a,
+		d e\pE f e
+		f d f g
+		a a, cis' a %15
+		h a h cis
+		d d, r f
+		g b c, e
+		f a b, d
+		e g a, cis %20
+		d d, f' f
+		e e e e
+		dis2
+		h
+		e8 a, e' e, %25
+		a'\fE h c h
+		c a c d
+		e e, r c
+		d f g, h
+		c d\pE e d %30
+		e c e f
+		g a h a
+		h g h c
+		d, e f e
+		f d f g %35
+		a h cis a
+		h a h cis
+		d d, r f
+		g b! c, e
+		f a b, d %40
+		e g a, cis
+		d4 d,
+		f'8 f f f
+		g g a a
+		gis2 %45
+		e
+		a8 d, a' a,
+		d4 gis,
+		gis2
+		a\fermata %50
+		d4 r8 f\fE
+		g b c, e
+		f a b, d
+		e g a, cis
+		d4 d, %55
+		f'8 f f f
+		g g a a
+		gis2
+		e
+		a8 d, a' a, %60
+		d\fermata c!\pE h g
+		c d e f
+		g2
+		g,
+		g'8\fE a h a %65
+		h g h c
+		d d, r f\pE
+		g h c, e
+		f a h, d
+		e g a, c %70
+		d f g, h
+		c4 c,
+		e'8 e e e
+		f f f f
+		h,2 %75
+		g
+		c8 f c' c,
+		f4 r \markDaCaPo %78 finis
+	}
+}
+
+AchIhrJuengerBassFigures = \figuremode {
+	r2
+	<6>4 q8 <7>
+	<6 4> <5 _+> r <6>
+	<7>4 q
+	q q %5
+	q <7 _+>
+	<4> <3>
+	<6>2
+	<9>8 <8> <9 _+> <8 \t>
+	<7 _!>2 %10
+	<9 7 5! _+>4 <8 \t \t \t>
+	<7! _+>4 <5 4>8 <\t _+>
+	r2
+	<6>4. <7>8
+	<4>8 <_+> <6>4 %15
+	<6>4. <6 5>8
+	<4>8 <3> r <6>
+	<7>4 q
+	q q
+	q <7 _+> %20
+	<9 4>8 <8 3> <6>4
+	<5! _+>2
+	<7 _+>
+	<9 7 5+ _+>4 <8 \t \t \t>
+	<7! 5! _+> <5! 4>8 <\t _+> %25
+	r2
+	<6>4. <7>8
+	<6 4>8 <5! _+> r <6>
+	<7>4 <7 _!>
+	r2 %30
+	<6>4. <7>8
+	<4>8 <_!> <6>4
+	q2
+	<4>8 <3> <6>4
+	q2 %35
+	<4>8 <_+> <6>4
+	q4. <6 5>8
+	<4>8 <3> r <6>
+	<7>4 q
+	q q %40
+	q <7 _+>
+	<9> <8>
+	<6>2
+	<9>8 <8> <9 _+> <8 \t>
+	<7 _!>2 %45
+	<9 7 5! _+>4 <8 \t \t \t>
+	<7! _+>4 <_+>
+	r <7 _!>
+	<\t \t> <6 \t>
+	<6 4> <5 _+> %50
+	r4. <6>8
+	<7>4 q
+	q q
+	q <7 _+>
+	<9 4>4 <8 3> %55
+	<6>2
+	<9>8 <8> <9 _+> <8 \t>
+	<7 _!>2
+	<9 7 5! _+>4 <8 \t \t \t>
+	<7! _+>4 <4>8 <_+> %60
+	r4 <6 5>8 <7 _!>
+	r <7> <6> <6 5>
+	<6 4> <5 _!> <7 \t>4
+	<6 5>8 <\t 4>4.
+	<4>8 <_!> <6>4 %65
+	q4. <7!>8
+	<6! 4> <5 3> r <6>
+	<7 _!>4 <7!>
+	<7> q
+	<7 5!> <7> %70
+	q <7 _!>
+	<9> <8>
+	<6> <5->
+	<4> <3>
+	<7->2 %75
+	<9- 7 _!>4 <8 \t \t>
+	<7->8 <_!>4.
+	r2 %78 finis
 }
 
 % Organo = {

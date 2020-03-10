@@ -246,6 +246,91 @@ LiebsteHandViolinoI = {
 	}
 }
 
+AchIhrJuengerViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \minor \time 2/4 \tempoAchIhrJuenger
+		a''4\fE d,
+		d'8 d d d
+		d cis r d16 c
+		b8 b~ b16 g c, b'
+		b8 a~ a16 f b, a' %5
+		a8 g~ g16 e a, g'
+		g4\trill f
+		r16 a, h cis d e f g32 a
+		b4~ b16 a32 g f16 e
+		f2~ %10
+		f16 f e d gis4(
+		g16.) e32 f16. d32 e4
+		d f,8\p e
+		f d f g
+		a a, cis a %15
+		h a h cis
+		d f' f4\trill
+		r8 d e4\trill
+		r8 c d4~
+		d16 f e d cis^\critnote d e8~ %20
+		e f16 e d c h a
+		e8 e e e
+		dis2
+		h
+		e8 a, e' e %25
+		e'4\f a,
+		a'8 a a a
+		a gis r a16 g
+		f8 f f16 d g, f'
+		f8\trill e e,[\p d] %30
+		e c e f
+		g a h a
+		h g h c
+		d, e f e
+		f d f g %35
+		a h cis a
+		h a h cis
+		d f f4\trill
+		r8 d e4\trill
+		r8 c d4~\trill %40
+		d16 f e d cis d e8~
+		e16 a, h cis d e f g
+		a8 f, f f
+		g g a a
+		gis2 %45
+		e
+		a8 d, a' a,
+		d4 gis,
+		gis2
+		a\fermata %50
+		d4 r8 d''16\f c!
+		b8 b~ b16 g c, b'
+		b8 a~ a16 f b, a'
+		a8 g~ g16 e a, g'
+		g4 f\trill %55
+		r16 a, h cis d e f g32 a
+		b4~ b16 a32 g f16 e
+		f2~
+		f16 f e d gis4(
+		g16.) e32 f16. d32 e4 %60
+		d\fermata h,8\p g
+		c d e f
+		g2
+		g,
+		d''4\f g, %65
+		g'8 g g g
+		g f f4\trill\pE
+		r8 d e4\trill
+		r8 c d4\trill
+		r8 h c4~ %70
+		c16 e d c h16^\critnote c d8~
+		d16 g, a h c d e f
+		g8 e, e e
+		f f f f
+		h,2 %75
+		g
+		c8 f c4
+		f r \markDa %78 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

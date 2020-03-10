@@ -95,55 +95,139 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.3" "A R I A" "Liebſte Hand, ich küße dich"
+% 		}
+% 		\paper {
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\set GrandStaff.instrumentName = "[in F]"
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Grand oboe I"
+% 							\LiebsteHandOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Grand oboe II"
+% 							\LiebsteHandOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\LiebsteHandViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\LiebsteHandViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Alto"
+% 					\new Voice = "Alto" { \dynamicUp \LiebsteHandAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \LiebsteHandAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\LiebsteHandOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \LiebsteHandBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 8 = 80 }
+% 		}
+% 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.4" "R E C I T A T I V O" "Und wie? Ihr Jünger, fliehet ihr?"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Tenore" "Baſso" } }
+% 					\new Voice = "Tenore" { \dynamicUp \UndWieIhrTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \UndWieIhrTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\UndWieIhrOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UndWieIhrBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "A R I A" "Liebſte Hand, ich küße dich"
+			movement = \movementTitle "2.5" "D U E T T O" "Ach, ihr Jünger, denckt zurücke"
 		}
 		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "[in F]"
+					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Grand oboe I"
-							\LiebsteHandOboeI
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\AchIhrJuengerViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Grand oboe II"
-							\LiebsteHandOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\LiebsteHandViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\LiebsteHandViolinoII
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\AchIhrJuengerViolinoII
 						}
 					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \LiebsteHandAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \LiebsteHandAltoLyrics
-				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\LiebsteHandOrgano
+						\set Staff.instrumentName = "Viola"
+						\AchIhrJuengerViola
 					}
 				>>
-				\new FiguredBass { \LiebsteHandBassFigures }
+				\new ChoirStaff <<
+					\new Staff \with { \smallerStaffDistance } {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \AchIhrJuengerTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \AchIhrJuengerTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \AchIhrJuengerBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \AchIhrJuengerBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
+						\AchIhrJuengerCello
+					}
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\AchIhrJuengerOrgano
+					}
+				>>
+				\new FiguredBass { \AchIhrJuengerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 8 = 80 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

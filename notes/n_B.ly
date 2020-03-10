@@ -80,6 +80,129 @@ JudasDerBassoLyricsB = \lyricmode {
 	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
 }
 
+AchIhrJuengerBassoNotes = {
+	\relative c {
+		\clef bass
+		\twofourtime \key d \minor \time 2/4 \autoBeamOff \tempoAchIhrJuenger
+		R2*12 %12
+		a'4 d,
+		d'8 d d d
+		d cis r4 %15
+		R2
+		r4 r8 d16 c!
+		b8 b b16([ g)] c,([ b')]
+		b8 a a16([ f)] b,([ a')]
+		a8 g g16([ e)] a,([ g')] %20
+		g8 f a a
+		gis4 e
+		a2~
+		a4~ a8[ gis16 fis]
+		gis8[ a16 fis] gis8. a16 %25
+		a4 r
+		R2*3
+		g4 c, %30
+		c'8 c c c
+		c h r4
+		R2
+		a4 d,
+		d'8 d d d %35
+		d cis r4
+		R2
+		r4 r8 d16 c!
+		b!8 b b16([ g)] c,([ b')]
+		b8 a a16([ f)] b,([ a')] %40
+		a8 g g16([ e)] a,([ g')]
+		f4. e16 d
+		d([ a)] h([ cis)] d[ e f g32 a]
+		b4~ b16[ a32 g f16 e]
+		f2~ %45
+		f8[ e16 d] gis4
+		g16[ e f d] e8. d16
+		d8 d'4 h8
+		d4 d
+		d8([\fermata h)] cis4 %50
+		d r
+		R2*9 %60
+		r4\fermata d8 h
+		c c c c
+		c16([ h)] h8 d d
+		d g, c c
+		c16([ h)] h8 r4 %65
+		R2
+		r4 r8 d16 c
+		h8 h h16([ g)] c,([ h')]
+		a8 a a16([ f)] h,([ a')]
+		g8 g g16([ e)] a,([ g')] %70
+		f4 f~
+		f8[ e16 d] e8[ c']~
+		c[ b!16 a] b4~
+		b8[ a16 g] a8[ g16 f]
+		as2~ %75
+		as8[ g16 f] h4
+		b16. g32 a16 f g8. f16
+		f4 r \markCa %78 finis
+	}
+}
+
+AchIhrJuengerBassoLyrics = \lyricmode {
+	Ach, ihr %13
+	Jün -- ger, denckt zu --
+	rü -- cke, %15
+	
+	was ſind
+	die -- ſe Band und
+	Stri -- cke, was ſind
+	die -- ſe Band und %20
+	Stri -- cke ge -- gen
+	Je -- ſu
+	See --
+	
+	_ _ len %25
+	Schmertz,
+	
+	ach, ihr %30
+	Jün -- ger, denckt zu --
+	rü -- cke,
+	
+	was ſind
+	die -- ſe Band und %35
+	Stri -- cke,
+	
+	was ſind
+	die -- ſe Band und
+	Stri -- cke ge -- gen %40
+	Je -- ſu See -- len
+	Schmertz, ge -- gen
+	Je -- ſu See --
+	_
+	_ %45
+	_
+	_ _ len
+	Schmertz, ge -- gen
+	Je -- ſu
+	See -- len %50
+	Schmertz.
+	
+	Je -- ſum %61
+	gantz al -- lei -- ne
+	traf -- fe al -- ler
+	Men -- ſchen Sündt und
+	Stra -- fe, %65
+	
+	Höl -- len --
+	ban -- de, To -- des --
+	ſtri -- cke fol -- ter --
+	ten ſein blu -- tend %70
+	Hertz, fol --
+	_
+	_
+	_
+	_ %75
+	_
+	_ ter -- ten ſein blu -- tend
+	Hertz. %78 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

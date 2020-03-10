@@ -207,7 +207,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "[Violoncello]" 
+						\set Staff.instrumentName = \markup { \center-column {  "[Violoncello]" "[Basſono]" } }
 						\WachtUndCello
 					}
 					\new Staff {

@@ -248,6 +248,165 @@ JudasDerTenoreLyricsB = \lyricmode {
 	was der \xE Sün -- den \x Mensch be -- gan -- gen. %2 finis
 }
 
+UndWieIhrTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoUndWieIhr
+		r16 d g8 r d h g f' e
+		e4 r16 e e e a4 r8 a,
+		d d d e e e r16 e f e
+		d8. d16 e8 h c c \clef bass r16 c16 c f,
+		d'8. d16 b8 a f4 r16 a c a %5
+		fis8 fis c' b g g r16 g g as
+		as8 f g d es4 r8 c'
+		c4 c, b'8. b16 b8 a
+		a a r16 a a a a8. d,16 d4
+		r8 a' d a fis8. fis16 a8 d, %10
+		d'8. d16 d8 b g4 r16 g g g
+		g8. g16 a8 e f!4 r8 f
+		f8. f16 e8 d d'8. d16 d8 h!
+		gis8. gis16 a8 h c4 r16 c c c
+		c8. g16 b8 a a a r4 %15
+		c8 f, r16 c' es d d4 r16 gis, gis gis
+		a8 a r4 r2\fermata \bar "|." %17 finis
+	}
+}
+
+UndWieIhrTenoreLyrics = \lyricmode {
+	Und wie? Ihr Jün -- ger, flie -- het
+	ihr? Iſt eu -- er Muth nun
+	ganz und gar ver -- ſchwun -- den? Be -- denckt, wo --
+	zu ihr euch ver -- bun -- den! Mein Hey -- land,
+	ja ſo geht es dir: Dein in -- ner -- %5
+	li -- che See -- len Pla -- gen, ſo dich bis
+	an den Todt be -- trübt, dein
+	Trau -- ren, Zit -- tern und dein
+	Za -- gen, den blut -- gen To -- des Schweiß,
+	der tropf -- fen -- weiß von dei -- nen %10
+	An -- ge -- ſich -- te rann, ſteht man ja
+	wohl noch ſchläf -- rig an. Doch
+	jetzt, da dich kaum äu -- ßer -- lich der
+	Fein -- de Schaar um -- giebt, und Strick und
+	Ban -- de dich um -- fa -- ßen, %15
+	flieht man und weiß ſich nicht vor Furcht zu
+	la -- ßen. %17 finis
+}
+
+AchIhrJuengerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key d \minor \time 2/4 \autoBeamOff \tempoAchIhrJuenger
+		R2*14 %14
+		e4 a, %15
+		g'8 g g g
+		g f f4~
+		f8 d e4~
+		e8 c d4~
+		d16[ f] e([ d)] cis([ d)] e8~ %20
+		e f16 e d([ c)] h([ a)]
+		e'4. d8
+		c2~
+		c8[ h16 a] dis4
+		d16[ h c a] h8. a16 %25
+		a4 r
+		R2*5 %31
+		d4 g,
+		g'8 g g g
+		g f r4
+		R2 %35
+		e4 a,
+		g'8 g g g
+		g f f4~
+		f8 d e4~
+		e8 c d4~ %40
+		d16[ f e d] cis[ d e8]~
+		e16[ a, h cis] d[ e f g]
+		a2~
+		a16[ g32 f e16 d] cis4
+		d2~ %45
+		d4~ d8[ cis16 h]
+		cis8[ d16 h] cis8. d16
+		d8 f4 d8
+		f4 e
+		f8([\fermata d)] e4 %50
+		d r
+		R2*9 %60
+		r4\fermata f8 f
+		e f g d
+		e16([ d)] d8 f f
+		f16([ e)] e8 e e
+		d g, r4 %65
+		R2
+		r4 f'~
+		f8 d e4~
+		e8 c d4~
+		d8 h c4~ %70
+		c16[ e] d[( c)] h[ c d8]~
+		d16[ g, a h] c[ d e f]
+		g4 c,~
+		c8[ d16 e] f4~
+		f2~ %75
+		f4. e16[( d])
+		e8 f16[( d]) e8. f16
+		f4 r \markDa %78 finis
+	}
+}
+
+AchIhrJuengerTenoreLyrics = \lyricmode {
+	Ach, ihr %15
+	Jün -- ger, denckt zu --
+	rü -- cke, was __
+	ſind die --
+	ſe Band __
+	und Stri -- cke __ %20
+	ge -- gen Je -- ſu
+	See -- _
+	_
+	_
+	_ _ len %25
+	Schmertz,
+	
+	ach, ihr %32
+	Jün -- ger, denckt zu --
+	rü -- cke,
+	%35
+	was ſind
+	die -- ſe Band und
+	Stri -- cke ge --
+	gen Je --
+	ſu See -- %40
+	_
+	_
+	_
+	_
+	_ %45
+	
+	_ _ len
+	Schmertz, ge -- gen
+	Je -- ſu
+	See -- len %50
+	Schmertz.
+	
+	Je -- ſum %61
+	gantz al -- lei -- ne
+	traf -- fe al -- ler
+	Men -- ſchen Sündt und
+	Stra -- fe, %65
+	
+	Höl --
+	len -- ban --
+	de, To --
+	des -- ſtri -- %70
+	cke fol --
+	_
+	_ _
+	_
+	%75
+	ter --
+	ten ſein blu -- tend
+	Hertz. %78 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

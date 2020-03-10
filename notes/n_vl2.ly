@@ -245,3 +245,88 @@ LiebsteHandViolinoII = {
 		r16 f,16\fE f f f f \bar "S-S" %66 finis
 	}
 }
+
+AchIhrJuengerViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \minor \time 2/4 \tempoAchIhrJuenger
+		f'8\fE g a g
+		f f f f
+		f e f4~
+		f8 d e4~
+		e8 c d4~ %5
+		d8 b a4
+		r16 a h cis d e f g
+		a2~
+		a16 g32 f e16 d cis4\trill
+		d2~ %10
+		\once \tieDashed d4~ d16 d cis h
+		cis8 d4 cis8
+		d4 f,8\p e
+		f d f g
+		a a, cis a %15
+		h a h cis
+		d4 r8 d'
+		d4\trill r8 c
+		c4\trill r8 b
+		b4\trill r8 a %20
+		a4 f8 f
+		e e e e
+		dis2
+		h
+		e8 a, e' e %25
+		c'\f d e d
+		c c c c
+		c h c4~
+		c8 a h d
+		d\trillE c e,[\p d] %30
+		e c e f
+		g a h a
+		h g h c
+		d, e f e
+		f d f g %35
+		a h cis a
+		h a h cis
+		d d, r d'
+		d4\trill r8 c
+		c4\trill r8 b %40
+		b4\trill r8 a
+		\once \tieDashed a2~
+		a16 a, h cis d e f g32 a
+		b8 g a a
+		gis2 %45
+		e
+		a8 d, a' a,
+		d4 gis,
+		gis2
+		a\fermata %50
+		d8 a'\f f'4~
+		f8 d e4~
+		e8 c d4~
+		d16 f e d cis d e8~
+		e16 a, h cis d e f g %55
+		a2~
+		a16 g32 f e16 d cis4
+		d2~
+		d4~ d16. d32 cis16 h
+		cis8 d4 cis8 %60
+		d4\fermata h,8\p g
+		c d e f
+		g2
+		g,
+		h4\f d'8 c %65
+		h h h h
+		h a r d\pE
+		d4\trill r8 c
+		c4\trill r8 h
+		h4\trill r8 a %70
+		a4\trillE r8 g
+		g4 g
+		e8 e e e
+		f f f f
+		h,2 %75
+		g
+		c8 f c4
+		f r \markCa %78 finis
+	}
+}

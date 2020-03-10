@@ -33,8 +33,8 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
@@ -45,8 +45,8 @@
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
@@ -317,6 +317,8 @@ tempoWachetAuf = \tempoMarkup "Choral"
 tempoJudasDer = \tempoMarkup "Choral"
 tempoWasKoemmest = \tempoMarkup "Recitativo"
 tempoLiebsteHand = \tempoMarkup "Aria"
+tempoUndWieIhr = \tempoMarkup "Recitativo"
+tempoAchIhrJuenger = \tempoMarkup "Duetto"
 
 
 
@@ -505,7 +507,6 @@ tempoLiebsteHand = \tempoMarkup "Aria"
 
 \include "notes/n_ob1.ly"
 \include "notes/n_ob2.ly"
-\include "notes/n_fag.ly"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"
@@ -513,4 +514,5 @@ tempoLiebsteHand = \tempoMarkup "Aria"
 \include "notes/n_A.ly"
 \include "notes/n_T.ly"
 \include "notes/n_B.ly"
+\include "notes/n_vlc.ly"
 \include "notes/n_org.ly"
