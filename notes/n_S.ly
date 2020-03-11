@@ -284,6 +284,34 @@ HerrLassSopranoLyricsB = \lyricmode {
 	die ſünd -- li -- che Be -- gier: __
 }
 
+JesuDerDuSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 5/1 \autoBeamOff \tempoJesuDerDu
+			\set Staff.timeSignatureFraction = 4/4
+		e'2 e h c d c h1 a\fermata
+		\time 4/1 c2 c h a gis a h1\fermata \bar ":|."
+		\time 5/1 h2. c4 d2 h c h a1 g\fermata
+		c2 d e c f e d1 c\fermata
+		\time 4/1 e2 e h c d c h1\fermata %5
+		c2 a d c h2. a4 a1\fermata \bar "|." %6 finis
+	}
+}
+
+JesuDerDuSopranoLyricsA = \lyricmode {
+	Je -- ſu, der du wol -- len bü -- ßen
+	vor die Sün -- den al -- ler Welt
+	als ein Opf -- fer vor die Sün -- der,
+	die ver -- dam -- ten A -- dams -- kin -- der,
+	ach! laß dei -- ne To -- des Pein %5
+	nicht an mir ver -- loh -- ren ſeyn. %6 finis
+}
+
+JesuDerDuSopranoLyricsB = \lyricmode {
+	durch dein theu -- res Blut -- ver -- gi -- ßen,
+	der du dich haſt dar -- ge -- ſtellt %12 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

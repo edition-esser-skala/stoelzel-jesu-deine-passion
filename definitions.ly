@@ -321,6 +321,8 @@ tempoUndWieIhr = \tempoMarkup "Recitativo"
 tempoAchIhrJuenger = \tempoMarkup "Duetto"
 tempoHerrLass = \tempoMarkup "Choral"
 
+tempoJesuDerDu = \tempoMarkup "Choral"
+
 
 
 

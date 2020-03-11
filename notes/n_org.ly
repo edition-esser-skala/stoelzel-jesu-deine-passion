@@ -926,6 +926,29 @@ HerrLassBassFigures = \figuremode {
 	r r <6 5>2 <_+> r1 %5 finis
 }
 
+JesuDerDuOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 5/1 \tempoJesuDerDu
+			\set Staff.timeSignatureFraction = 4/4
+		a2 c e a gis a e1 a,\fermata
+		\time 4/1 a'2 a, d f e a, e'1\fermata \bar ":|." \noBreak
+		\time 5/1 g!2 e h e a, h c( d) g1\fermata
+		e2 d c f d c g'1 c,\fermata
+		\time 4/1 c2 c4( d) e2 a gis a e1\fermata %5
+		a2 f d a' e e, a1\fermata \bar "|." %6 finis
+	}
+}
+
+JesuDerDuBassFigures = \figuremode {
+	r2 <6> <_+>1 <5> <4>2 <_+> r1
+	r <6> <_+> q
+	r2 <5>4 <6> <6>1 r2 <6> <6 5> <_+> r1
+	<6>2 q r1 <6> <4>2 <3> r1
+	r2 <6> <_+>1 <5> <_+> %5
+	r r <4>2 <_+> r1 %6 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

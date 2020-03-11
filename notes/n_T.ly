@@ -433,6 +433,34 @@ HerrLassTenoreLyricsB = \lyricmode {
 	die ſünd -- li -- che Be -- gier: __
 }
 
+JesuDerDuTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 5/1 \autoBeamOff \tempoJesuDerDu
+			\set Staff.timeSignatureFraction = 4/4
+		c2 e e e e e e1 c\fermata
+		\time 4/1 e2 e d c e e e1\fermata \bar ":|."
+		\time 5/1 d2 e d e e d e( d) h1\fermata
+		c2 f g f f g g1 e\fermata
+		\time 4/1 c2 e4( f) e2 e e e e1\fermata %5
+		\fermata e4( c) c2 f e e2. d4 c1\bar "|." %6 finis
+	}
+}
+
+JesuDerDuTenoreLyricsA = \lyricmode {
+	Je -- ſu, der du wol -- len bü -- ßen
+	vor die Sün -- den al -- ler Welt
+	als ein Opf -- fer vor die Sün -- der,
+	die ver -- dam -- ten A -- dams -- kin -- der,
+	ach! laß dei -- ne To -- des Pein %5
+	nicht an mir ver -- loh -- ren ſeyn. %6 finis
+}
+
+JesuDerDuTenoreLyricsB = \lyricmode {
+	durch dein theu -- res Blut -- ver -- gi -- ßen,
+	der du dich haſt dar -- ge -- ſtellt %12 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

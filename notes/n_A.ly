@@ -435,6 +435,34 @@ HerrLassAltoLyricsB = \lyricmode {
 	die ſünd -- li -- che Be -- gier: __
 }
 
+JesuDerDuAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 5/1 \autoBeamOff \tempoJesuDerDu
+			\set Staff.timeSignatureFraction = 4/4
+		a'2 a gis a h a a( gis) e1\fermata
+		\time 4/1 a2 a f f h,4( d) c( a') gis1\fermata \bar ":|."
+		\time 5/1 g2. g4 g2 g a g g( fis) d1\fermata
+		g2 h c a h c c( h) g1\fermata
+		\time 4/1 g2 a gis a h a gis1\fermata %5
+		a2 a a a a gis e1\fermata \bar "|." %6 finis
+	}
+}
+
+JesuDerDuAltoLyricsA = \lyricmode {
+	Je -- ſu, der du wol -- len bü -- ßen
+	vor die Sün -- den al -- ler Welt
+	als ein Opf -- fer vor die Sün -- der,
+	die ver -- dam -- ten A -- dams -- kin -- der,
+	ach! laß dei -- ne To -- des Pein %5
+	nicht an mir ver -- loh -- ren ſeyn. %6 finis
+}
+
+JesuDerDuAltoLyricsB = \lyricmode {
+	durch dein theu -- res Blut -- ver -- gi -- ßen,
+	der du dich haſt dar -- ge -- ſtellt %12 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

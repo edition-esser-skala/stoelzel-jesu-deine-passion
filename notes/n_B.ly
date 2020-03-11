@@ -229,6 +229,34 @@ HerrLassBassoLyricsB = \lyricmode {
 	die ſünd -- li -- che Be -- gier: __
 }
 
+JesuDerDuBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 5/1 \autoBeamOff \tempoJesuDerDu
+			\set Staff.timeSignatureFraction = 4/4
+		a2 c e a gis a e1 a\fermata
+		\time 4/1 a2 a d, f e a, e'1\fermata \bar ":|."
+		\time 5/1 g!2 e h e a, h c( d) g1\fermata
+		e2 d c f d c g'1 c,\fermata
+		\time 4/1 c2 c4( d) e2 a gis a e1\fermata %5
+		a2 f d a' e2. e4 a1\fermata \bar "|." %6 finis
+	}
+}
+
+JesuDerDuBassoLyricsA = \lyricmode {
+	Je -- ſu, der du wol -- len bü -- ßen
+	vor die Sün -- den al -- ler Welt
+	als ein Opf -- fer vor die Sün -- der,
+	die ver -- dam -- ten A -- dams -- kin -- der,
+	ach! laß dei -- ne To -- des Pein %5
+	nicht an mir ver -- loh -- ren ſeyn. %6 finis
+}
+
+JesuDerDuBassoLyricsB = \lyricmode {
+	durch dein theu -- res Blut -- ver -- gi -- ßen,
+	der du dich haſt dar -- ge -- ſtellt %12 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
