@@ -949,6 +949,82 @@ JesuDerDuBassFigures = \figuremode {
 	r r <4>2 <_+> r1 %6 finis
 }
 
+SchauHannasOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSchauHannas
+		fis,2 e~
+		e d
+		c'! h
+		g gis
+		a fis4 g %5
+		a d h2~
+		h a
+		g fis
+		ais h~
+		h cis~ %10
+		cis d
+		cis h
+		a g
+		fis g
+		c! d4 g, %15
+		r16 r32 c'32 c16. c32 c8 c a4 r
+		r2 a4 r
+		r2 a
+		c, h~
+		h e~ %20
+		e fis
+		h, a16. a'32 a16. a32 a8 a
+		fis4 r e r
+		d ais h2
+		fis g %25
+		c h4 r8 a
+		gis1~
+		gis
+		a~
+		a2 c4 cis %30
+		d d dis dis
+		e e f! f
+		d2 c\fermata \bar "|." %33 finis
+	}
+}
+
+SchauHannasBassFigures = \figuremode {
+	<6>2 <6\\>
+	r <_+>
+	<4+ 2> <7 5+ _+>
+	<6> <6 5!>
+	<_+> <6> %5
+	<_+>4 q <5+>2
+	<6\\> <_+>
+	<4+ 2> <6>
+	<6+ _+> <5+>
+	r <6 5> %10
+	r <_+>
+	<6> <7 5+>4 <6\\>
+	<_+>2 <4+ 2>
+	<6>4 <5!>2.
+	r2 <6 4>8 <5 _+>4. %15
+	r1
+	r2 <7\\ 6! 4 2>
+	r <8 5 3>
+	<4+ 2> <[5+] _+>
+	r1 %20
+	r2 <6>
+	<7 [5+]>4 <6\\> <[_+]>2
+	<[6]> <6\\>
+	<_+>4 <6+ 5 _+> <5+>2
+	<6>4 <5!>2. %25
+	<7>4 <6> <[5+ _+]>4. <[\t \t]>8
+	<6>1
+	<7!>2. <6>4
+	r1
+	r2 <6>4 <\t> %30
+	<_+>2 <6 _+>
+	r <9>4 <8>
+	<6>1 %33 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

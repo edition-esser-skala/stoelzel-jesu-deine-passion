@@ -257,6 +257,39 @@ JesuDerDuBassoLyricsB = \lyricmode {
 	der du dich haſt dar -- ge -- ſtellt %12 finis
 }
 
+SchauHannasBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoSchauHannas
+		R1*8 %8
+		r2 r4 r16 fis fis fis
+		h8. h16 d8 h g4 r16 e e fis %10
+		g8. g16 g8 fis fis4 r16 fis fis d
+		a'4 r8 a d8. gis,16 gis8 a
+		a4 r16 a a a a8. cis,16 cis8 d
+		d d r16 a' c! h h4 g
+		r e8 g g d r4 %15
+		R1*15 %30
+		r4 r16 a' c! h h4 r
+		r r16 h d c a4 r8 f!
+		h8. h16 h8 c c4 r\fermata \bar "|." %33 finis
+	}
+}
+
+SchauHannasBassoLyrics = \lyricmode {
+	Hat ſie der %9
+	Jü -- den Schu -- le nicht, hat ſie der %10
+	Tem -- pel nicht ge -- hört, hab ich nicht
+	frey, nicht öf -- fent -- lich ge --
+	lehrt? Be -- fra -- ge die -- ſe, ſo es
+	wi -- ßen und von den -- ſel -- ben
+	zei -- gen mü -- ßen. %15
+	
+	Was ſchlägt man ihn, %31
+	was ſpeyt man ihm ins
+	heil -- ge An -- ge -- ſicht! %33 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

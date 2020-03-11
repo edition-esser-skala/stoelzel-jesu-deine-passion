@@ -88,3 +88,24 @@ AchIhrJuengerViola = {
 		f r \markPo %78 finis
 	}
 }
+
+SchauHannasViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoSchauHannas
+		R1*15 %15
+		r16 r32 g' g16. g32 g16. e32 g16. e32 c4 r
+		r2 h'4 r
+		r2 c
+		a h~
+		h1~ %20
+		h2 a
+		h e,16. e32 e16. e32 e16. cis32 e16. a32
+		a4 r g r
+		fis fis fis2~
+		fis d %25
+		e4 c8 fis dis4 r
+		R1*6 %32
+		R1\fermataMarkup \bar "|." %33 finis
+	}
+}

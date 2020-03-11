@@ -330,3 +330,24 @@ AchIhrJuengerViolinoII = {
 		f r \markCa %78 finis
 	}
 }
+
+SchauHannasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSchauHannas
+		R1*15 %15
+		r16 r32 c' c16. c32 c16. g32 c16. e32 e4 r
+		r2 d4 r
+		r2 e
+		d2 dis~
+		dis2 \once \tieDashed e~ %20
+		e d~
+		d cis16. a32 a16. a32 a16. e32 a16. cis32
+		d4 r e r
+		d cis h2
+		a! g~ %25
+		g4 e8 a fis4 r
+		R1*6 %32
+		R1\fermataMarkup \bar "|." %33 finis
+	}
+}

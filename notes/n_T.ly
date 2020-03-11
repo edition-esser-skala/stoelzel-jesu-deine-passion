@@ -461,6 +461,72 @@ JesuDerDuTenoreLyricsB = \lyricmode {
 	der du dich haſt dar -- ge -- ſtellt %12 finis
 }
 
+SchauHannasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSchauHannas
+		r8 d fis a, cis4 r16 cis cis d
+		e8 e g fis fis fis r fis
+		fis8. fis16 fis8 fis a fis dis h
+		e e r16 e e e e8. h16 d8 cis
+		cis4 r8 a d8. d16 cis8 d %5
+		a4 r16 fis' a fis d8. d16 d4
+		r8 d d cis cis cis r16 cis cis cis
+		cis8. cis16 e8 a, d d r fis
+		fis e g fis d4 r
+		R1*6 %15
+		r2 r4 r8 e
+		e8. e16 c8 a f'!4 r8 h,
+		d8. d16 f8 e c4 r16 c e a,
+		fis'8. fis16 fis fis fis fis fis8. h,16 h8 a
+		c c c h g g r h %20
+		g'8. g16 g8 fis d4 r8 d
+		d8. d16 cis8 d e e r4
+		r8 d a' d, r cis16 e g8 fis
+		fis4 r16 e g fis d8 d r16 d fis d
+		d8 a c! h h4 r8 h %25
+		e e a fis dis dis r4
+		r r8 d d d d d
+		f!4 r8 f f d e h
+		c4 r16 c c c e4 r8 e
+		a e e c a4 r16 e' g fis %30
+		fis4 r r r16 fis a g
+		g4 r8 g g16[ c, e c] f4~
+		f8. f16 f8 e e4 r\fermata \bar "|." %33 finis
+	}
+}
+
+SchauHannasTenoreLyrics = \lyricmode {
+	Schau, Han -- nas, den, der für des
+	Vol -- ckes Mi -- ße -- tha -- ten, wie
+	Ka -- i -- phas aus Boß -- heit zwar ge --
+	ra -- then, ja für das Heyl der gant -- zen
+	Welt ſich jetzt zum Gaf -- fer %5
+	ſtelt. Was fragſ -- tu, Ka -- i -- phas,
+	nach ſei -- ner Leh -- re, als ob ſie
+	dir ver -- däch -- tig wä -- re? Hör,
+	was der Hey -- land ſpricht:
+	
+	Und %16
+	wel -- che Ra -- ſe -- rey be --
+	wegt doch dei -- ne Hand, ver -- damm -- ter
+	Höl -- len -- brand, durch ei -- nen Ba -- cken -- ſtreich den
+	Hey -- land zu be -- deu -- ten? Er %20
+	re -- de all -- zu frey und
+	al -- ßo un -- be -- ſchei -- den?
+	Ihr Prieſ -- ter, was be -- müht ihr
+	euch um fal -- ſche Zeu -- gen, er -- kennt ihr
+	ih -- re Lü -- gen nicht an %25
+	Je -- ſu Stil -- le -- ſchwei -- gen?
+	Doch da er oh -- ne
+	Scheu auf eu -- re Fra -- gen
+	ſpricht, daß er ein Sohn des
+	gro -- ßen Got -- tes ſey: Was ſchlägt man %30
+	ihn, was ſpeyt man
+	ihm ins heil -- _
+	ge An -- ge -- ſicht! %33 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

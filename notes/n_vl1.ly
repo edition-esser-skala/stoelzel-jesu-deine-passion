@@ -331,6 +331,27 @@ AchIhrJuengerViolinoI = {
 	}
 }
 
+SchauHannasViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSchauHannas
+		R1*15 %15
+		r16 r32 e' e16. e32 e16. c32 e16. g32 c4 r
+		r2 gis4 r
+		r2 a
+		fis1~
+		fis2 \once \tieDashed g~ %20
+		g a~
+		a4 gis a16. cis,32 cis16. cis32 cis16. a32 cis16. e32
+		a4 r cis r
+		d e, d2~
+		d2. h4~ %25
+		h a h r
+		R1*6 %32
+		R1\fermataMarkup \bar "|." %33 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
