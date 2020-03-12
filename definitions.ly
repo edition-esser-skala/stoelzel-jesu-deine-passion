@@ -327,6 +327,7 @@ tempoWeheDir = \tempoMarkup "Duetto"
 tempoUndPetre = \tempoMarkup "Recitativo"
 	tempoUndPetreB = \tempoMarkup "Arioſo"
 	tempoUndPetreC = \tempoMarkup "Recitativo"
+tempoJaPetreGeh = \tempoMarkup "Aria"
 
 
 

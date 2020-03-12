@@ -167,3 +167,41 @@ AchIhrJuengerCello = {
 		f4 r \markPo %78 finis
 	}
 }
+
+JaPetreGehCello = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoJaPetreGeh
+		r4 r8 c'4\fE c c8~ \bar "S-S"
+		c h b4~ b16 a c( b) b( a) c( b)
+		b8 es es es es16( d) f( es) es( d) c( b)
+		es,,8 c'' c c c16( h) d( c) \slurDashed c( h) a( g) \slurSolid
+		c, g' c h c\pE g es c f8 f f f %5
+		g g g g d d d d
+		cis cis cis cis d4 r8 d'
+		h g c4~\fE c8 c16 b as g f g
+		g8[ f] es\pE es'4 es es8
+		es d des4~ des16 c es( des) des( c) es( des) %10
+		des8 r r4 r2
+		r8 c\fE c c c16( h) d( c) c( h) d( c)
+		c8 h r4 r2
+		r8 d16(\pE c) h( a) g( f) es'2~
+		es8 d16 c d4 es8 h c4 %15
+		es, d\trill c8 c'\fE as f
+		r des'16( c) b( as) g( f) as( g) b( as) as( g) b( as)
+		as8 c c c c16( h) d( c) c( h) d( c)
+		c8 g g g g16( fis) a( g) g( fis) a( g)
+		g4 r r8 g'16( f) es( d) c( b!) %20
+		as2~ as16 f g d es4~
+		es8.\fermata c16 d'4\trill c\fermata es,8\pE es
+		f f b, b es g16 b es4
+		es8 es4 es8 d d, d d
+		c c c c b4 r %25
+		r8 es' es, es' d8. b16 b4~^\critnote\fE
+		b2 as8. f16 g8\pE c,
+		f2\trill es8 c b! b
+		a a a a g4  b'16( a) c( b)
+		b( a) c( b) b8 b, d4\fermata r
+		g, r8 c'4\fE c c8 \bar "S-S"
+	}
+}

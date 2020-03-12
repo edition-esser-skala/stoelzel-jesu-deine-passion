@@ -163,29 +163,73 @@
 % 			\midi { \tempo 4 = 70 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.4" "R E C I T A T I V O" "Und Petre, du erkühneſt dich"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Alto"
+% 					\new Voice = "Alto" { \dynamicUp \UndPetreAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \UndPetreAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\UndPetreOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UndPetreBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.4" "R E C I T A T I V O" "Und Petre, du erkühneſt dich"
+			movement = \movementTitle "3.5" "A R I A" "Ja, Petre, geh hinaus und weine"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \UndPetreAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \UndPetreAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\UndPetreOrgano
+						\set Staff.instrumentName = \markup { \center-column { "Grand oboi" "[in F]" } }
+						\JaPetreGehOboeI
 					}
 				>>
-				\new FiguredBass { \UndPetreBassFigures }
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
+						\JaPetreGehViolinoI
+					}
+				>>
+				\new Staff  {
+					\set Staff.instrumentName = "Alto"
+					\new Voice = "Alto" { \dynamicUp \JaPetreGehAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \JaPetreGehAltoLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
+						\JaPetreGehCello
+					}
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\JaPetreGehOrgano
+					}
+				>>
+				\new FiguredBass { \JaPetreGehBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

@@ -519,6 +519,64 @@ UndPetreAltoLyrics = \lyricmode {
 	than. %23 finis
 }
 
+JaPetreGehAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \autoBeamOff \tempoJaPetreGeh
+		R1 \bar "S-S"
+		R1*3
+		r8 g' es c r as'16 g f([ es)] d([ c)] %5
+		es8 d r g g16([ fis a)] g g([ fis a)] g
+		g2~ g8[ d] fis4
+		g r r2
+		r8 b g es r c'16 b as([ g)] f([ es)]
+		g8 f r b b16([ a c)] b b([ a c)] b %10
+		b8 as g4 g8([ c16)] as as([ g b)] as
+		as8 r r4 r2
+		r8 g es c r as'16 g f([ es)] d([ c)]
+		h'4 d~ d8[ g,] c4~
+		c8[ h16 a] h8 g c2~ %15
+		c8[ a!]^\critnote h4\trill c r
+		R1*5 %21
+		r2\fermata r8\fermata g c b!
+		as f as8. g16 g8 b g es
+		r c'16 b as([ g)] f([ g)] f8 b b b
+		b16([ a c)] b b([ a)] g([ f)] b8 b,4 as'8 %25
+		g es g16([ f as)] g f16. d32 b8 r4
+		r2 r8 c' c c
+		c16([ h d)] c c([ h)] a([ g)] c8 c, r g'
+		c c c c b16([ a)] c([ b)] b4
+		r8 d b g b8.\fermata g16 a8. g16 %30
+		g4 r r2 \bar "S-S" %31 finis
+	}
+}
+
+JaPetreGehAltoLyrics = \lyricmode {
+	Ja, Pe -- tre, geh hi -- naus und %5
+	wei -- ne, ja, wei -- ne, wei -- ne
+	bit -- ter --
+	lich,
+	ja, Pe -- tre, geh hi -- naus und
+	wei -- ne, ja, wei -- ne, wei -- ne %10
+	bit -- ter -- lich, wei -- ne bit -- ter --
+	lich,
+	ja, Pe -- tre, geh hi -- naus und
+	wei -- _ _
+	_ ne bit -- %15
+	ter -- lich.
+	
+	Denck zwar an %22
+	dei -- nen Fall zu -- rück, doch den -- cke
+	auch an Je -- ſu Blick, in die -- ſes
+	Bli -- ckes hol -- den Schei -- ne zeigt %25
+	dei -- ne Gna -- den -- ſon -- ne ſich,
+	in die -- ſes
+	Bli -- ckes hol -- den Schei -- ne zeigt
+	dei -- ne Gna -- den -- ſon -- ne ſich,
+	zeigt dei -- ne Gna -- den -- ſon -- ne %30
+	ſich. %31 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

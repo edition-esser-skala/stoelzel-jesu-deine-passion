@@ -389,6 +389,44 @@ WeheDirViolinoI = {
 	}
 }
 
+JaPetreGehViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoJaPetreGeh
+		c8\fE c c c f f f f \bar "S-S"
+		g g g g d d d d
+		g g g g f! f f f
+		es es es es d d d d
+		c c c\pE c f f f f %5
+		g g g g d d d d
+		cis cis cis cis d d d d
+		g, g as'\fE as f f as, as
+		b b c\pE c as as as as
+		b b b b f' f f f %10
+		b, b h h c c c c
+		f f fis\fE fis g g g g
+		g g as\pE as f f f f
+		g g g g g g g g
+		f f f f es es as as %15
+		g g g, g c c f\fE f
+		b, b b b c c c c
+		f f es! es d! d g g
+		c, c b! b a! a d d
+		g, g g g c c c c %20
+		f f f f g g g g
+		g,4\fermata r c8\fermata c es\pE es
+		f f b, b es es es es
+		as, as as as b b d d
+		c c c c b b b b %25
+		b b b b b b as\fE as
+		g g g' g f f es!\pE es
+		d d d d c c b! b
+		a a a a g g g g
+		g g b b d4\fermata r %30
+		g,8 g c\fE c f f f f \bar "S-S" %31 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

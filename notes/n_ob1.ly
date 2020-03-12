@@ -70,3 +70,41 @@ LiebsteHandOboeI = {
 		r8 g'\f e \bar "S-S" %66 finis
 	}
 }
+
+JaPetreGehOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoJaPetreGeh
+		r8 d'\fE b g r es'16( d) c( b) a( g) \bar "S-S"
+		b8\trill a r d d16( cis) e( d) d( cis) e( d)
+		d4 r r8 es es, es'
+		es\trill d r4 r8 c c, c'
+		c\trill b b4\pE b16 a g4 g8~ %5
+		g fis f'4~ f16 e g( f) f( e) g( f)
+		f2~ f8 d e4
+		d8 d\fE b g r \slurDashed es'16( d) c( b) a( b) \slurSolid
+		b8\trill a r4 r2
+		R1 %10
+		r8 c\pE c c c16( h) d( c) c( h) d( c)
+		c8 b a4~\fE a8 c16( b) b( a) c( b)
+		b8\trill a r4 r2
+		r r8 d16(\pE c) b( a) g( f)
+		es'2 d4. cis8 %15
+		d4 r8 d b g r4
+		r8 c\fE c c c16( h) d( c) c( h) d( c)
+		c4 r r8 c c, c'
+		c\trill b! r4 r8 g' g, g'
+		g16( fis) a( g) fis( e) d( c) b2~ %20
+		b8 es16( d) c( b) a( g) fis4\trill g16 d b' g
+		d'8.\fermata e,!16 fis4\trill g\fermata r
+		R1
+		r2 r8 c\pE c, c'
+		b2~ b16 a c( b) b( a) g( f) %25
+		b8 f f4\trill r8 c'\fE c c
+		\slurDashed c16( h) d( c) c( h) a( g) \slurSolid c4 r
+		r2 r8 d\pE d d
+		d16( cis) e( d) d( cis) h?( a) d( cis) e( d) d( cis) e( d)
+		d( cis) e( d) d8 f, a4\fermata r %30
+		d,8 d'\fE b! g r es'16( d) c( b) a( g) \bar "S-S" %31 finis
+	}
+}

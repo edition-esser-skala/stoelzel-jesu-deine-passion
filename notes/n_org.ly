@@ -1151,6 +1151,78 @@ UndPetreBassFigures = \figuremode {
 	<_!>1 %23 finis
 }
 
+JaPetreGehOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoJaPetreGeh
+		c4\fE c f f \bar "S-S"
+		g g d d
+		g g f! f
+		es es d d
+		c c\pE f f %5
+		g g d d
+		cis8 cis cis cis d4 d
+		g as\fE f, as
+		b c\pE as as
+		b b f' f %10
+		b h c c
+		f, fis\fE g g
+		g as\pE f f
+		g g g g
+		f f es as %15
+		g g, c f\fE
+		b, b c c
+		f es! d! g
+		c, b! a! d
+		g, g c c %20
+		f f g g
+		g,\fermata r c\fermata es\pE
+		f b, es es
+		as, as b d
+		c c b b %25
+		b b b as\fE
+		g g f es'!\pE
+		d d c b!
+		a a g g
+		g b d\fermata r %30
+		g, c\fE f f \bar "S-S" %31 finis
+	}
+}
+
+JaPetreGehBassFigures = \figuremode {
+	r2 <_->
+	<6 4>8 <5 _!> <_->4 <[6] 4>8 <[5] _+>4.
+	r4 <6> <7 [_-]>8 <6 [\t]>4.
+	<[4-]>8 <[3]> <6>4 <7>8 <6!>4.
+	<[4]>8 <[3]>4. <_->2 %5
+	<6 4>8 <5 _!> <_->4 <[6] 4>8 <[5] _+>4.
+	<7 [_!]>2 <6 4>4 <5 _+>
+	<_!>2 <_->4 <6>
+	<6 4>8 <5 3>4. r2
+	<6 4>8 <5 3> <_->4 <[6-] 4>8 <[5] _!>4. %10
+	<_->4 <6 5! _!> <4>8 <_!>4.
+	<_->4 <6 5 _!> <4>8 <_!>4.
+	<[6 4]>8 <[5 _!]>4. <[_-]>2
+	<_!> <[6 5]>4 <\t 4>
+	<7 _->8 <6 \t> <6 [4!]>4 <6> <7>8 <6\\> %15
+	<6 4>4 <5 _!> r <_->
+	<_->2 <[6-] 4>8 <[5] _!>4.
+	<_->4 <6> <7> <_!>
+	<[4]>8 <[3]> <6>4 <7> <_+>
+	<[4]>8 <[_!]>2.. %20
+	<[_-]>2 <5 _!>4 <6 4>
+	<[\t \t]> <[5 _!]> r <6>
+	<_-> <7->2.
+	r <6>4
+	<7>8 <6!>4. <[4]>8 <[3]> <7->4 %25
+	<6 4>2 <[5 3]>4 <[2]>
+	<7>8 <6!>4. <_->4 <6>
+	<7>8 <6!>4. r4 <6>
+	<7>8 <6\\>2..
+	r4 <[6]> <[6 4]> <[5 _+]> %30
+	r2 <_-> %31 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
