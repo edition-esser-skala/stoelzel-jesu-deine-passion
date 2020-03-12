@@ -463,6 +463,62 @@ JesuDerDuAltoLyricsB = \lyricmode {
 	der du dich haſt dar -- ge -- ſtellt %12 finis
 }
 
+UndPetreAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoUndPetre
+		r8 a' c f, e g b a
+		a4 r8 c, f4 f
+		f8 f e d h'! h r16 h a g
+		c4 r16 c, e c fis8. fis16 fis8 g
+		g g h2 h8 h %5
+		gis8. gis16 h8 e, a4 c
+		r c8 h a a h fis
+		g!4 r16 g g g g8. d16 d8 e
+		f! f r16 f f f a8. f16 f8 e
+		e e r16 e e e a8 a c e, %10
+		e([ h)] r16 g' g g c8. c16 f,8 e
+		\tempoUndPetreB e4 r8 g g fis c' c
+		h g h8. a16 a8 d, g4~
+		g8 c a4~ a16[ c] h([ g)] \appoggiatura g a8. g16
+		g8 h, c4~ c8 f d4~ %15
+		d16[ f] e([ c)] \appoggiatura c8 d8. c16 c g' c4 r8
+		\tempoUndPetreC r e, a a, f'8. f16 f8 e
+		c4 r16 e e e e8([ a,)] r a
+		g' g b a f4 a~
+		a c8 b g8. g16 g4 %20
+		r8 g g as as f g d
+		es4 r16 g g g c8 c, r f16 g
+		g4 r r2\fermata \bar "|." %23 finis
+	}
+}
+
+UndPetreAltoLyrics = \lyricmode {
+	Und Pe -- tre, du er -- küh -- neſt
+	dich, den Hey -- land,
+	a -- ber nur von wei -- ten, biß in Pal --
+	laſt des ho -- hen Prieſ -- ters zu be --
+	glei -- ten. Ach! daß dir %5
+	hier der Muth ent -- wich! Ach!
+	daß du nun kein Hert -- ze
+	haſt, wenn Knecht und Mäg -- de dich be --
+	fra -- gen, die rei -- ne Wahr -- heit an -- zu --
+	ſa -- gen, daß du ein Jün -- ger Je -- ſu %10
+	ſeyſt! __ Trifft dei -- nes Meiſ -- ters Wort nun
+	ein, daß zwar dein Geiſt ſo
+	wil -- lig wer -- de ſeyn, als ſchwach __
+	du nach __ dem Flei -- ſche
+	biſt, als ſchwach __ du nach __ %15
+	dem Flei -- ſche biſt. Merck auf!
+	jetzt kreht zum zwey -- ten -- mal der
+	Hahn, der dei -- nes Falls be --
+	red -- ter Zeu -- ge iſt. Schau! __
+	Je -- ſus wen -- det ſich, %20
+	ſeyn Blick er -- in -- nert de -- ßen
+	dich, was du nun drey -- mal ſchon ge --
+	than. %23 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

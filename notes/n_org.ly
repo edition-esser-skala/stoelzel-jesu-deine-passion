@@ -1095,6 +1095,62 @@ WeheDirBassFigures = \figuremode {
 	r8 <_+> <6>4 q2 %30 finis
 }
 
+UndPetreOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoUndPetre
+		f1~
+		f2 d~
+		d1
+		e2 a,
+		g f %5
+		e dis~
+		dis1
+		e2 h'~
+		h1
+		c2 a %10
+		h4 e c2~
+		\tempoUndPetreB c8 c' h g a, a' fis d
+		g, g' e c d d' h g
+		e e' c a d, g, d' d,
+		g g' e c a a' f d %15
+		g c, g' g, c4 r
+		\tempoUndPetreC a1~
+		a2 f
+		e d
+		c' b %20
+		h1
+		c2 as
+		g r\fermata \bar "|." %23 finis
+	}
+}
+
+UndPetreBassFigures = \figuremode {
+	<8 3>2 <7 4- 2>
+	<8 3> <5>
+	<\t> <6!>
+	<6> <6\\>
+	r <4 2> %5
+	<_+> <7 _+>
+	<\t \t>2. <6 _+>4
+	<_!>2 <6>
+	<5!>1
+	r %10
+	<6 4>8 <5+ _+>4. <8 3>4 <7 4 2>
+	<[8 3]> <[6]> <7>8 <6\\>4.
+	r4. <[6]>8 <_+>4 <6>
+	q q <_+> <4>8 <_+>
+	r4 <6> q q %15
+	r <4>8 <3> r2
+	<5 3>2 <7+ 4 2>
+	<8 3> <7>4 <6>
+	<6\\>1
+	<4+ 2>2 <6> %20
+	<6>2 <7->4 <6>
+	<_->2 <7 5->4 <6>
+	<_!>1 %23 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

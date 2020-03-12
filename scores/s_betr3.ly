@@ -115,52 +115,80 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.3" "D U E T T O" "Wehe dir verruchten Volcke"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WeheDirViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WeheDirViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WeheDirViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \WeheDirTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WeheDirTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \WeheDirBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WeheDirBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WeheDirOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WeheDirBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 70 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.3" "D U E T T O" "Wehe dir verruchten Volcke"
+			movement = \movementTitle "3.4" "R E C I T A T I V O" "Und Petre, du erkühneſt dich"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WeheDirViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WeheDirViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\WeheDirViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WeheDirTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \WeheDirTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \WeheDirBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \WeheDirBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Alto"
+					\new Voice = "Alto" { \dynamicUp \UndPetreAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \UndPetreAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WeheDirOrgano
+						\UndPetreOrgano
 					}
 				>>
-				\new FiguredBass { \WeheDirBassFigures }
+				\new FiguredBass { \UndPetreBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
