@@ -1223,6 +1223,29 @@ JaPetreGehBassFigures = \figuremode {
 	r2 <_-> %31 finis
 }
 
+IchBittOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 5/1 \tempoIchBitt
+			\set Staff.timeSignatureFraction = 4/4
+		r2 es as es d es b1 es\fermata
+		\time 4/1 r2 h c es g g, c1\fermata \bar ":|."
+		\time 5/1 r2 a b es as f es1 es\fermata
+		\time 4/1 r2 es as es e f c1\fermata
+		\time 5/1 r2 a! b d c b f'1 b,\fermata %5
+		\time 4/1 r2 es d es b' b, es1\fermata \bar "|." %6 finis
+	}
+}
+
+IchBittBassFigures = \figuremode {
+	r1 r <5-> <4>2 <3> r1
+	r2 <6> r <6> <4> <_!> r1
+	r2 <5> r1 r2 <6 [_-]> r1 r
+	r r <6>2 <_-> <_!>1
+	r2 <5-> r <6> <6!>1 <4>2 <3> r1 %5
+	r <5-> <4>2 <3> r1 %6 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

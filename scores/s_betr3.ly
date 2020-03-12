@@ -191,48 +191,96 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.5" "A R I A" "Ja, Petre, geh hinaus und weine"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Grand oboi" "[in F]" } }
+% 						\JaPetreGehOboeI
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
+% 						\JaPetreGehViolinoI
+% 					}
+% 				>>
+% 				\new Staff  {
+% 					\set Staff.instrumentName = "Alto"
+% 					\new Voice = "Alto" { \dynamicUp \JaPetreGehAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \JaPetreGehAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
+% 						\JaPetreGehCello
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\JaPetreGehOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \JaPetreGehBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.5" "A R I A" "Ja, Petre, geh hinaus und weine"
+			movement = \movementTitle "3.6" "C H O R A L" "Ich bitt, ich ruf, ich weine"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Grand oboi" "[in F]" } }
-						\JaPetreGehOboeI
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \IchBittSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \IchBittSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \IchBittSopranoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \IchBittAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \IchBittAltoLyricsA
+					\new Lyrics \lyricsto Alto \IchBittAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \IchBittTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IchBittTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \IchBittTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \IchBittBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IchBittBassoLyricsA
+					\new Lyrics \lyricsto Basso \IchBittBassoLyricsB
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
-						\JaPetreGehViolinoI
+						\set Staff.instrumentName = "Organo"
+						\IchBittOrgano
 					}
 				>>
-				\new Staff  {
-					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \JaPetreGehAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \JaPetreGehAltoLyrics
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
-						\JaPetreGehCello
-					}
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\JaPetreGehOrgano
-					}
-				>>
-				\new FiguredBass { \JaPetreGehBassFigures }
+				\new FiguredBass { \IchBittBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

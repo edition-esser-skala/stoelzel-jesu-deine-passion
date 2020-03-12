@@ -588,6 +588,34 @@ WeheDirTenoreLyrics = \lyricmode {
 	blitzt? %30 finis
 }
 
+IchBittTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 5/1 \autoBeamOff \tempoIchBitt
+			\set Staff.timeSignatureFraction = 4/4
+		r2 b as g^\critnote b b b1 b\fermata
+		\time 4/1 r2 g c c c2^\critnote h es1\fermata \bar ":|."
+		\time 5/1 r2 f f es es f g1 g\fermata
+		\time 4/1 r2 es es es c c c1\fermata
+		\time 5/1 r2 c b b es f f1 f\fermata %5
+		\time 4/1 r2 b, b b b b b1\fermata \bar "|." %6 finis
+	}
+}
+
+IchBittTenoreLyricsA = \lyricmode {
+	Ich bitt, ich ruf, ich wei -- ne,
+	Herr Je -- ſu, wen -- de dich,
+	Ich trau -- e dei -- nem Ster -- ben,
+	nimm mei -- ner Seel dich an,
+	ach laß die nicht ver -- der -- ben, %5
+	für die du gnug ge -- than. %6 finis
+}
+
+IchBittTenoreLyricsB = \lyricmode {
+	wie Pe -- tro mir er -- ſchei -- ne,
+	und bring zur Ru -- he mich. %2 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

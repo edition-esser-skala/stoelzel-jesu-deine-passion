@@ -577,6 +577,34 @@ JaPetreGehAltoLyrics = \lyricmode {
 	ſich. %31 finis
 }
 
+IchBittAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 5/1 \autoBeamOff \tempoIchBitt
+			\set Staff.timeSignatureFraction = 4/4
+		r2 es es es f es es( d) es1\fermata
+		\time 4/1 r2 g g g g2. g4 g1\fermata \bar ":|."
+		\time 5/1 r2 c b! g as as b1 b\fermata
+		\time 4/1 r2 g as? g g f e1\fermata
+		\time 5/1 r2 f f f a b b( a) b1\fermata %5
+		\time 4/1 r2es, f es es d es1\fermata \bar "|." %6 finis
+	}
+}
+
+IchBittAltoLyricsA = \lyricmode {
+	Ich bitt, ich ruf, ich wei -- ne,
+	Herr Je -- ſu, wen -- de dich,
+	Ich trau -- e dei -- nem Ster -- ben,
+	nimm mei -- ner Seel dich an,
+	ach laß die nicht ver -- der -- ben, %5
+	für die du gnug ge -- than. %6 finis
+}
+
+IchBittAltoLyricsB = \lyricmode {
+	wie Pe -- tro mir er -- ſchei -- ne,
+	und bring zur Ru -- he mich. %2 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

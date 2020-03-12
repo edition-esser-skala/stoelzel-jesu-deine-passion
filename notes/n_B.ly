@@ -351,6 +351,34 @@ WeheDirBassoLyrics = \lyricmode {
 	blitzt? %30 finis
 }
 
+IchBittBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 5/1 \autoBeamOff \tempoIchBitt
+			\set Staff.timeSignatureFraction = 4/4
+		r2 es as es d es b1 es\fermata
+		\time 4/1 r2 h c es g g c,1\fermata \bar ":|."
+		\time 5/1 r2 a b es as f es1 es\fermata
+		\time 4/1 r2 es as es e f c1\fermata
+		\time 5/1 r2 a! b d c b f'1 b,\fermata %5
+		\time 4/1 r2 es d es b' b, es1\fermata \bar "|." %6 finis
+	}
+}
+
+IchBittBassoLyricsA = \lyricmode {
+	Ich bitt, ich ruf, ich wei -- ne,
+	Herr Je -- ſu, wen -- de dich,
+	Ich trau -- e dei -- nem Ster -- ben,
+	nimm mei -- ner Seel dich an,
+	ach laß die nicht ver -- der -- ben, %5
+	für die du gnug ge -- than. %6 finis
+}
+
+IchBittBassoLyricsB = \lyricmode {
+	wie Pe -- tro mir er -- ſchei -- ne,
+	und bring zur Ru -- he mich. %2 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
