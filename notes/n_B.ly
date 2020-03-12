@@ -290,6 +290,67 @@ SchauHannasBassoLyrics = \lyricmode {
 	heil -- ge An -- ge -- ſicht! %33 finis
 }
 
+WeheDirBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \autoBeamOff \tempoWeheDir
+		R1 \bar "S-S"
+		r8 d'4 c8 \appoggiatura h16 a8. a16 a8 a
+		a gis r4 r2
+		r4 d'8 d d g, c16.([ d32)] d8\trill
+		e16([ d)] d8 c c c[ h16 a] h8[ b]~ %5
+		b[ a16 g] a4 h8 a16([ g)] a8 fis
+		g4 r r2
+		r8 d'4 h8 c c c c
+		c h r4 r2
+		r4 d8 d d g, c16.([ d32)] d8\trill %10
+		e16([ d)] d8 c c c[ h16 a] h4~
+		h8 a16([ gis)] a8. gis16 gis4 r
+		r2 r4 h8 h
+		h e, a16.([ h32)] h8\trill c16([ h)] h8 a a
+		gis16.[ e32 gis16. h32] d!8[ c16 h] a2~ %15
+		a~ a8. a16 a([ fis)] gis8
+		a4 r r2
+		R1*5 %22
+		r2\fermata r8 d16. c32 h16. a32 g16. fis32
+		g8 g, h' h h16([ e32 d c16)] h a8 g
+		fis4 d'8 d d g, c16.([ d32)] d8\trill %25
+		e16([ h)] c8 r4 r2
+		r4 d8 d d g, c a
+		h4 r8 e,16. g32 c4~ c16[ h8] a16
+		g8 fis16 e ais8. ais16 h8([ c16 a)] \appoggiatura g8 fis4
+		e r r2 \bar "S-S" %30
+	}
+}
+
+WeheDirBassoLyrics = \lyricmode {
+	We -- he dir ver -- ruch -- ten %2
+	Vol -- cke,
+	wenn er auf dem Thron der
+	Wol -- cke einſt als ſtren -- _ %5
+	_ _ ger Rich -- ter
+	ſitzt,
+	we -- he dir ver -- ruch -- ten
+	Vol -- cke,
+	wenn er auf dem Thron der %10
+	Wol -- cke einſt als ſtren -- _
+	ger Rich -- ter ſitzt,
+	wenn er
+	auf dem Thron der Wol -- cke einſt als
+	ſtren -- _ _ %15
+	ger Rich -- ter
+	ſitzt.
+	
+	Wel -- cher Berg wird dich ver -- %23
+	ſte -- cken, wenn ſein ſcharf -- fes Rach -- ſchwerd
+	blitzt, wel -- cher Hü -- gel wird dich %25
+	de -- cken,
+	wenn ſein ſcharf -- fes Rach -- ſchwerd
+	blitzt, wenn ſein ſcharf -- fes
+	Rach -- ſchwerd, ſein ſcharf -- fes Rach -- ſchwerd
+	blitzt? %30 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

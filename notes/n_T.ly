@@ -527,6 +527,67 @@ SchauHannasTenoreLyrics = \lyricmode {
 	ge An -- ge -- ſicht! %33 finis
 }
 
+WeheDirTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoWeheDir
+		R1 \bar "S-S"
+		r8 f4 e8 \appoggiatura d16 c8. c16 c8 c
+		h e, e' e e a, d16.([ e32)] e8\trill
+		f16([ cis)] d8 r4 r r8 g~
+		g h, c16.[ e32 d8]~ d16.[ g,32 h16. d32] g4~ %5
+		g~ g16[ fis32 g a g fis e] d8 c!16([ h)] c8 c
+		c([ h)] r4 r2
+		r8 f'4 f8 e e e16([ d)] d8
+		d g, g' g g c, f16.([ g32)] g8\trill
+		a16. g32 f16. e32 d16. c32 h!16. a32 g4 r8 g'~ %10
+		g h, c16.[ e32 d8]~ d16.[ g,32 h16. d32] f!8[ e16 d]
+		c8 c c8. h16 h4 e8 e
+		e a, d16.[( e32)] e8\trill f16. e32 d16. c!32 h16. a32 gis16. fis32
+		e4 r8 e'~ e gis, a16.[ c32 h8]~
+		h16.[ gis32 h16. d!32] f!8[ e16 d] c2~ %15
+		c~ c16.[ h32] c16.([ a32)] c16([ d)] h8
+		a4 r r2
+		R1*5 %22
+		r4\fermata r8 a'16. g32 f16. e32 d16. c?32 d8 d,
+		r4 d'8 d d16([ g32 f e16)] d c8 h
+		a4 r r2 %25
+		r4 e'8 e e a,d16.([ e32)] e8\trillE
+		f16([ cis)] d8 f f e8. e16 fis8. fis16
+		g8 h,16. d32 g4~ g16[ fis8 e16] dis8. dis16
+		e2~ e8.[ fis16] \appoggiatura e8 dis4\trill
+		e r r2 \bar "S-S" %30 finis
+	}
+}
+
+WeheDirTenoreLyrics = \lyricmode {
+	We -- he dir ver -- ruch -- ten %2
+	Vol -- cke, wenn er auf dem Thron der
+	Wol -- cke einſt __
+	als ſtren -- _ %5
+	_ ger Rich -- ter
+	ſitzt, __
+	we -- he dir ver -- ruch -- ten
+	Vol -- cke, wenn er auf dem Thron der
+	Wol -- cke einſt als ſtren -- ger Rich -- ter ſitzt, einſt __ %10
+	als ſtren -- _
+	_ ger Rich -- ter ſitzt, wenn er
+	auf dem Thron der Wol -- cke einſt als ſtren -- ger Rich -- ter
+	ſitzt, einſt __ als ſtren --
+	_ _ %15
+	ger Rich -- ter
+	ſitzt.
+	
+	Wel -- cher Hü -- gel wird dich de -- cken, %23
+	wenn ſein ſcharf -- fes Rach -- ſchwerd
+	blitzt, %25
+	wel -- cher Berg wird dich ver --
+	ſte -- cken, wenn ſein ſcharf -- fes Rach -- ſchwerd
+	blitzt, wenn ſein ſcharf -- _ fes
+	Rach -- ſchwerd
+	blitzt? %30 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

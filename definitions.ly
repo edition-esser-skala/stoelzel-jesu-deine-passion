@@ -323,6 +323,7 @@ tempoHerrLass = \tempoMarkup "Choral"
 
 tempoJesuDerDu = \tempoMarkup "Choral"
 tempoSchauHannas = \tempoMarkup "Recitativo"
+tempoWeheDir = \tempoMarkup "Duetto"
 
 
 

@@ -67,9 +67,57 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.2" "R E C I T A T I V O" "Schau, Hannas, den"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SchauHannasViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SchauHannasViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\SchauHannasViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \SchauHannasTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \SchauHannasTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \SchauHannasBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \SchauHannasBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SchauHannasOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SchauHannasBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.2" "R E C I T A T I V O" "Schau, Hannas, den"
+			movement = \movementTitle "3.3" "D U E T T O" "Wehe dir verruchten Volcke"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -78,41 +126,41 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SchauHannasViolinoI
+							\WeheDirViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SchauHannasViolinoII
+							\WeheDirViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\SchauHannasViola
+						\WeheDirViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \SchauHannasTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \WeheDirTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SchauHannasTenoreLyrics
+					\new Lyrics \lyricsto Tenore \WeheDirTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \SchauHannasBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \WeheDirBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SchauHannasBassoLyrics
+					\new Lyrics \lyricsto Basso \WeheDirBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SchauHannasOrgano
+						\WeheDirOrgano
 					}
 				>>
-				\new FiguredBass { \SchauHannasBassFigures }
+				\new FiguredBass { \WeheDirBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }
