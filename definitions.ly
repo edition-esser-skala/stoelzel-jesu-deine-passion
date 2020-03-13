@@ -331,6 +331,7 @@ tempoJaPetreGeh = \tempoMarkup "Aria"
 tempoIchBitt = \tempoMarkup "Choral"
 
 tempoJesusFuer = \tempoMarkup "Choral"
+tempoKaumWirdMein = \tempoMarkup "Recitativo"
 
 
 

@@ -364,6 +364,42 @@ JesusFuerSopranoLyricsB = \lyricmode {
 	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
 }
 
+KaumWirdMeinSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoKaumWirdMein
+		r4 r8 d' h8. h16 g'8 fis
+		e e r16 cis e cis ais8 ais ais h
+		h4 r16 d d h dis4 r8 h
+		e8. h16 d8 cis a a r16 a cis a
+		e'8. g,!16 g8 fis fis4 r16 a d fis %5
+		d8. d16 d8 cis cis cis \clef bass r16 a, a a
+		a8. e16 g!8 fis fis fis r16 fis fis fis
+		g8 g g fis d4 r16 h' d h
+		g8. g16 h8 a fis4 r16 d fis d
+		a'8. a16 a8 a c a fis d %10
+		g g r16 g g d d'8. h16 g8 d
+		c'4 r8 a fis8. fis16 c'8 h
+		h4 r16 h ais h h8 fis r4\fermata \bar "|." %13 finis
+	}
+}
+
+KaumWirdMeinSopranoLyrics = \lyricmode {
+	Kaum wird mein Je -- ſus
+	frü -- he vors welt -- li -- che Ge -- richt ge --
+	führt, daß man an ihm den
+	To -- des -- ſpruch voll -- zie -- he; als Ju -- das
+	Höl -- len -- angſt ver -- ſpürt, daß er un -- %5
+	ſchul -- dig Blut ver -- ra -- then. Er ſie -- het
+	ſei -- ne Mi -- ße -- tha -- ten, die er um
+	ſchnö -- des Geld ge -- than, wie Ka -- in
+	ſei -- ne Mord -- that an, und bringt den
+	Lohn der Un -- ge -- rech -- tig -- keit zu -- %10
+	rü -- cke, hebt ſich ver -- zweiff -- lungs -- voll da --
+	von und en -- det ſei -- ne
+	Reu an ei -- nem Stri -- cke. %13 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

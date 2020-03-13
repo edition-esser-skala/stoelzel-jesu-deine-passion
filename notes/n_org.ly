@@ -1265,6 +1265,42 @@ JesusFuerBassFigures = \figuremode {
 	r2 <6> q1 <4>2 <3> r1 %4 finis
 }
 
+KaumWirdMeinOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoKaumWirdMein
+		h1~
+		h~
+		h2 a!
+		gis cis~
+		cis d %5
+		h \once \tieDashed a~
+		a ais~
+		ais h
+		cis d
+		c1 %10
+		h
+		a
+		g4 e fis h\fermata \bar "|." %13 finis
+	}
+}
+
+KaumWirdMeinBassFigures = \figuremode {
+	r1
+	<2>2 <7+ 4 2>
+	<8 3> <4+ 2>
+	<6>4 <5!> <6>2
+	r4 <5!>2. %5
+	<5>4 <6\\>2.
+	r4 <7!> <6>2
+	<7>1
+	<6 5>
+	<2> %10
+	<6>
+	<6 _!>
+	r2 <6 4>8 <5 _+>4. %13 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
