@@ -427,6 +427,81 @@ JaPetreGehViolinoI = {
 	}
 }
 
+DuVerschmitzterViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoDuVerschmitzter
+		h'8.\fE g16 f'8-! f-! f-! f-!
+		e g16 f e8 d c h
+		a d, a''2~
+		a8 h, g'2~
+		g8 a, fis'2~ %5
+		fis8 g, e'2~
+		e8 fis, d'2~
+		d8 e, c'2~
+		c8 d, h'2~
+		h8 c, a'2~ %10
+		a16 g h d g8 cis,4 e8~
+		e16 d fis a d8 fis,4 a8
+		\tuplet 3/2 8 { g16 fis e } d c h4 a
+		g h8-!\p h-! h-! h-!
+		c8. c,16 c8 c c c %15
+		e'8. a,16 a8 a a a
+		a8. a16 g8 g g g
+		g8. g16 g8 g g g
+		fis4 fis'8-! fis-! fis-! fis-!
+		g8 g,, g g g g %20
+		h'8. e,16 e8 e e e
+		e8. e16 d8 d d d
+		d8. d16 d8 d d d
+		cis4 e'2~
+		e8 fis, d'2~ %25
+		d8 g, h'2~
+		h8 c, a'2~
+		a8 h, g'2~
+		g8 a, fis'2~
+		fis8. g16 g,8 g g g %30
+		g8. g16 a8 a a a
+		d,4 e2
+		d2.\fermata
+		g,4-\critnote d'''2~\fE
+		d8 e, c'2~ %35
+		c8 d, h'2~
+		h8 c, a'2~
+		a8 h, g'2~
+		g8 e fis4. g8
+		g,\fermata h16\p a g8 fis e d %40
+		c e'16 d c8 h a gis
+		a e16 d c8 h a g'
+		f a16 g f8 e d cis
+		d f16 e d8 c h a
+		g2.~ %45
+		g8 g'16 a h8 c d e
+		f4. e8 d g,
+		c c,16 d e8 f g a
+		b4 a a,
+		r8 d16 e f?8 g a h %50
+		c4 h h
+		e, a a,
+		d8. e16 fis!4 fis
+		h,8 fis''16 e d8 cis? h a!
+		g h16 a g8 fis e dis %55
+		e h'16 a g8 fis e d
+		c! e16 d c8 h a gis
+		a c'16 h a8 g! fis e
+		d2.~
+		d8 d16 e fis8 g a h %60
+		c4. h8 a d,
+		g g,16 a h8 c d e
+		f4 e e
+		a8 a,16 h c8 d e fis
+		g4 fis fis %65
+		h, cis2
+		d8. e16 fis2
+		h,4 r r \markDa %68 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

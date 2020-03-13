@@ -403,6 +403,109 @@ JesusFuerBassoLyricsB = \lyricmode {
 	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
 }
 
+DuVerschmitzterBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \autoBeamOff \tempoDuVerschmitzter
+		R2.*18 %18
+		fis8. d16 c'!8 c c c
+		h d16 c h8 a g fis %20
+		e h'16 a g8 fis e d
+		cis a a'4. d,8
+		d' h gis4. a8
+		a4 r r
+		r8 a16 g fis8 e d c! %25
+		h d'16 c h8 a g fis
+		e c'16 h a8 g fis e
+		d g, h'4 h
+		h8 c, a'4 a
+		a8 d16 c h8 a g f %30
+		e c c'4 c
+		h4 b2~
+		b8.\fermata g16 a4. g8
+		g4 r r
+		R2.*5 %39
+		r4\fermata h h %40
+		h8 e, a8.([ h16)] h4\trillE
+		c r r
+		R2.
+		r4 d d
+		d8. h16 c8([ e)] c4 %45
+		c h r
+		r8 g16 a h8 c d d
+		d8. c16 c4 c
+		c( cis8) cis d e
+		e8. d16 d2~ %50
+		d4 dis8^\critnote dis e fis
+		e8. d16 cis4. cis8
+		d16([ cis)] h8 h4 ais
+		h r r
+		R2. %55
+		r4 h h
+		h8 e, a8.([ h16)] h4\trill
+		c c c
+		c8. a16 h8([ d)] h4
+		h a r %60
+		r8 d,16 e fis8 g a a
+		a8. g16 g4 g
+		g( gis8) gis a h
+		h8. a16 a2~
+		a4 ais8 ais h cis %65
+		h4. h8 ais ais
+		h8. h16 h4 ais
+		h r r \markDa %68 finis
+	}
+}
+
+DuVerschmitzterBassoLyrics = \lyricmode {
+	Du ver -- ſchmitz -- ter Schlan -- gen -- %19
+	griff, o wie man -- ches Glau -- bens -- %20
+	ſchiff ſen -- ckeſt du in tief -- ſten
+	Ab -- grund der Ver --
+	zweif -- fe -- lung hi --
+	nein,
+	du ver -- ſchmitz -- ter Schlan -- gen -- %25
+	griff, o wie man -- ches Glau -- bens --
+	ſchiff ſen -- ckeſt du in tief -- ſten
+	Ab -- grund, o wie
+	man -- ches Glau -- bens --
+	ſchiff ſen -- ckeſt du in tief -- ſten %30
+	Ab -- grund der Ver --
+	zweif -- _
+	fe -- lung hi --
+	nein.
+	
+	Erſt machſt %40
+	du die Sün -- den
+	klein,
+	
+	daß wir
+	kei -- ne Furcht em -- %45
+	pfün -- den,
+	a -- ber aus voll -- brach -- ten
+	Sün -- den machſt du
+	Ber -- ge, die noch
+	grö -- ßer, Ber -- %50
+	_ ge, die noch
+	grö -- ßer als die
+	Gna -- de ſol -- len
+	ſeyn,
+	%55
+	erſt machſt
+	du die Sün -- den
+	klein, daß wir
+	kei -- ne Furcht em --
+	pfün -- den, %60
+	a -- ber aus voll -- brach -- ten
+	Sün -- den machſt du
+	Ber -- ge, die noch
+	grö -- ßer, Ber --
+	_ ge, die noch %65
+	grö -- ßer als die
+	Gna -- de ſol -- len
+	ſeyn. %68 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

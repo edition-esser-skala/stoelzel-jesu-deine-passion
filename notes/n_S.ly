@@ -400,6 +400,111 @@ KaumWirdMeinSopranoLyrics = \lyricmode {
 	Reu an ei -- nem Stri -- cke. %13 finis
 }
 
+DuVerschmitzterSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoDuVerschmitzter
+		R2.*13 %13
+		h'8. g16 f'8 f f f
+		e g16 f e8 d c h %15
+		a e'16 d c8 h a g
+		fis d d'4. g,8
+		g' e cis4. d8
+		d4 r r
+		R2.*4 %23
+		r8 e16 d cis8 h a g!
+		fis4 r r %25
+		r d' d
+		d8 e, c'4 c
+		h8 d16 c h8 a g fis
+		e c'16 h a8 g fis e
+		d d d'4 d %30
+		d8[ e,] fis'4.\trill e16[ fis]
+		g2.~
+		g8.\fermata e16 fis4. g8
+		g,4 r r
+		R2.*5 %39
+		R2.\fermataMarkup %40
+		R
+		r4 e' e
+		e8 a, d8.([ e16)] e4\trill
+		f4 f f
+		f8. d16 e8([ g)] e4 %45
+		e d r
+		r8 h16 c d8 e f f
+		f8. e16 e4 e
+		e4. e8 f g
+		g8. f16 f2( %50
+		fis4.) fis8 g a
+		g8. fis16 e4. e8
+		fis8. g16 d4 cis
+		h fis' fis
+		fis8 h, e8.([ fis16)] fis4\trill %55
+		g r r
+		R2.
+		r4 a, a
+		a8. fis16 g8([ h)] g4
+		g fis r %60
+		r8 fis16 g a8 h c c
+		c8. h16 h4 h
+		h4. h8 c d
+		d8. c16 c2(
+		cis4.) cis8 d e %65
+		d16([ cis)] h8 e4. g8
+		fis8. g16 d4 cis
+		h r r \markPo
+	}
+}
+
+DuVerschmitzterSopranoLyrics = \lyricmode {
+	Du ver -- ſchmitz -- ter Schlan -- gen -- %14
+	griff, o wie man -- ches Glau -- bens -- %15
+	ſchiff ſen -- ckeſt du in tief -- ſten
+	Ab -- grund der Ver --
+	zweif -- fe -- lung hi --
+	nein,
+	
+	du ver -- ſchmitz -- ter Schlan -- gen -- %24
+	griff, %25
+	o wie
+	man -- ches Glau -- bens --
+	ſchiff, o wie man -- ches Glau -- bens --
+	ſchiff ſen -- ckeſt du in tief -- ſten
+	Ab -- grund der Ver -- %30
+	zweif -- _ _
+	_
+	fe -- lung hi --
+	nein.
+	
+	Erſt machſt %42
+	du die Sün -- den
+	klein, daß wir
+	kei -- ne Furcht em -- %45
+	pfün -- den,
+	a -- ber aus voll -- brach -- ten
+	Sün -- den machſt du
+	Ber -- ge, die noch
+	grö -- ßer, Ber -- %50
+	ge, die noch
+	grö -- ßer als die
+	Gna -- de ſol -- len
+	ſeyn, erſt machſt
+	du die Sün -- den %55
+	klein,
+	
+	daß wir
+	kei -- ne Furcht em --
+	pfün -- den, %60
+	a -- ber aus voll -- brach -- ten
+	Sün -- den machſt du
+	Ber -- ge, die noch
+	grö -- ßer, Ber --
+	ge, die noch %65
+	grö -- ßer als die
+	Gna -- de ſol -- len
+	ſeyn. %68 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

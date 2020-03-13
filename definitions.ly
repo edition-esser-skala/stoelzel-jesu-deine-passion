@@ -275,6 +275,11 @@ markDaCaPo = {
 	s128-\markup { \override #'(baseline-skip . 2) \italic \center-column { "Da" "Ca" "po" } } \hide Staff.BarLine
 }
 
+markCaPo = {
+	\override TextScript.extra-offset = #'(0 . 4.5)
+	s128-\markup { \fontsize #2 \override #'(baseline-skip . 2) \italic \center-column { "Ca" "po" } } \hide Staff.BarLine
+}
+
 markDa = {
 	\override TextScript.extra-offset = #'(0 . 4)
 	s128-\markup { \fontsize #5 \italic "Da" } \hide Staff.BarLine
@@ -332,6 +337,7 @@ tempoIchBitt = \tempoMarkup "Choral"
 
 tempoJesusFuer = \tempoMarkup "Choral"
 tempoKaumWirdMein = \tempoMarkup "Recitativo"
+tempoDuVerschmitzter = \tempoMarkup "Duetto"
 
 
 

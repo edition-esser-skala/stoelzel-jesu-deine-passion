@@ -67,32 +67,80 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.2" "R E C I T A T I V O" "Kaum wird mein Jeſus frühe"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Canto" "Basſo" } }
+% 					\new Voice = "Soprano" { \dynamicUp \KaumWirdMeinSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \KaumWirdMeinSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KaumWirdMeinOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KaumWirdMeinBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.2" "R E C I T A T I V O" "Kaum wird mein Jeſus frühe"
+			movement = \movementTitle "4.3" "D U E T T O" "Du verſchmitzter Schlangengriff"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Canto" "Basſo" } }
-					\new Voice = "Soprano" { \dynamicUp \KaumWirdMeinSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \KaumWirdMeinSopranoLyrics
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\DuVerschmitzterViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\DuVerschmitzterViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \DuVerschmitzterSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DuVerschmitzterSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \DuVerschmitzterBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DuVerschmitzterBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\KaumWirdMeinOrgano
+						\set Staff.instrumentName = \markup { \center-column { "Viola" "Organo" } }
+						\DuVerschmitzterOrgano
 					}
 				>>
-				\new FiguredBass { \KaumWirdMeinBassFigures }
+				\new FiguredBass { \DuVerschmitzterBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

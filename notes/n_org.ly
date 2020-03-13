@@ -1301,6 +1301,152 @@ KaumWirdMeinBassFigures = \figuremode {
 	r2 <6 4>8 <5 _+>4. %13 finis
 }
 
+DuVerschmitzterOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoDuVerschmitzter
+		g'8.\fE g16 g,8 g g g
+		c8. c16 c8 c c c
+		d2.~
+		d~
+		d~ %5
+		d~
+		d8 d16 e fis8 g a h
+		c! c,16 d e8 fis g a
+		h h,16 c d8 e fis g
+		a a,16 h c8 d e fis %10
+		g8. g16 e8 e g g
+		fis8. fis16 d8 d c'! c
+		h8. c16 d4 d,
+		g8. g16 g,8\pE g g g
+		c8. c16 c8 c c c %15
+		c8. c16 c8 c c c
+		c8. c16 h8 h g g
+		e'8. e16 e8 e e e
+		d8. d16 d8 d d d
+		g,8. g16 g8 g g g %20
+		g8. g16 g8 g g g
+		g8. g16 fis8 fis d d
+		h'8. h16 h8 h h h
+		a2.
+		d %25
+		g2 h,4
+		c2 a4
+		h2 h'4
+		c2 a4
+		h8. h,16 h8 h h h %30
+		c8. c16 a8 a a a
+		g4 cis2
+		d\fermata d,4
+		g8. g16\fE g8 g h h
+		c8. c16 c8 c a a %35
+		h'8. h16 h8 h g g
+		a8. a16 a8 a fis fis
+		g h16 a g8 fis e d
+		cis4 d d,
+		g8\fermata h'16\pE a g8 fis e d %40
+		c e'16 d c8 h a gis
+		a e16 d c8 h a g!
+		f a'16 g f8 e d cis
+		d f16 e d8 c h a
+		g2.~ %45
+		g8 g'16 a h8 c d e
+		f4. e8 d g,
+		c c,16 d e8 f? g a
+		b4 a a,
+		d,8 d'16 e f?8 g a h %50
+		c4 h h,
+		e, a' a,
+		d8. e16 fis!4 fis,
+		h8 fis''16 e d8 cis h a!
+		g h16 a g8 fis e dis %55
+		e h'16 a g8 fis e d
+		c! e16 d c8 h a gis
+		a c'16 h a8 g! fis e
+		d2.~
+		d8 d16 e fis8 g a h %60
+		c4. h8 a d,
+		g g,16 a h8 c d e
+		f4 e e,
+		a8 a16 h c8 d e fis
+		g4 fis fis, %65
+		h cis cis
+		d8. e16 fis4 fis,
+		h r r \markCaPo %68 finis
+	}
+}
+
+DuVerschmitzterBassFigures = \figuremode {
+	r4 <7!>2
+	r2.
+	r
+	<6 5>4 <\t 4>2
+	<5 4>4 <\t 3>2 %5
+	<10 8 4>4 <9 7+ \t>2
+	<9>4 <6>2
+	<9>4 <6>2
+	<9>4 <6>2
+	<9>4 <6>2 %10
+	<9>8 <8> <6\\>4 <4+ 2>
+	<7>8 <6> r4 <2>
+	<6>8. <5 3>16 <6 4>4 <5 3>
+	r4 <7!>2
+	r2. %15
+	<6>
+	<4 2>4 <6>2
+	<7>4 <6\\>2
+	r4 <7!>2
+	r2. %20
+	<6>
+	<4+ 2>4 <6>2
+	<7>4 <6\\>2
+	<_+>2.
+	<9>4 <8>4. <7!>8 %25
+	r2 <6>4
+	<9 7> <8 6>2
+	<7>4 <6>2
+	<7>4 <6>2
+	<7>4 <6>4. <[5!]>8 %30
+	<9> <8> <6>2
+	r4 <7->2
+	<6- 4>4 <5 3>2
+	<_!>2 <6>4
+	<9> <8> <6> %35
+	<9> <8> <8>
+	<9> <8> <6>
+	<9>4 <8>2
+	r4 <5 3>2
+	r2. %40
+	<7>4 <6> <5 2>8 <\t \t>
+	r2.
+	<7>4 <6> <5 2>8 <\t \t>
+	<_!>2.
+	<7! 5>4 <6 4>2 %45
+	<\t \t>4 <6>2
+	<4 2>4. <6>8 <6 _!> <7!> %!!!->
+	<[9] 4!>4 <6>2
+	<4 2>4 <_+> <[6! 4]>8 <[7 5 _+]>
+	<[9] 4>4 <6>2 %50
+	<4+ 2>4 <_+> <[6 4]>8 <[7 5 _+]> %!!!-<
+	r4 <_+>2
+	<5>8 <6> <6 4>4 <5+ _+>
+	r2.
+	<7>4 <6> <5 2>8 <\t \t> %55
+	r2.
+	<7>4 <6> <5 2>8 <\t \t>
+	r2.
+	<7 5>4 <6 4>2
+	<\t \t>4 <6>2 %60
+	<4 2>4. <[6]>8 q <[7]> %!!!->
+	<[9 4]>4 <[6]>2
+	<4 2>4 <_+> <[6 4]>8 <[7 5 _+]>
+	<[9 4]>4 <[6]>2
+	<4+ 2>4 <[5+] _+> <[6 4]>8 <[7 5+ _+]> %65
+	r4 <7> <6\\> %!!!-<
+	<6> <6 4> <5+ _+>
+	r2. %68 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
