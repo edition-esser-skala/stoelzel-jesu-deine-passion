@@ -1246,6 +1246,25 @@ IchBittBassFigures = \figuremode {
 	r <5-> <4>2 <3> r1 %6 finis
 }
 
+JesusFuerOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/1 \tempoJesusFuer
+			\set Staff.timeSignatureFraction = 4/4
+		d2 fis a fis g a d,1\fermata
+		\time 5/1 h'2 a g fis e d a'1 d,\fermata \bar ":|."
+		\time 4/1 d'2 cis h a! d d, a'1\fermata
+		d2 cis h d a a, d1\fermata \bar "|." %4 finis
+	}
+}
+
+JesusFuerBassFigures = \figuremode {
+	r2 <6> r q r1 r
+	r2 <6> q q q1 <4>2 <3> r1
+	r2 <6\\> r1 r r
+	r2 <6> q1 <4>2 <3> r1 %4 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

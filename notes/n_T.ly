@@ -616,6 +616,30 @@ IchBittTenoreLyricsB = \lyricmode {
 	und bring zur Ru -- he mich. %2 finis
 }
 
+JesusFuerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/1 \autoBeamOff \tempoJesusFuer
+			\set Staff.timeSignatureFraction = 4/4
+		fis2 fis e d d a a1\fermata
+		\time 5/1 h2 cis4( d) e( cis) d2 e fis4( g) a2( e) fis1\fermata \bar ":|."
+		\time 4/1 d2 e fis a a a a1\fermata
+		d,2 e d d d cis fis1\fermata \bar "|." %4 finis
+	}
+}
+
+JesusFuerTenoreLyricsA = \lyricmode {
+	Je -- ſus für Pi -- la -- to ſteht,
+	falſch be -- kla -- get er da lei -- det,
+	Ach! in Un -- ſchuld dort und hier,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JesusFuerTenoreLyricsB = \lyricmode {
+	drauf hin zu He -- ro -- des geht,
+	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

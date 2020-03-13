@@ -605,6 +605,30 @@ IchBittAltoLyricsB = \lyricmode {
 	und bring zur Ru -- he mich. %2 finis
 }
 
+JesusFuerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/1 \autoBeamOff \tempoJesusFuer
+			\set Staff.timeSignatureFraction = 4/4
+		a'2 a a a g e fis1\fermata
+		\time 5/1 d2 fis h a cis d d( cis) a1\fermata \bar ":|."
+		\time 4/1 a2 ais h cis d d cis1\fermata
+		a2 a h a a2. a4 a1\fermata \bar "|." %4 finis
+	}
+}
+
+JesusFuerAltoLyricsA = \lyricmode {
+	Je -- ſus für Pi -- la -- to ſteht,
+	falſch be -- kla -- get er da lei -- det,
+	Ach! in Un -- ſchuld dort und hier,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JesusFuerAltoLyricsB = \lyricmode {
+	drauf hin zu He -- ro -- des geht,
+	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

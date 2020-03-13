@@ -340,6 +340,30 @@ IchBittSopranoLyricsB = \lyricmode {
 	und bring zur Ru -- he mich. %2 finis
 }
 
+JesusFuerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/1 \autoBeamOff \tempoJesusFuer
+			\set Staff.timeSignatureFraction = 4/4
+		d'2 d cis d h cis d1\fermata
+		\time 5/1 fis2 fis e a g fis e1 d\fermata \bar ":|."
+		\time 4/1 fis2 e d e fis fis e1\fermata
+		fis2 a g fis e2. e4 d1\fermata \bar "|." %4 finis
+	}
+}
+
+JesusFuerSopranoLyricsA = \lyricmode {
+	Je -- ſus für Pi -- la -- to ſteht,
+	falſch be -- kla -- get er da lei -- det,
+	Ach! in Un -- ſchuld dort und hier,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JesusFuerSopranoLyricsB = \lyricmode {
+	drauf hin zu He -- ro -- des geht,
+	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -379,6 +379,30 @@ IchBittBassoLyricsB = \lyricmode {
 	und bring zur Ru -- he mich. %2 finis
 }
 
+JesusFuerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/1 \autoBeamOff \tempoJesusFuer
+			\set Staff.timeSignatureFraction = 4/4
+		d2 fis a fis g a d,1\fermata
+		\time 5/1 h'2 a g fis e d a'1 d,\fermata \bar ":|."
+		\time 4/1 d'2 cis h a! d d, a'1\fermata
+		d2 cis h d a2. a4 d,1\fermata \bar "|." %4 finis
+	}
+}
+
+JesusFuerBassoLyricsA = \lyricmode {
+	Je -- ſus für Pi -- la -- to ſteht,
+	falſch be -- kla -- get er da lei -- det,
+	Ach! in Un -- ſchuld dort und hier,
+	trau -- ter Je -- ſu, geh uns für. %4 finis
+}
+
+JesusFuerBassoLyricsB = \lyricmode {
+	drauf hin zu He -- ro -- des geht,
+	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
