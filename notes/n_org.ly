@@ -1447,6 +1447,72 @@ DuVerschmitzterBassFigures = \figuremode {
 	r2. %68 finis
 }
 
+EsScheuenOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoEsScheuen
+		e1~
+		e~
+		e
+		c2 h
+		g1~ %5
+		g~
+		g
+		e2 d
+		h' cis4 fis,
+		e2 d~ %10
+		d1~
+		d
+		fis'2 g
+		a h4 e,
+		h1~ %15
+		h2 a~
+		a g
+		e' d
+		ais h~
+		h1~ %20
+		h2 cis~
+		cis d
+		c h~
+		h a~
+		a g %25
+		e fis
+		g e'4 f
+		fis2 g4 c,\fermata \bar "|." %28 finis
+	}
+}
+
+EsScheuenBassFigures = \figuremode {
+	<5 3>2 <7+ 4 2>
+	r1
+	r2 <8 3>
+	<7>4 <6> < _+>2
+	<5! 3> <2> %5
+	r1
+	<7 4>2 <8 3>
+	<7>4 <6\\>2.
+	r2 <6 4>8 <5+ _+>4.
+	<6\\>1 %10
+	r2 <4 2>
+	r <5 3>
+	<6\\> <6>
+	r <_+>
+	<6 _!>1 %15
+	r2 <6>
+	r1
+	<7>4 <6\\>2.
+	<6 _+>1
+	r %20
+	<6\\>2 <6>
+	<5!>1
+	<2>2 <_+>
+	r <4+ 2>
+	r <6> %25
+	r <6!>
+	r <6>
+	<6 5> <6 4>8 <5 3>4. %28 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

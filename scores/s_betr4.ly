@@ -95,52 +95,80 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.3" "D U E T T O" "Du verſchmitzter Schlangengriff"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DuVerschmitzterViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DuVerschmitzterViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \DuVerschmitzterSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DuVerschmitzterSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DuVerschmitzterBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DuVerschmitzterBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Viola" "Organo" } }
+% 						\DuVerschmitzterOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DuVerschmitzterBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.3" "D U E T T O" "Du verſchmitzter Schlangengriff"
+			movement = \movementTitle "4.4" "R E C I T A T I V O" "Es ſcheuen zwar die Jüden die Gefahr"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DuVerschmitzterViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DuVerschmitzterViolinoII
-						}
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \DuVerschmitzterSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \DuVerschmitzterSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DuVerschmitzterBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DuVerschmitzterBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Tenore"
+					\new Voice = "Tenore" { \dynamicUp \EsScheuenTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \EsScheuenTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Viola" "Organo" } }
-						\DuVerschmitzterOrgano
+						\set Staff.instrumentName = "Organo"
+						\EsScheuenOrgano
 					}
 				>>
-				\new FiguredBass { \DuVerschmitzterBassFigures }
+				\new FiguredBass { \EsScheuenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

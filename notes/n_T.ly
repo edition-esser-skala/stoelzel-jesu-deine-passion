@@ -640,6 +640,72 @@ JesusFuerTenoreLyricsB = \lyricmode {
 	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
 }
 
+EsScheuenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \autoBeamOff \tempoEsScheuen
+		r8 h g' fis dis4 r8 fis,
+		a a a h c4 r8 c
+		c a h fis g4 r8 h
+		e g, a8. h16 h8 h r h
+		d8. d16 h8 g c c r16 c c c %5
+		e8. e16 c8 c a a r16 a c a
+		fis'8. fis16 a8 d, g g r16 d d d
+		d8 cis g' fis fis4 r8 fis
+		d d h a fis4 r16 a fis' e
+		cis8. cis16 e8 a, d4 r8 a %10
+		a a fis d g4 r8 g
+		h g g fis fis4 r16 fis' a fis
+		dis8. dis16 fis8 h, e4 r16 e e e
+		c8 a dis e h4 r8 g'
+		g8. d16 d8 h g4 r8 g %15
+		g g h g c c r16 c e c
+		a8 h c h h4 r16 d d d
+		d8. g,16 g8 fis fis fis r fis'
+		fis cis ais?16 fis g' fis d4 r8 d
+		d d fis d h h r h %20
+		d d d cis a4 r8 a
+		e'8. e16 g!8 fis fis fis r16 fis fis fis
+		a8. a16 a8 fis dis dis r h
+		c8. c16 c8 a dis4 r8 dis
+		fis8. fis16 dis8 h e4 r8 h %25
+		g'8. g16 g8 e a8. c,16 c8 h
+		h4 r8 g g'8. c,16 c4
+		r r8 c c g r4\fermata \bar "|." %28 finis
+	}
+}
+
+EsScheuenTenoreLyrics = \lyricmode {
+	Es ſcheu -- en zwar die
+	Jü -- den die Ge -- fahr, ins
+	Richt -- haus ein -- zu -- gehn, daß
+	ſie nicht un -- rein wür -- den; doch
+	Je -- ſum zu ver -- kla -- gen, ihm tau -- ſend %5
+	Schul -- den auf -- zu -- bür -- den, ihm vor Ge --
+	rich -- te nach -- zu -- ſa -- gen, daß er ein
+	Ü -- bel -- thä -- ter ſey, das
+	thun ſie oh -- ne Scheu. So offt als
+	nur Pi -- la -- tus ſpricht: Ich %10
+	fin -- de kei -- ne Schuld an
+	die -- ſem Men -- ſchen nicht, ſo offt hallt
+	ihr Ge -- ſchrey um -- han, er ha -- be
+	diß und das ge -- than. He --
+	ro -- des ſelbſt be -- weiſt mit %15
+	ei -- nem wei -- ßen Klei -- de, wo -- mit er
+	ihn be -- klei -- den heißt, daß Je -- ſus
+	un -- ver -- ſchul -- det lei -- de. In --
+	den -- noch wird ein Bar -- ra -- bas, der
+	Mord und Auf -- ruhrs we -- gen be -- %20
+	reits in Ket -- ten ſaß, vom
+	Rich -- ter loß ge -- ſpro -- chen, und ü -- ber
+	Je -- ſum wird hin -- ge -- gen, nach --
+	dem man ihn ver -- ſpeyt, ge --
+	gei -- ßelt und ver -- höhnt, nach -- %25
+	dem man ihn mit Dor -- nen gar ge --
+	krönt, der To -- des -- ſtab
+	ge -- bro -- chen. %28 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
