@@ -629,6 +629,29 @@ JesusFuerAltoLyricsB = \lyricmode {
 	weiß die Un -- ſchuld ihn be -- klei -- det. %2 finis
 }
 
+DuSpringstAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 5/1 \autoBeamOff \tempoDuSpringst
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g' e fis g a g( a) g1\fermata
+		r2 g g g fis fis e1 fis\fermata
+		\time 4/1 r2 fis e fis g2. g4 fis1\fermata
+		\time 5/1 r2 g e fis g a g( a) g1\fermata
+		r2 g g g fis fis e1 fis\fermata %5
+		r2 fis e fis g g g fis d1\fermata \bar "|." %6 finis
+	}
+}
+
+DuSpringstAltoLyrics = \lyricmode {
+	Du ſpringst ins To -- des Ra -- chen,
+	mich frey und loß zu ma -- chen
+	von ſol -- chem Un -- ge -- heur:
+	Mein Ster -- ben nimmſt du a -- be,
+	ver -- gräbſt es in dem Gra -- be. %5
+	O! un -- er -- höhr -- tes Lie -- bes Feur. %6 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

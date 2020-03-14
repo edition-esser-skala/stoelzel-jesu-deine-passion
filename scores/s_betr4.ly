@@ -171,48 +171,92 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.5" "A R I A" "Unbeflecktes Gotteslamm"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato I" } }
+% 							\UnbeflecktesViolinoConcI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato II" } }
+% 							\UnbeflecktesViolinoConcII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
+% 						\UnbeflecktesViolinoI
+% 					}
+% 				>>
+% 				\new Staff  {
+% 					\set Staff.instrumentName = "Tenore"
+% 					\new Voice = "Tenore" { \dynamicUp \UnbeflecktesTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \UnbeflecktesTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\UnbeflecktesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UnbeflecktesBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.5" "A R I A" "Unbeflecktes Gotteslamm"
+			movement = \movementTitle "4.6" "C H O R A L" "Du ſpringst ins Todes Rachen"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato I" } }
-							\UnbeflecktesViolinoConcI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato II" } }
-							\UnbeflecktesViolinoConcII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
-						\UnbeflecktesViolinoI
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \DuSpringstSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DuSpringstSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \DuSpringstAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DuSpringstAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \DuSpringstTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \DuSpringstTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \DuSpringstBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DuSpringstBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\DuSpringstOrgano
 					}
 				>>
-				\new Staff  {
-					\set Staff.instrumentName = "Tenore"
-					\new Voice = "Tenore" { \dynamicUp \UnbeflecktesTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \UnbeflecktesTenoreLyrics
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\UnbeflecktesOrgano
-					}
-				>>
-				\new FiguredBass { \UnbeflecktesBassFigures }
+				\new FiguredBass { \DuSpringstBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

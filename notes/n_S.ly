@@ -505,6 +505,29 @@ DuVerschmitzterSopranoLyrics = \lyricmode {
 	ſeyn. %68 finis
 }
 
+DuSpringstSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 5/1 \autoBeamOff \tempoDuSpringst
+			\set Staff.timeSignatureFraction = 4/4
+		r2 h' g a h d c1 h\fermata
+		r2 h d d a h g1 a\fermata
+		\time 4/1 r2 d, g a h2. h4 a1\fermata
+		\time 5/1 r2 h g a h d c1 h\fermata
+		r2 h d d a h g1 a\fermata %5
+		r2 d, g a h d h a g1\fermata \bar "|." %6 finis
+	}
+}
+
+DuSpringstSopranoLyrics = \lyricmode {
+	Du ſpringst ins To -- des Ra -- chen,
+	mich frey und loß zu ma -- chen
+	von ſol -- chem Un -- ge -- heur:
+	Mein Ster -- ben nimmſt du a -- be,
+	ver -- gräbſt es in dem Gra -- be. %5
+	O! un -- er -- höhr -- tes Lie -- bes Feur. %6 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

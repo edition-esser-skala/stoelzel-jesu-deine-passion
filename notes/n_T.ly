@@ -818,6 +818,29 @@ UnbeflecktesTenoreLyrics = \lyricmode {
 	ſey. %76 finis
 }
 
+DuSpringstTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 5/1 \autoBeamOff \tempoDuSpringst
+			\set Staff.timeSignatureFraction = 4/4
+		r2 d c c d d e( d) d1\fermata
+		r2 d d d d d d( cis) a1\fermata
+		\time 4/1 r2 h h d d2. d4 d1\fermata
+		\time 5/1 r2 d c c d d e( d) d1\fermata
+		r2 d d d d d d( cis) a1\fermata %5
+		r2 h h d d d d2. c4 h1\fermata \bar "|." %6 finis
+	}
+}
+
+DuSpringstTenoreLyrics = \lyricmode {
+	Du ſpringst ins To -- des Ra -- chen,
+	mich frey und loß zu ma -- chen
+	von ſol -- chem Un -- ge -- heur:
+	Mein Ster -- ben nimmſt du a -- be,
+	ver -- gräbſt es in dem Gra -- be. %5
+	O! un -- er -- höhr -- tes Lie -- bes Feur. %6 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -1670,6 +1670,29 @@ UnbeflecktesBassFigures = \figuremode {
 	r2. %76 finis
 }
 
+DuSpringstOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 5/1 \tempoDuSpringst
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g' c a g fis e fis g1\fermata
+		r2 g h, h d h e1 d\fermata
+		\time 4/1 r2 h e d g g, d'1\fermata
+		\time 5/1 r2 g c a g fis e fis g1\fermata
+		r2 g h, h d h e1 d\fermata %5
+		r2 h e d g h, d d, g1\fermata \bar "|." %6 finis
+	}
+}
+
+DuSpringstBassFigures = \figuremode {
+	r1 r2 <6> r q q <5> r1
+	r <6> r <7>2 <6\\> r1
+	r r r r
+	r r2 <6> r q q <5> r1
+	r <[6]> r <7>2 <6\\> r1 %5
+	r r r2 <[6]> <[6 4]> <[5 3]> r1 %6 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
