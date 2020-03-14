@@ -463,3 +463,85 @@ DuVerschmitzterViolinoII = {
 		h,4 r r \markCa %68 finis
 	}
 }
+
+UnbeflecktesViolinoConcII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoUnbeflecktes
+		R2. \bar "S-S"
+		\grace s8 r4 e'\fE \appoggiatura d8 c4
+		\appoggiatura h16 \tuplet 3/2 4 { a8( g a) } fis2\trill
+		g4 h8.( e,16) e'8 e
+		e8.(\trill dis16) dis4 fis~ %5
+		fis8\trill e h2~
+		h8.([ f'16) e8.( d16) c8.( h16)]
+		a4 a2~
+		a8.([ e'16) d8.( c16) h8.( a16)]
+		g4 g2~ %10
+		g8.([ d'16) c8.( h16) a8.( g16)]
+		fis4 fis'2~
+		fis8 h, e2~
+		e4. fis8 dis4\trill
+		e r r %15
+		r e\pE \appoggiatura d8 c4
+		\appoggiatura h8 a4 a2\trill
+		g4 h2~
+		h8.(\trill a16) a4 r
+		R2. %20
+		r8 a \noBeam h( e4) d16( e)
+		a,8 g16 e' \appoggiatura d4 cis4.\trill d8
+		d4 r r8 fis16( d)
+		g8( fis16 e) d4( cis)\trill
+		h d\fE \appoggiatura cis8 h4 %25
+		\appoggiatura a8 g8.( fis16) g2~
+		g8 \once \slurDashed a32( h cis d) e8( cis g' g,)
+		fis4 a8.( d,16) d'8 d
+		d8.(\trill c!16) c4.\trill h16 a
+		h4 h8.( e,16) e'8 e %30
+		e8.(\trill dis16) dis2\trill
+		e4 e, r
+		r e'\pE \appoggiatura d8 c4
+		\appoggiatura h8 a4 a2\trill
+		g4 g2 %35
+		g8.(\trill fis16) fis8.( e16) dis4\trill
+		e r g'~
+		g8 fis16( e) fis2\trill
+		R2.
+		r4 r r8 h,16( g) %40
+		c8 h16( a) g4( fis)\trill
+		e e4.\trill dis16 e
+		fis4 fis4.\trill e16 fis
+		g4 a2~
+		a8 g16.( a32) h8 a16 g fis4\trill %45
+		g\fE h2~
+		h8.([ f'16) e8.( d16) c8.( h16)]
+		a4 a2~
+		a8.([ e'16) d8.( c16) h8.( a16)]
+		g4 g2~ %50
+		g8.([ d'16) c8.( h16) a8.( g16)]
+		fis4 fis'2~
+		fis8 h, e2~
+		e4. fis8 dis4\trill
+		e\fermata r r %55
+		R2.*2
+		r4 a,8.(\pE d,16) d'8 d
+		d8.(\trill cis16) c4.\trill h16 a
+		h4 e, r %60
+		R2.
+		r4 g'4.\trill fis16 g
+		fis4 r r
+		R2.
+		r4 d8.( g,16) g'8 g %65
+		g8.\trill fis16 fis2\trill
+		g4 h,4.\trill a16 g
+		a4 d, r
+		R2.
+		r4 h'8.( e,16) e'8 e %70
+		e8.(\trill dis16) dis2\trill
+		e8( c) a2
+		g4 d'8.( g,16) g'8 g
+		g8.(\trill fis16) fis2
+		d,2.\fermata %75
+		g4 r r \bar "S-S" %76 finis
+	}
+}

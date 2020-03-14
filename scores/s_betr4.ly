@@ -143,32 +143,76 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.4" "R E C I T A T I V O" "Es ſcheuen zwar die Jüden die Gefahr"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Tenore"
+% 					\new Voice = "Tenore" { \dynamicUp \EsScheuenTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \EsScheuenTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EsScheuenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EsScheuenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.4" "R E C I T A T I V O" "Es ſcheuen zwar die Jüden die Gefahr"
+			movement = \movementTitle "4.5" "A R I A" "Unbeflecktes Gotteslamm"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Tenore"
-					\new Voice = "Tenore" { \dynamicUp \EsScheuenTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \EsScheuenTenoreLyrics
 				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato I" } }
+							\UnbeflecktesViolinoConcI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato II" } }
+							\UnbeflecktesViolinoConcII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\EsScheuenOrgano
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
+						\UnbeflecktesViolinoI
 					}
 				>>
-				\new FiguredBass { \EsScheuenBassFigures }
+				\new Staff  {
+					\set Staff.instrumentName = "Tenore"
+					\new Voice = "Tenore" { \dynamicUp \UnbeflecktesTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \UnbeflecktesTenoreLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\UnbeflecktesOrgano
+					}
+				>>
+				\new FiguredBass { \UnbeflecktesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

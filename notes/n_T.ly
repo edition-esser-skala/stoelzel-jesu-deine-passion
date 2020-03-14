@@ -706,6 +706,118 @@ EsScheuenTenoreLyrics = \lyricmode {
 	ge -- bro -- chen. %28 finis
 }
 
+UnbeflecktesTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 3/4 \autoBeamOff \tempoUnbeflecktes
+		R2. \bar "S-S"
+		\grace s8 R2.*13 %14
+		r4 g' \appoggiatura fis8 e4 %15
+		\appoggiatura d8 c8.([ h16)] c2~
+		c4 a' c,
+		h d8. g,16 g'8 g
+		g8. fis16 fis2~
+		fis8 g16 fis e8 d cis h %20
+		a16([ g)] a8 g'4. fis16([ e)]
+		fis8 h, \appoggiatura d4 cis4.\trill d8
+		d[ fis16 e] fis2~
+		fis8. g16 d4 cis\trill
+		h r r %25
+		R2.*6 %31
+		r4 g' \appoggiatura fis8 e4
+		\appoggiatura d8 c8.([ h16)] c2~
+		c4 a' c,
+		h h8. e,16 e'8 e %35
+		e8. dis16 dis4 r
+		r8 g16 fis e8 d c h
+		a16([ g)] a8 c4. h16([ a)]
+		h8 e \stemUp h4( \grace d16 c8) \stemNeutral \appoggiatura h16 a8
+		g8[ h16 a] h2~ %40
+		h8. c16 g4 fis\trill
+		e8 g'16 fis e8 d c8. h16
+		a8 c'16 h a8 g fis8. e16
+		d([ c)] h8 f'( e4) dis8
+		dis e g,4( \grace h16 a8) \appoggiatura g16 fis8 %45
+		e4 r r
+		R2.*8 %54
+		r4 g'4 \appoggiatura fis8 e4 %55
+		\appoggiatura d8 c2.~
+		c8. h16 h4.\trill a8
+		a4 r r
+		r e'8. a,16 a'8 a
+		a8. gis16 g2 %60
+		fis8. g16 a8 g a fis
+		g e h8. e,16 e'8 e
+		e8. dis16 d2
+		cis8. d16 e8. d16 e8 cis
+		d h r4 r %65
+		a8. h16 c!8 h c a
+		h g d'8. g,16 g'8 g
+		g8.[ fis16] f4. e16[ d]
+		e8 a, e'8. a,16 a'8 a
+		a8.[ gis16] g4. fis16[ e] %70
+		fis8. g16 a8 g a fis
+		\appoggiatura a16 g8 \appoggiatura fis16 e8 \appoggiatura d!4 c!4. c8
+		\appoggiatura c16 h8 \appoggiatura a16 g8 d'2~
+		d4. c16[ h] \appoggiatura d16 c8[ \appoggiatura h16 a8]
+		h16[\fermata d g g,] a4. g8 %75
+		g4 r r \bar "S-S" %76 finis
+	}
+}
+
+UnbeflecktesTenoreLyrics = \lyricmode {
+	Un -- be -- %15
+	fleck -- tes __
+	Got -- tes --
+	lamm, nicht al -- lei -- ne
+	Bar -- ra -- bam, __
+	den ver -- ruch -- ten Mi -- ße -- %20
+	thä -- ter, ma -- cheſt
+	du vom To -- de
+	frey, __ _
+	vom To -- de
+	frey, %25
+	
+	un -- be -- %32
+	fleck -- tes __
+	Got -- tes --
+	lamm, nicht al -- lei -- ne %35
+	Bar -- ra -- bam,
+	den ver -- ruch -- ten Mi -- ße --
+	thä -- ter, ma -- cheſt
+	du vom To -- de
+	frey, __ _ %40
+	vom To -- de
+	frey, nicht al -- lei -- ne Bar -- ra --
+	bam, den ver -- ruch -- ten Mi -- ße --
+	thä -- ter, ma -- cheſt
+	du vom To -- de %45
+	frey.
+	
+	Denn du %55
+	ſtirbſt __
+	am Creut -- zes
+	Stamm,
+	daß der Auf -- ruhr,
+	den ich dort %60
+	in dem O -- dem an -- ge --
+	fan -- gen, und der all -- ge --
+	mei -- ne Mord,
+	wel -- chen ich mit ihn be --
+	gan -- gen, %65
+	uns durch dich, du Schlan -- gen --
+	tre -- ter, völ -- lig aus -- ge --
+	ſöh -- _ _
+	_ net, völ -- lig aus -- ge --
+	ſöh -- _ net %70
+	ſey, durch dich, du Schlan -- gen --
+	tre -- ter, völ -- lig
+	aus -- ge -- ſöh --
+	_ _
+	_ _ net %75
+	ſey. %76 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

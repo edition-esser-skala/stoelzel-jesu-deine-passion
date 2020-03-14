@@ -1513,6 +1513,163 @@ EsScheuenBassFigures = \figuremode {
 	<6 5> <6 4>8 <5 3>4. %28 finis
 }
 
+UnbeflecktesOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 3/4 \tempoUnbeflecktes
+		e4\fE e e \bar "S-S"
+		\grace s8 e4 e e
+		fis d d
+		g g e
+		h' h h %5
+		e, e e
+		a a a
+		fis fis fis
+		g g g
+		e e e %10
+		fis fis fis
+		dis dis dis
+		e e g
+		a h h,
+		e e\pE e %15
+		e e e
+		fis d d
+		g g g
+		d d d
+		a a g %20
+		fis e a
+		d, a'' a,
+		d d d
+		e fis fis,
+		h h\fE h %25
+		h h h
+		cis a a
+		d d d
+		a' a a
+		e e e %30
+		h' h h
+		e, e\pE e
+		e e e
+		fis d d
+		g g e %35
+		h' h h
+		e, e e
+		fis d d
+		g d d
+		g, g g %40
+		a h h
+		e r r
+		R2.*3 %45
+		e4\fE g g
+		a a a
+		fis fis fis
+		g g g
+		e e e %50
+		fis fis fis
+		dis dis dis
+		e e g
+		a h h,
+		e\fermata e\pE e %55
+		fis fis fis
+		g cis, cis
+		d d d
+		a a a
+		e' e e %60
+		h h h
+		e e e
+		h h h
+		fis' fis fis
+		h, g g %65
+		d' d d
+		g g g
+		d d d
+		a' a a
+		e e e %70
+		h' h h
+		e, fis fis
+		g g g
+		d d d
+		d,\fermata r r %75
+		g e'\fE e \bar "S-S" %76 finis
+	}
+}
+
+UnbeflecktesBassFigures = \figuremode {
+	r2.
+	<6>
+	<6!>4 <7>2
+	r4 <6>2
+	<4>4 <_+>2 %5
+	<9>4 <8>2
+	<9>4 <8>2
+	<6 5>2.
+	<9>4 <8>2
+	<6 5>2. %10
+	<9 5>4 <8 _!>2
+	<6 5>2.
+	<9>4 <8> <6>
+	r <6 4> <5 _+>
+	r2. %15
+	<6>
+	<5>4 <[7]>2
+	r2.
+	<[6] 4>4 <[5] 3>2
+	<6 4>4 <5 _+> <4+ 2> %20
+	<6> <7> <7 _+>
+	r <6 4> <5 _+>
+	r <6>2
+	<9>8 <8> <6 4>4 <5+ _+>
+	r2. %25
+	<6>
+	<5!>4 <7 _+>2
+	r2.
+	<4>4 <_!>2
+	<4>4 <3>2 %30
+	<4>4 <_+>2
+	<4>4 <3>2
+	<6>2.
+	<5>4 <7>2
+	r4 <6>2 %35
+	<6 4>4 <5 _+>2
+	<[4]>4 <[3]> <6>
+	<[9] 5> <7>2
+	<[9]>8 <[8]> <6 4>4 <5 3>
+	r <6>2 %40
+	<[9]>8 <[8]> <6 4>4 <5 _+>
+	r2.*4 %45
+	r4 <6>2
+	<9>4 <8>2
+	<6 5>2.
+	<9>4 <8>2
+	<6 5>2. %50
+	<9>4 <8>2
+	<6 5>2.
+	<[9]>4 <[8]> <6>
+	r <6 4> <5 _+>
+	r2. %55
+	<5>
+	<4>8 <3> <7 5>2
+	<_+>4 <_!>2
+	<4>8 <_+> <_!>2
+	<4>8 <_+> <_!>2 %60
+	<4>4 <_+>2
+	r2.
+	<4>8 <_+> <_!>2
+	<5+ 4>4 <\t _+>2
+	r2. %65
+	<4>4 <3>2
+	r2.
+	<4>8 <_+> <_!>2
+	<4>8 <_+> <_!>2
+	<4>8 <_+> <_!>2 %70
+	<4>4 <_+>2
+	<[5]>8 <[6]> <5>2
+	r2.
+	<[6] 4>4 <[5] 3>2
+	<[6 4]>4 <[5 3]>2 %75
+	r2. %76 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

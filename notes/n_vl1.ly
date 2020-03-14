@@ -502,6 +502,170 @@ DuVerschmitzterViolinoI = {
 	}
 }
 
+UnbeflecktesViolinoConcI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoUnbeflecktes
+		r4 g''\fE \appoggiatura fis8 e4 \bar "S-S"
+		\appoggiatura d8 c8.([ h16)] c2~
+		c8 d32( e fis g) a8( fis c' c,)
+		h4 r r
+		r fis'8.( h,16) a'8 a %5
+		g16 e,( g h) e( h e g) h( e, g h)
+		c2.~
+		c16 d,,( fis a) d( a d fis) a( d, fis a)
+		h2.~
+		h16 c,,( e g) c( g c e) g( c, e g) %10
+		a2.~
+		a16 h,,( dis fis) h( fis h dis) fis( h, dis fis)
+		g4. h8 e([ e,)]
+		c'16 h \tuplet 3/2 8 { a( h c) } g4( fis)\trill
+		e r r %15
+		r g\pE \appoggiatura fis8 e4
+		\appoggiatura d8 c4 fis2\trill
+		g4 r r
+		r a8. d,16 d'8 d
+		d8.(\trill cis16) cis2 %20
+		d8.( d,16) d4( cis)\trill
+		d8.( d,16) \appoggiatura fis4 e4.\trill d8
+		d4 r8 h''16( ais) h4~
+		h8. h,16 h4( ais)\trill
+		h r r %25
+		r h'\fE \appoggiatura a8 g4
+		\appoggiatura fis16 \tuplet 3/2 4 { e8[ d e] } cis2\trill
+		d4 fis,4.\trill e16 fis
+		e4 e'8.( a,16) a'8 a
+		a8.(\trill g16) g4.\trill fis16 e %30
+		fis4 fis8.( h,16) a'8 a
+		a8.(\trill g16) g4 r
+		r g\pE \appoggiatura fis8 e4
+		\appoggiatura d8 c4 fis2\trill
+		g4 r r %35
+		r fis8.( h,16) a'8 a
+		a8.(\trill g16) g8 fis e d
+		\tuplet 3/2 4 { c( h c) } a'4 a,~
+		a16 fis g8~ g fis16( e) fis4\trill
+		g r8 e'16( dis) e4~ %40
+		e8. e,16 e4( dis)\trill
+		e g4.\trill fis16 g
+		a8 d,! a'4.\trill g16 a
+		h8 e \appoggiatura d c4.\trill h16 c
+		h8.( g'32 e) e4( dis)\trill %45
+		e16 e,(\fE g h) e( h e g) h( e, g h)
+		c2.~
+		c16 d,,( fis a) d( a d fis) a( d, fis a)
+		h2.~
+		h16 c,,( e g) c( g c e) g( c, e g) %50
+		a2.~
+		a16 h,,( dis fis) h( fis h dis) fis( h, dis fis)
+		g4. h16( a) h( g fis e)
+		\appoggiatura d'16 c8 h16 a g4( fis)\trill
+		e\fermata r r %55
+		r a\pE \appoggiatura g8 fis4
+		\appoggiatura e8 d8.( g,16) g'4.\trill fis8
+		fis4 f,4.\trill e16 d
+		e4 a, r
+		r h'8.( e,16) e'8 e %60
+		e8.\trill dis16 dis2\trill
+		e4 r r
+		r fis8.( h,16) h'8 h
+		h8.\trill ais16 ais2\trill
+		h4 h,4.\trill a!16 g %65
+		a4 d, r
+		R2.
+		r4 a''8.( d,16) d'8 d
+		d8.\trill cis16 c4.\trill h16 a
+		h4 e, r %70
+		R2.
+		r4 a \appoggiatura g8 fis4
+		\appoggiatura e8 d8.( g,16) h'2~
+		h8.(\trill a16) a2
+		d,,2.\fermata %75
+		g,4 g''\fE e \bar "S-S" %76 finis
+	}
+}
+
+UnbeflecktesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoUnbeflecktes
+		e8.[\fE e16 e8. e16 e8. e16] \bar "S-S"
+		\grace s8 e8.[ e16 e8. e16 e8. e16]
+		fis8.[ fis16 d8. d16 d8. d16]
+		g8.[ g16 g8. g16 e8. e16]
+		h'8.[ h16 h8. h16 h8. h16] %5
+		e,8.[ e16 e8. e16 e8. e16]
+		a8.[ a16 a8. a16 a8. a16]
+		fis8.[ fis16 fis8. fis16 fis8. fis16]
+		g8.[ g16 g8. g16 g8. g16]
+		e8.[ e16 e8. e16 e8. e16] %10
+		fis8.[ fis16 fis8. fis16 fis8. fis16]
+		dis8.[ dis16 dis8. dis16 dis8. dis16]
+		e8.[ e16 e8. e16 g8. g16]
+		a8.[ a16 h8. h16 h,8. h16]
+		e8.[ e16 e8.\pE e16 e8. e16] %15
+		e8.[ e16 e8. e16 e8. e16]
+		fis8.[ fis16 d8. d16 d8. d16]
+		g8.[ g16 g8. g16 g8. g16]
+		d8.[ d16 d8. d16 d8. d16]
+		a8.[ a16 a8. a16 g8. g16] %20
+		fis'8.[ fis16 e8. e16 a8. a16]
+		d,8.[ d16 a'8. a16 a,8. a16]
+		d8.[ d16 d8. d16 d8. d16]
+		e8.[ e16 fis8. fis16 fis8. fis16]
+		h,8.[ h16 h8.\fE h16 h8. h16] %25
+		h8.[ h16 h8. h16 h8. h16]
+		cis8.[ cis16 a8. a16 a8. a16]
+		d8.[ d16 d8. d16 d8. d16]
+		a'8.[ a16 a8. a16 a8. a16]
+		e8.[ e16 e8. e16 e8. e16] %30
+		h'8.[ h16 h8. h16 h8. h16]
+		e,8.[ e16 e8.\pE e16 e8. e16]
+		e8.[ e16 e8. e16 e8. e16]
+		fis8.[ fis16 d8. d16 d8. d16]
+		g8.[ g16 g8. g16 e8. e16] %35
+		h'8.[ h16 h8. h16 h8. h16]
+		e,8.[ e16 e8. e16 e8. e16]
+		fis8.[ fis16 d8. d16 d8. d16]
+		g8.[ g16 d8. d16 d8. d16]
+		g,8.[ g16 g8. g16 g8. g16] %40
+		a8.[ a16 h8. h16 h8. h16]
+		e4 r r
+		R2.*3 %45
+		e8.[\fE e16 g8. g16 g8. g16]
+		a8.[ a16 a8. a16 a8. a16]
+		fis8.[ fis16 fis8. fis16 fis8. fis16]
+		g8.[ g16 g8. g16 g8. g16]
+		e8.[ e16 e8. e16 e8. e16] %50
+		fis8.[ fis16 fis8. fis16 fis8. fis16]
+		dis8.[ dis16 dis8. dis16 dis8. dis16]
+		e8.[ e16 e8. e16 g8. g16]
+		a8.[ a16 h8. h16 h,8. h16]
+		e8.[\fermata e16 e8.\pE e16 e8. e16] %55
+		fis8.[ fis16 fis8. fis16 fis8. fis16]
+		g8.[ g16 cis,8. cis16 cis8. cis16]
+		d8.[ d16 d8. d16 d8. d16]
+		a8.[ a16 a8. a16 a8. a16]
+		e'8.[ e16 e8. e16 e8. e16] %60
+		h8.[ h16 h8. h16 h8. h16]
+		e8.[ e16 e8. e16 e8. e16]
+		h8.[ h16 h8. h16 h8. h16]
+		fis'8.[ fis16 fis8. fis16 fis8. fis16]
+		h,8.[ h16 g8. g16 g8. g16] %65
+		d'8.[ d16 d8. d16 d8. d16]
+		g8.[ g16 g8. g16 g8. g16]
+		d8.[ d16 d8. d16 d8. d16]
+		a'8.[ a16 a8. a16 a8. a16]
+		e8.[ e16 e8. e16 e8. e16] %70
+		h'8.[ h16 h8. h16 h8. h16]
+		e,8.[ e16 fis8. fis16 fis8. fis16]
+		g8.[ g16 g8. g16 g8. g16]
+		d8.[ d16 d8. d16 d8. d16]
+		d2.\fermata %75
+		g,8.[ g16 g'8.\fE g16 g8. g16] \bar "S-S" %76 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
