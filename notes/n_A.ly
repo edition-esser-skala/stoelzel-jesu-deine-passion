@@ -676,6 +676,68 @@ HinwegIhrAltoLyricsB = \lyricmode {
 	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
 }
 
+SoTraegstAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoSoTraegst
+		r8 e c' h a4 r8 fis
+		dis8. dis16 c'8 h g g r16 g h e,
+		gis8. a16 h8 e, a4 r16 c c a
+		f8. f16 f4 r8 f a f
+		d e f e e e r g %5
+		g fis c' h h4 r16 h c h
+		a8. a16 h8 fis g4 r16 h h h
+		h8. e,16 e8 dis dis4 r8 fis
+		fis h, h'16 fis a g e4 r16 e g e
+		a8. cis,16 e8 a, d4 r16 a' a a %10
+		a8. gis16 h8 d, d cis r16 e e e
+		g8. g16 g8 fis d4 r16 fis fis fis
+		h8 h d h eis, eis r16 cis' cis cis
+		cis8 fis, eis fis gis4 r8 gis
+		gis gis cis cis, fis4 r8 fis %15
+		a fis h dis, e4 r16 e e e
+		e8 h d cis cis4 r16 e e e
+		g!4 r8 g h g g fis
+		fis4 r16 d d e fis8. fis16 a8 fis
+		d8 r16 d c'! c c h h4 r8 h %20
+		h e, a fis dis dis r16 dis dis h
+		fis'8. fis16 fis8 fis a fis dis e
+		e e r16 e h' h gis8. gis16 fis8 e
+		a4 r8 a a e g fis
+		fis4 d' cis,8 d g fis %25
+		d4 r r2\fermata \bar "|." %26 finis
+	}
+}
+
+SoTraegstAltoLyrics = \lyricmode {
+	So trägſt du denn des
+	Creut -- zes ſchwe -- re Bür -- de, mein Je -- ſus,
+	ſelbſt nach Gol -- ga -- tha. Ach, daß ich
+	wil -- lig -- lich ein Si -- mon
+	von Cy -- re -- ne wür -- de und %5
+	nähm dein Joch auf mich. Ach, folgt ich
+	dir in dei -- ner Schmach biß an die
+	Schä -- del -- ſtät -- te nach, wo
+	E -- ſig, Myrr -- hen, Gall und Wein dein erſ -- ter
+	Lab -- trunck ſol -- ten ſeyn; wo man nach %10
+	un -- er -- hör -- ten Quaa -- len dich an den
+	Creut -- zes Pfahl er -- höht, der zwi -- ſchen
+	zwe -- en Creut -- zes Pfäh -- len der ärgſ -- ten
+	Ü -- bel -- thä -- ter ſteht; wo
+	ei -- nes Hey -- den Schrifft zu %15
+	dei -- nen Haup -- te weißt, daß du der
+	Jü -- den Kö -- nig ſeyſt; wo man das
+	Loß um dei -- ne Klei -- der
+	wirft, daß man ſie nicht zer -- thei -- len
+	dürfft; wo du von dei -- nen Creutz ein %20
+	trau -- rig Paar er -- bli -- ckeſt und ſol -- ches
+	bey -- der -- ſeits mit Rath und Troſt er --
+	qui -- ckeſt, wenn du den Jün -- ger, den du
+	liebſt, der Mut -- ter nun zum
+	Sohn, ſie ihm zur Mut -- ter %25
+	giebſt. %26 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -19,52 +19,80 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.1" "C H O R A L" "Hinweg, ihr irrdſchen Hindernißen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \HinwegIhrSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \HinwegIhrSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \HinwegIhrSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \HinwegIhrAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \HinwegIhrAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \HinwegIhrAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \HinwegIhrTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \HinwegIhrTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \HinwegIhrTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \HinwegIhrBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \HinwegIhrBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \HinwegIhrBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\HinwegIhrOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \HinwegIhrBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.1" "C H O R A L" "Hinweg, ihr irrdſchen Hindernißen"
+			movement = \movementTitle "5.2" "R E C I T A T I V O" "So trägſt du denn des Creutzes ſchwere Bürde"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \HinwegIhrSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \HinwegIhrSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \HinwegIhrSopranoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \HinwegIhrAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \HinwegIhrAltoLyricsA
-					\new Lyrics \lyricsto Alto \HinwegIhrAltoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \HinwegIhrTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \HinwegIhrTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \HinwegIhrTenoreLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \HinwegIhrBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \HinwegIhrBassoLyricsA
-					\new Lyrics \lyricsto Basso \HinwegIhrBassoLyricsB
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Alto"
+					\new Voice = "Alto" { \dynamicUp \SoTraegstAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \SoTraegstAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\HinwegIhrOrgano
+						\SoTraegstOrgano
 					}
 				>>
-				\new FiguredBass { \HinwegIhrBassFigures }
+				\new FiguredBass { \SoTraegstBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

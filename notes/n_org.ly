@@ -1712,6 +1712,68 @@ HinwegIhrBassFigures = \figuremode {
 	r r r2 <6> r1 <4>2 <3> r1 %4 finis
 }
 
+SoTraegstOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoSoTraegst
+		e1~
+		e
+		d2 c
+		a1
+		h2 c %5
+		a g
+		dis' e
+		c h
+		a g~
+		g fis %10
+		h a
+		ais h~
+		h1
+		d2 cis
+		h a~ %15
+		a gis~
+		gis a~
+		a1
+		d
+		fis2 g %20
+		c, h
+		a1
+		g2 h
+		c! cis
+		d g %25
+		a4 d, r2\fermata \bar "|." %26 finis
+	}
+}
+
+SoTraegstBassFigures = \figuremode {
+	<5 3>2 <4 2>
+	<7+ 4> <8 3>
+	<4+ 2> <6>
+	<6!>1
+	<6 5!> %5
+	<7>4 <6\\>2.
+	<6 5>1
+	<7>4 <6> <_+>2
+	<4+ 2> <6>
+	<4+ 2> <6> %10
+	<7>4 <6\\> <_+>2
+	<7! _+> <5 3>
+	r <6+ 4+ 2+>
+	<7+>4 <6> <5+ _+>2
+	<6+ 4+ 2+> <6> %15
+	<4+ 2> <6>
+	r4 <5!> <_+>2
+	<7 _+>1
+	r
+	<6>4 <5!>2. %20
+	<7>4 <6> <_+>2
+	<4+ 2>1
+	<6>2 <6\\>
+	<6> <\t>4 <5!>
+	r1 %25
+	<6 4>8 <5 3> r2. %26 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

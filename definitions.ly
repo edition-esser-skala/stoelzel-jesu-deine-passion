@@ -343,6 +343,7 @@ tempoUnbeflecktes = \tempoMarkup "Aria"
 tempoDuSpringst = \tempoMarkup "Choral"
 
 tempoHinwegIhr = \tempoMarkup "Choral"
+tempoSoTraegst = \tempoMarkup "Recitativo"
 
 
 
