@@ -841,6 +841,30 @@ DuSpringstTenoreLyrics = \lyricmode {
 	O! un -- er -- höhr -- tes Lie -- bes Feur. %6 finis
 }
 
+HinwegIhrTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 6/1 \autoBeamOff \tempoHinwegIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 h a4( d) d2 c a g4( e') d2 d2.( c4) h1\fermata
+		\time 5/1 r2 d d d e d d e d1\fermata \bar ":|."
+		\time 6/1 r2 d d d e f g e a( g) e1\fermata
+		r2 e e d d e fis d d2.( c4) h1\fermata \bar "|." %4 finis
+	}
+}
+
+HinwegIhrTenoreLyricsA = \lyricmode {
+	Hin -- weg, ihr irrd -- ſchen Hin -- der -- ni -- ßen
+	mit eu -- rem trüg -- lich fal -- ſchen Schein,
+	wie er, von mei -- ner Schuld be -- drän -- get,
+	er -- bärm -- lich an dem Creut -- ze hän -- get. %4 finis
+}
+
+HinwegIhrTenoreLyricsB = \lyricmode {
+	mein Hertz ſoll an -- derſt nich -- tes wi -- ßen,
+	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

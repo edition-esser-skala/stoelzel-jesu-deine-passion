@@ -1693,6 +1693,25 @@ DuSpringstBassFigures = \figuremode {
 	r r r2 <[6]> <[6 4]> <[5 3]> r1 %6 finis
 }
 
+HinwegIhrOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 6/1 \tempoHinwegIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g' fis g c, d e g d1 g,\fermata
+		\time 5/1 r2 g' d' h a fis g cis, d1\fermata \bar ":|."
+		\time 6/1 r2 d g f e d c a' f g c,1\fermata
+		r2 c a d g e d g, d'1 g,\fermata \bar "|." %4 finis
+	}
+}
+
+HinwegIhrBassFigures = \figuremode {
+	r1 <6> r <6> <4>2 <3> r1
+	r r2 <6> r <6> r <7>4 <6> r1
+	r1 r2 <4 2> <6> <6 [_!]> r1 <[6 5]> r
+	r r r2 <6> r1 <4>2 <3> r1 %4 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -342,6 +342,8 @@ tempoEsScheuen = \tempoMarkup "Recitativo"
 tempoUnbeflecktes = \tempoMarkup "Aria"
 tempoDuSpringst = \tempoMarkup "Choral"
 
+tempoHinwegIhr = \tempoMarkup "Choral"
+
 
 
 

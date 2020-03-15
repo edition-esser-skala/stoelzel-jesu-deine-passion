@@ -528,6 +528,30 @@ DuSpringstSopranoLyrics = \lyricmode {
 	O! un -- er -- höhr -- tes Lie -- bes Feur. %6 finis
 }
 
+HinwegIhrSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/1 \autoBeamOff \tempoHinwegIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g' d' h e d c h a1 g\fermata
+		\time 5/1 r2 h a h c d h2. a4 a1\fermata \bar ":|."
+		\time 6/1 r2 a h h c d e4( d) e2 d1 c\fermata
+		r2 e c a h c d h a1 g\fermata \bar "|." %4 finis
+	}
+}
+
+HinwegIhrSopranoLyricsA = \lyricmode {
+	Hin -- weg, ihr irrd -- ſchen Hin -- der -- ni -- ßen
+	mit eu -- rem trüg -- lich fal -- ſchen Schein,
+	wie er, von mei -- ner Schuld be -- drän -- get,
+	er -- bärm -- lich an dem Creut -- ze hän -- get. %4 finis
+}
+
+HinwegIhrSopranoLyricsB = \lyricmode {
+	mein Hertz ſoll an -- derſt nich -- tes wi -- ßen,
+	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

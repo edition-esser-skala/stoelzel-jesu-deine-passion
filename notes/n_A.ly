@@ -652,6 +652,30 @@ DuSpringstAltoLyrics = \lyricmode {
 	O! un -- er -- höhr -- tes Lie -- bes Feur. %6 finis
 }
 
+HinwegIhrAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/1 \autoBeamOff \tempoHinwegIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 d d g g fis g g g( fis) d1\fermata
+		\time 5/1 r2 g fis g a a g2. g4 fis1\fermata \bar ":|."
+		\time 6/1 r2 fis g g g h c c c( h) g1\fermata
+		r2 g a fis g g a g g( fis) d1\fermata \bar "|."
+	}
+}
+
+HinwegIhrAltoLyricsA = \lyricmode {
+	Hin -- weg, ihr irrd -- ſchen Hin -- der -- ni -- ßen
+	mit eu -- rem trüg -- lich fal -- ſchen Schein,
+	wie er, von mei -- ner Schuld be -- drän -- get,
+	er -- bärm -- lich an dem Creut -- ze hän -- get. %4 finis
+}
+
+HinwegIhrAltoLyricsB = \lyricmode {
+	mein Hertz ſoll an -- derſt nich -- tes wi -- ßen,
+	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
