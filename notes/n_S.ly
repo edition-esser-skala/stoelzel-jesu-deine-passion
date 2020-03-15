@@ -690,6 +690,34 @@ OWieTroestlichSopranoLyrics = \lyricmode {
 	drauf. %58 finis
 }
 
+SoWahrhaftigSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoSoWahrhaftig
+			\set Staff.timeSignatureFraction = 4/4
+		c'2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata \bar ":|."
+		e2 f g f e d e1\fermata
+		g2 g a g f e d1\fermata
+		\time 5/1 e2 g f e c d e1 c\fermata %5
+		e2 g f e d e d1 c\fermata \bar "|." %6 finis
+	}
+}
+
+SoWahrhaftigSopranoLyricsA = \lyricmode {
+	So wahr -- haf -- tig als ich le -- be,
+	will ich kei -- nes Men -- ſchen Todt,
+	Got -- tes Freud ist, wenn auf Erd
+	ein Ver -- irr -- ter wie -- der -- kehrt,
+	will nicht, daß aus ſei -- ner Heer -- de %5
+	das Ge -- ringſt ent -- zo -- gen wer -- de. %6 finis
+}
+
+SoWahrhaftigSopranoLyricsB = \lyricmode {
+	ſon -- dern, daß er ſich er -- ge -- be
+	an mir aus dem Sün -- den -- koth. %2 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

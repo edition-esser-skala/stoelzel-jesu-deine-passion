@@ -174,52 +174,100 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.5" "D U E T T O" "O wie tröſtlich, o wie ſüße"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Basſono" "ſolo" } }
+% 						\OWieTroestlichFagotto
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violino" "ſolo" } }
+% 						\OWieTroestlichViolinoI
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \OWieTroestlichSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \OWieTroestlichSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \OWieTroestlichTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \OWieTroestlichTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\OWieTroestlichOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \OWieTroestlichBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 8 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.5" "D U E T T O" "O wie tröſtlich, o wie ſüße"
+			movement = \movementTitle "5.6" "C H O R A L" "So wahrhaftig als ich lebe"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Basſono" "ſolo" } }
-						\OWieTroestlichFagotto
-					}
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violino" "ſolo" } }
-						\OWieTroestlichViolinoI
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \OWieTroestlichSopranoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \SoWahrhaftigSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \OWieTroestlichSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SoWahrhaftigSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \SoWahrhaftigSopranoLyricsB
 					
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \OWieTroestlichTenoreNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \SoWahrhaftigAltoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \OWieTroestlichTenoreLyrics
+					\new Lyrics \lyricsto Alto \SoWahrhaftigAltoLyricsA
+					\new Lyrics \lyricsto Alto \SoWahrhaftigAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \SoWahrhaftigTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SoWahrhaftigTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \SoWahrhaftigTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \SoWahrhaftigBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SoWahrhaftigBassoLyricsA
+					\new Lyrics \lyricsto Basso \SoWahrhaftigBassoLyricsB
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\OWieTroestlichOrgano
+						\set Staff.instrumentName = "Organo"
+						\SoWahrhaftigOrgano
 					}
 				>>
-				\new FiguredBass { \OWieTroestlichBassFigures }
+				\new FiguredBass { \SoWahrhaftigBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 8 = 100 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

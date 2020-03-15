@@ -951,6 +951,34 @@ OWieTroestlichTenoreLyrics = \lyricmode {
 	drauf. %58 finis
 }
 
+SoWahrhaftigTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 5/1 \autoBeamOff \tempoSoWahrhaftig
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata \bar ":|."
+		g2 f c a' g g g1\fermata
+		e2 e f g4( c,) f2 g g1\fermata
+		\time 5/1 g2 g a g f f g1 f\fermata %5
+		g2 d c c h c c( h) e1\fermata \bar "|." %6 finis
+	}
+}
+
+SoWahrhaftigTenoreLyricsA = \lyricmode {
+	So wahr -- haf -- tig als ich le -- be,
+	will ich kei -- nes Men -- ſchen Todt,
+	Got -- tes Freud ist, wenn auf Erd
+	ein Ver -- irr -- ter wie -- der -- kehrt,
+	will nicht, daß aus ſei -- ner Heer -- de %5
+	das Ge -- ringſt ent -- zo -- gen wer -- de. %6 finis
+}
+
+SoWahrhaftigTenoreLyricsB = \lyricmode {
+	ſon -- dern, daß er ſich er -- ge -- be
+	an mir aus dem Sün -- den -- koth. %2 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

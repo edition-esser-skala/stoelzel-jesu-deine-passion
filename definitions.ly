@@ -348,6 +348,7 @@ tempoVerloeschtDenn = \tempoMarkup "Aria"
 tempoWomitErquickt = \tempoMarkup "Recitativo"
 	tempoWomitErquicktB = \tempoMarkup "[Arioſo]"
 tempoOWieTroestlich = \tempoMarkup "Duetto"
+tempoSoWahrhaftig = \tempoMarkup "Choral"
 
 
 

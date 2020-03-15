@@ -2160,6 +2160,30 @@ OWieTroestlichBassFigures = \figuremode {
 	r4. %74 finis
 }
 
+SoWahrhaftigOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \tempoSoWahrhaftig
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata \bar ":|." \noBreak
+		c'2 a e f c g' c1\fermata
+		c2 c, f e d c g'1\fermata
+		\time 5/1 c2 h a c f, d c1 f\fermata %5
+		c2 h a c g' c, g' g, c1\fermata \bar "|." %6 finis
+	}
+}
+
+SoWahrhaftigBassFigures = \figuremode {
+	r2 <6> r1 <5>4 <6\\> <6> <\t> <4>2 <_+> r1
+	<6>2 q r1 r r
+	r2 <6> q1 r r
+	r r2 <6> q1 r
+	r2 <6> q1 r2 <6> r1 r %5
+	r2 <6> <[6]>1 r <4>2 <3> r1 %6 finis
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -553,6 +553,34 @@ HinwegIhrBassoLyricsB = \lyricmode {
 	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
 }
 
+SoWahrhaftigBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \autoBeamOff \tempoSoWahrhaftig
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata \bar ":|."
+		c'2 a e f c g' c1\fermata
+		c2 c, f e d c g'1\fermata
+		\time 5/1 c2 h a c f, d c1 f\fermata %5
+		c2 h a c g' c, g'1 c,\fermata \bar "|." %6 finis
+	}
+}
+
+SoWahrhaftigBassoLyricsA = \lyricmode {
+	So wahr -- haf -- tig als ich le -- be,
+	will ich kei -- nes Men -- ſchen Todt,
+	Got -- tes Freud ist, wenn auf Erd
+	ein Ver -- irr -- ter wie -- der -- kehrt,
+	will nicht, daß aus ſei -- ner Heer -- de %5
+	das Ge -- ringſt ent -- zo -- gen wer -- de. %6 finis
+}
+
+SoWahrhaftigBassoLyricsB = \lyricmode {
+	ſon -- dern, daß er ſich er -- ge -- be
+	an mir aus dem Sün -- den -- koth. %2 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

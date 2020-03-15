@@ -871,6 +871,34 @@ VerloeschtDennAltoLyrics = \lyricmode {
 	ben. %85 finis
 }
 
+SoWahrhaftigAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoSoWahrhaftig
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g g g e4( fis?) g2 g( fis) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata \bar ":|."
+		c2 c c c c h c1\fermata
+		c2 c c c, h' c h1\fermata
+		\time 5/1 c2 d c c a h c1 a\fermata %5
+		g2 g a g g g g1 g\fermata \bar "|." %6 finis
+	}
+}
+
+SoWahrhaftigAltoLyricsA = \lyricmode {
+	So wahr -- haf -- tig als ich le -- be,
+	will ich kei -- nes Men -- ſchen Todt,
+	Got -- tes Freud ist, wenn auf Erd
+	ein Ver -- irr -- ter wie -- der -- kehrt,
+	will nicht, daß aus ſei -- ner Heer -- de %5
+	das Ge -- ringſt ent -- zo -- gen wer -- de. %6 finis
+}
+
+SoWahrhaftigAltoLyricsB = \lyricmode {
+	ſon -- dern, daß er ſich er -- ge -- be
+	an mir aus dem Sün -- den -- koth. %2 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
