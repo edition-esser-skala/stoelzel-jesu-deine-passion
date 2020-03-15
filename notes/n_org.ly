@@ -1954,6 +1954,54 @@ VerloeschtDennBassFigures = \figuremode {
 	r2 %85 finis
 }
 
+WomitErquicktOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoWomitErquickt
+		dis1
+		e
+		fis
+		g
+		e2 d %5
+		ais h~
+		h a
+		gis fis4 gis
+		cis2 a~
+		a1~ %10
+		a~
+		a
+		cis2 d~
+		d dis~
+		dis \tempoWomitErquicktB e8 fis g e %15
+		a h c a h a g e
+		h' a g fis e c e fis
+		g fis e d cis2
+		d4 d, g2\fermata \bar "|." %19 finis
+	}
+}
+
+WomitErquicktBassFigures = \figuremode {
+	<6>2 <5>
+	r1
+	<6!>
+	r
+	<7>4 <6\\>2. %5
+	<6 _+>2 <[5]>
+	<6\\> <_+>
+	<5+ _+> <6+ 5+>4 <5+ _+>
+	<5+>2 <5 _+>
+	<6 4> <7+ 4 2> %10
+	<\t \t \t>1
+	q2 <8 _+>
+	<6>4 <5!>2.
+	<7!>2 <6>
+	<7>4. <6>8 r4 <6> %15
+	<6>8 <_+> <3> <6> <_+> <\t> <6>4
+	<[_+]>8 <[\t]> <[6]> <[6!]> <6!> r <[6]> <[6 5]>
+	r2 <6 5>
+	<6 4>4 <5 3>2. %19 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

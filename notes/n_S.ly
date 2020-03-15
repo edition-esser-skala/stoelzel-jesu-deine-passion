@@ -552,6 +552,54 @@ HinwegIhrSopranoLyricsB = \lyricmode {
 	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
 }
 
+WomitErquicktSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoWomitErquickt
+		r8 h' c h a8. a16 c8 h
+		g4 r16 h h h g'8. g16 g8 fis
+		d! d r d d a c h
+		h h r h d8. d16 h8 g
+		g' cis, cis d d d \clef "treble_8" r16 fis, fis fis %5
+		fis8 e g fis d4 r8 d
+		gis, h d cis cis4 a'
+		his,8. his16 his8 e cis4 r
+		\clef treble r r8 e' cis8. cis16 h8 a
+		d d r16 d d d fis8. gis,16 gis8 r16 a %10
+		h8 h h cis d4 fis
+		d8. d16 d8 cis cis4 r8 e
+		e g,! h a fis4 r16 a a a
+		c!8. c16 c8 h h4 r16 h a h
+		c8 c c h \tempoWomitErquicktB g4 r8 g' %15
+		fis e16([ dis)] e8. fis16 dis8 cis16([ h)] e8([ g16)] fis
+		fis8 h, h h c( e4) c8
+		h g' g g g2~
+		g8. d16 d4 r2\fermata \bar "|." %19 finis
+	}
+}
+
+WomitErquicktSopranoLyrics = \lyricmode {
+	Wo -- mit er -- quickt man Je -- ſum
+	nun, nach -- dem die ärgſ -- ten Läſ -- te --
+	run -- gen von tau -- ſend Läſ -- ter --
+	zun -- gen wie Pfei -- le durch ſein
+	ſter -- bend Hertz ge -- drun -- gen? Soll es der %5
+	ſcharf -- fe E -- ſig thun, den
+	ihm ein Kriegs -- knecht bringt? Nein,
+	grau -- ſa -- me, nein, nein!
+	Iſts mög -- lich, daß ſein
+	Hert -- ze, das mit dem To -- de ringt, noch %10
+	eh es völ -- lig bricht et --
+	was er -- freu -- en kann, ſo
+	wird es die -- ſes ſeyn, daß un -- ter
+	Glau -- ben, Reu und Schmertz der ei -- ne
+	Ü -- bel -- thä -- ter ſpricht: Herr, %15
+	köm -- meſt du in dei -- nem Rei -- che
+	an, ach, ſo ge -- den -- cke
+	mein, ach, ſo ge -- den --
+	cke mein. %19 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
