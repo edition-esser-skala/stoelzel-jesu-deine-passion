@@ -758,10 +758,95 @@ VerloeschtDennViolinoI = {
 	}
 }
 
-% ViolinoI = {
+OWieTroestlichViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoOWieTroestlich
+		r8 e'\fE \tuplet 3/2 8 { e16 f g }
+		a8 d, r
+		r d \tuplet 3/2 8 { d16 e f }
+		g8 c, r
+		r c \tuplet 3/2 8 { c16 d e } %5
+		f4 g32( f e d)
+		e8 fis4\trill
+		g32 g, h d g[ g, h d] g g, h d
+		g4.~
+		g16. c,32 d64( e d c) c'16.[ e,32 f64( g f e)] %10
+		f4.~
+		f16. h,32 c64( d c h) d'16.[ d,32 e64( f e d)]
+		e16. d32 c8[\p h]
+		a a, a'
+		d,16. c'32 h8 a %15
+		g g, g'
+		c,16. g'32 a8 g
+		f16. e32 d8 g
+		c, d d
+		g,32( g' g' g,) g,([ g' g' g,)] g,( g' g' g,) %20
+		g,( g' g' g,) g,([ g' g' g,)] g,( g' g' g,)
+		g,( g' g' g,) g,([ g' g' g,)] g,( g' g' g,)
+		<d fis'>8 fis'4\trill
+		g r8
+		R4. %25
+		d,32( d' d' d,) d,([ d' d' d,)] d,( d' d' d,)
+		d,( d' d' d,) d,([ d' d' d,)] d,( d' d' d,)
+		d,( d' d' d,) d,([ d' d' d,)] d,( d' d' d,)
+		<a cis'>8 cis'4\trill
+		d r8 %30
+		R4.
+		r8 e,\fE \tuplet 3/2 8 { e16( f g) }
+		a8 d, r
+		r d \tuplet 3/2 8 { d16( e f) }
+		g8 c, r %35
+		r c \tuplet 3/2 8 { c16( d e) }
+		f4 g32( f e d)
+		e16. d32 c8[\p h]
+		a a, a'
+		d,16. c'32 h8 a %40
+		g g, g'
+		c,16. h'32 a8 g
+		f16. e32 d8 g
+		c, d d
+		g,32 g' h d g[ g, h d] g g, h d %45
+		g4.~
+		g16. c,32 d64( e d c) c'16.[ e,32 f64( g f e)]
+		f4.~
+		f16. h,32 c64( d c h) d'16.[ d,32 e64( f e d)]
+		e8 a, g %50
+		f g g,
+		c e'4
+		f c,8
+		e'4 c,8
+		d' h4\trill %55
+		c c,8
+		g'4.\fermata
+		c,8 e'[\fE \tuplet 3/2 8 { e16 f g] }
+		a8 d, r
+		r d \tuplet 3/2 8 { d16 e f } %60
+		g8 c, r
+		r c \tuplet 3/2 8 { c16 d e }
+		f4 \once \slurDashed g32( f e d)
+		e8 fis4\trill
+		g32 g, h d g[ h, d g] h d, g h %65
+		c4.~
+		\tuplet 6/4 8 { c32 d,( e f e d) } h'4~
+		\tuplet 6/4 8 { h32 c,( d e d c) } a'4~
+		\tuplet 6/4 8 { a32 h,( c d c h) } g'4~
+		\tuplet 6/4 8 { g32 a,( h c h a) } fis'4 %70
+		g8 f4
+		e4.~
+		\tuplet 6/4 8 { e32\fermata c( e g c c,) } d4
+		c r8\fermata \bar "|." %74 finis
+	}
+}
+
+% TenoreNotes = {
 % 	\relative c' {
-% 		\clef treble
+% 		\clef "treble_8"
 % 		
 % 		
 % 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
 % }

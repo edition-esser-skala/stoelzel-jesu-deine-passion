@@ -2002,6 +2002,164 @@ WomitErquicktBassFigures = \figuremode {
 	<6 4>4 <5 3>2. %19 finis
 }
 
+OWieTroestlichOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/8 \tempoOWieTroestlich
+		c'16.\fE h32 a8 g
+		f f, f'
+		g16. a32 g8 f
+		e e, e'
+		f16. g32 f8 e %5
+		d g g,
+		c d d,
+		g'16. a32 g8 f!
+		e e e
+		a a a %10
+		d, d d
+		g g g
+		c16. h32 a8[\pE g]
+		f f, f'
+		g16. a32 g8 f %15
+		e e, e'
+		f16. g32 f8 e
+		d g g,
+		c d d,
+		g g g %20
+		g g g
+		g g g
+		d d d
+		g16. a32 g8 fis
+		e d c %25
+		d d d
+		d d d
+		d d d
+		a' a a
+		d16. e32 d8 c! %30
+		h e e,
+		a'16. h32 a8[\fE g]
+		f f, f'
+		g16. a32 g8 f
+		e e, e' %35
+		f16. g32 f8 e
+		d g g,
+		c'16. h32 a8[\pE g]
+		f f, f'
+		g16. a32 g8 f %40
+		e e, e'
+		f16. g32 f8 e
+		d g g,
+		c d d,
+		g'16. a32 g8 f! %45
+		e e e
+		a a a
+		d, d d
+		g g g
+		c16. h32 a8 g %50
+		f g g,
+		c c c
+		c c c
+		c c c
+		g' g g %55
+		g, g g
+		g4.\fermata
+		c16. b'32 a8[\fE g]
+		f f, f'
+		g16. a32 g8 f %60
+		e e, e'
+		f16. g32 f8 e
+		d g g,
+		c d d,
+		g'16. a32 g8 f! %65
+		e e e
+		d g g
+		c, f f
+		h, e e
+		a, d d %70
+		g, g g
+		g g g
+		g4.\fermata
+		c,\fermata \bar "|." %74 finis
+	}
+}
+
+OWieTroestlichBassFigures = \figuremode {
+	r4 <6 [4]>8
+	<7> <6>4
+	r <6 4>8
+	<7> <6>4
+	r <6 4>8 %5
+	<7> <7>4
+	r8 <_+>4
+	r4 <[2]>8
+	<6>4.
+	<7> %10
+	r
+	<7>
+	r4 <6 [4]>8
+	<7> <6>4
+	r <6 4>8 %15
+	<7> <6>4
+	r <6 4>8
+	<7> <[7]>4
+	r8 <[_+]>4
+	<[8]>8 <[7!]>4 %20
+	<[6 5]>8 <[\t 4]>4
+	<[5 4]>8 <[\t 3]>4
+	<7 _+>4.
+	r4 <[6]>8
+	r <[6 _+]> <[6]> %25
+	<[8] _+> <[7] \t>4
+	<[6 5]>8 <[\t 4]>4
+	<[5 4]>8 <[\t _+]>4
+	<7 _+>4.
+	<_+> %30
+	<[6]>8 <[7] _+>4
+	r <6 4>8
+	<7> <6>4
+	r <6 4>8
+	<7> <6>4 %35
+	r <6 4>8
+	<7> q4
+	r <6 4>8
+	<7> <6>4
+	r <6 4>8 %40
+	<7> <6>4
+	r <6 4>8
+	<7> <[7]>4
+	r8 <_+>4
+	r4. %45
+	<6>
+	<7>8 <6>4
+	<7>4 <6>8
+	<7>4.
+	<9>8 <5> <6 4> %50
+	r4.
+	<8>8 <7->4
+	<6 5>8 <\t 4>4
+	<5 4>8 <\t 3>4
+	<7>4. %55
+	<6 5>8 <\t 4>4
+	<\t \t>8 <5 3>4
+	r <6 4>8
+	<7> <6>4
+	r <6 4>8 %60
+	<7> <6>4
+	r <6 4>8
+	<7> q4
+	r8 <_+>4
+	r <2>8 %65
+	<6>4.
+	<7>8 q4
+	q8 q4
+	q8 q4
+	q8 <7 _+>4 %70
+	<8>8 <7!>4
+	<6 5>8 <\t 4>4
+	<\t \t>8 <5 3>4
+	r4. %74 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

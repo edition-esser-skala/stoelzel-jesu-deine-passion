@@ -865,6 +865,92 @@ HinwegIhrTenoreLyricsB = \lyricmode {
 	als mei -- nen Je -- ſum gantz al -- lein, %2 finis
 }
 
+OWieTroestlichTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/8 \autoBeamOff \tempoOWieTroestlich
+		R4.*12 %12
+		r8 e \tuplet 3/2 8 { e16([ f g)] }
+		a8 d, r
+		r d \tuplet 3/2 8 { d16([ e f)] } %15
+		g8 c, r
+		r c c32([ e d c)]
+		f4 g32([ f e d)]
+		e8 fis4
+		g8 f f %20
+		e8. d16 e c
+		d8. c16 d h
+		c a c8. h16
+		h8 h h
+		h8. a16 c a %25
+		fis8 d r
+		R4.*11 %37
+		c'8 c4
+		c8.([ e16)] d([ c)]
+		h8 h4 %40
+		h8.([ d16)] c([ h)]
+		a8 a4
+		a32([ h c a)] h4
+		c8 a4
+		g r8 %45
+		r c c
+		c f, r
+		r d' d
+		d g, d'~
+		d16 g, c h c8~ %50
+		c16[ a] h4
+		c8 b' b
+		a8. g16 a f
+		g8. f16 g e
+		f d f4 %55
+		e4.~
+		e16.[\fermata f32] d4
+		c8 r r
+		R4.*14 %72
+		R4.\fermataMarkup
+		R4.\fermataMarkup \bar "|." %74 finis
+	}
+}
+
+OWieTroestlichTenoreLyrics = \lyricmode {
+	O wie __ %13
+	tröſt -- lich,
+	o wie __ %15
+	ſü -- ße
+	klingt die __
+	Ant -- wort __
+	Je -- ſu
+	drauf, wel -- che %20
+	ihm im Pa -- ra --
+	die -- ſe nach ge --
+	ſchloß -- nen Le -- bens --
+	lauf ei -- nen
+	Auf -- ent -- halt ver -- %25
+	hie -- ße,
+	
+	o wie %38
+	tröſt -- lich, __
+	o wie %40
+	ſü -- ße __
+	klingt die
+	Ant -- wort
+	Je -- ſu
+	drauf, %45
+	o wie
+	tröſt -- lich,
+	o wie
+	ſü -- ße klingt __
+	die Ant -- wort Je -- %50
+	ſu
+	drauf, o wie
+	tröſt -- lich, o wie
+	ſü -- ße klingt die
+	Ant -- wort Je -- %55
+	_
+	ſu
+	drauf. %58 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

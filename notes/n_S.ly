@@ -600,6 +600,96 @@ WomitErquicktSopranoLyrics = \lyricmode {
 	cke mein. %19 finis
 }
 
+OWieTroestlichSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \autoBeamOff \tempoOWieTroestlich
+		R4.*12 %12
+		c'8 c4
+		c8.([ e16)] d([ c)]
+		h8 h4 %15
+		h8.([ d16)] c([ h)]
+		a8 a4
+		\tuplet 3/2 8 { a16([ h c)] } h4\trill
+		c8 a4
+		g r8 %20
+		R4.*5 %25
+		r8 c c
+		h8. a16 h g
+		a8. g16 a fis
+		g e g8. g16
+		fis8 a a %30
+		d8. c16 d h
+		c8 a r
+		R4.*5 %37
+		r8 e' \tuplet 3/2 8 { e16([ f g)] }
+		a8 d, r
+		r d \tuplet 3/2 8 { d16([ e f)] } %40
+		g8 c, r
+		r c c
+		f4 g32([ f e d)]
+		e8 fis4
+		g8 g g %45
+		g c, r
+		r f f
+		f h, r
+		r f' f
+		e e4 %50
+		a16([ f)] d4
+		c8 g'4~
+		g16 c, f e f8~
+		f16 g, e' d e c
+		d h d4~ %55
+		d16[ g, c h c8]~
+		c16.[\fermata a32] h4
+		c8 r r
+		R4.*14 %72
+		R4.\fermataMarkup
+		R4.\fermataMarkup \bar "|." %74 finis
+	}
+}
+
+OWieTroestlichSopranoLyrics = \lyricmode {
+	O wie %13
+	tröſt -- lich, __
+	o wie %15
+	ſü -- ße __
+	klingt die
+	Ant -- wort
+	Je -- ſu
+	drauf, %20
+	
+	wel -- che %26
+	ihm im Pa -- ra --
+	die -- ſe nach ge --
+	ſchloß -- nen Le -- bens --
+	lauf ei -- nen %30
+	Auf -- ent -- halt ver --
+	hie -- ße,
+	
+	o wie __ %38
+	tröſt -- lich,
+	o wie __ %40
+	ſü -- ße
+	klingt die
+	Ant -- wort __
+	Je -- ſu
+	drauf, o wie %45
+	tröſt -- lich,
+	o wie
+	ſü -- ße
+	klingt die
+	Ant -- wort %50
+	Je -- ſu
+	drauf, o __
+	wie tröſt -- lich, o __
+	wie ſü -- ße klingt die
+	Ant -- wort Je -- %55
+	
+	ſu
+	drauf. %58 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

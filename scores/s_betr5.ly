@@ -146,32 +146,80 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.4" "R E C I T A T I V O" "Womit erquickt man Jeſum nun"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #6
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff \with { \smallerStaffDistance } {
+% 					\set Staff.instrumentName = \markup { \center-column { "Canto" "Tenore" } }
+% 					\new Voice = "Soprano" { \dynamicUp \WomitErquicktSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \WomitErquicktSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WomitErquicktOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WomitErquicktBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.4" "R E C I T A T I V O" "Womit erquickt man Jeſum nun"
+			movement = \movementTitle "5.5" "D U E T T O" "O wie tröſtlich, o wie ſüße"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #6
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff \with { \smallerStaffDistance } {
-					\set Staff.instrumentName = \markup { \center-column { "Canto" "Tenore" } }
-					\new Voice = "Soprano" { \dynamicUp \WomitErquicktSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \WomitErquicktSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\WomitErquicktOrgano
+						\set Staff.instrumentName = \markup { \center-column { "Basſono" "ſolo" } }
+						\OWieTroestlichFagotto
 					}
 				>>
-				\new FiguredBass { \WomitErquicktBassFigures }
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violino" "ſolo" } }
+						\OWieTroestlichViolinoI
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \OWieTroestlichSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \OWieTroestlichSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \OWieTroestlichTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \OWieTroestlichTenoreLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\OWieTroestlichOrgano
+					}
+				>>
+				\new FiguredBass { \OWieTroestlichBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 8 = 100 }
 		}
 	}
 }
