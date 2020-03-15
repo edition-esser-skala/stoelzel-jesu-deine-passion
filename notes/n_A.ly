@@ -738,6 +738,139 @@ SoTraegstAltoLyrics = \lyricmode {
 	giebſt. %26 finis
 }
 
+VerloeschtDennAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \autoBeamOff \tempoVerloeschtDenn
+		R2*13 %13
+		r8 d h' a
+		g fis g8. a16 %15
+		fis8 d d' h
+		c a c a
+		h g h g
+		a16([ fis)] e[( fis)] g([ e)] d([ e)]
+		fis[ \once \slurDashed d( cis d)] e([ d) fis( e)] %20
+		r e[( dis e]) fis([ e) g( fis)]
+		r \once \slurDashed fis[( e fis]) g([ fis) a( g)]
+		r \once \slurDashed g[( fis g]) a([ g) h( a)]
+		a8[ g16 fis] g4
+		fis r %25
+		R2*6 %31
+		r8 d d' h
+		c a c a
+		h g, g' e
+		f d f d %35
+		e c e c
+		d16([ h)] a([ h)] c([ a)] g([ a)]
+		h[ g'( fis g)] a([ g) h( a)]
+		r a([ gis a)] h([ a) c( h)]
+		r h([ a h)] c([ h) d( c)] %40
+		r c([ h c)] d([ c) e( d)]
+		d8[ c16 h] c4
+		h r
+		r8 d, d' h
+		c a c a %45
+		h g h g
+		a16([ fis)] e([ fis)] g([ e)] d([ e)]
+		fis[ \once \slurDashed d( cis d)] e([ d) fis( e)]
+		r g([ fis g)] a([ g) h( a)]
+		\slurDashed r a([ g a)] h([ a) c( h)] \slurSolid %50
+		r \once \slurDashed g([ fis g)] a([ g) h( a)]
+		r \once \slurDashed g([ fis g)] a([ g) h( a)]
+		r \slurDashed g([ fis g)] a([ g) h( a)]
+		r g([ fis g)] a([ g) h( a)] \slurSolid
+		d,8[\fermata c'32 a h g] fis4 %55
+		g r
+		R2*7 %63
+		r8 h h g
+		a fis a fis %65
+		g8. g16 h8 g
+		c a c c
+		h16 g([ fis g)] a([ fis)] g([ e)]
+		fis([ d)] cis([ d)] e([ d)] fis([ e)]
+		r \once \slurDashed e([ dis e)] fis([ e) g( fis)] %70
+		r \once \slurDashed fis([ e fis)] g([ fis) a( g)]
+		r \once \slurDashed g([ fis g)] a([ g) h( a)]
+		a8[( g16 fis]) g4
+		fis8 d'16 h c! a h g
+		a fis h g a fis g e %75
+		fis8 d' cis8. h16
+		ais16([ fis)] eis([ fis)] gis([ fis)] h([ ais)]
+		h[ h,( ais h)] cis([ h) d( cis)]
+		r cis([ h cis)] d([ cis) e( d)]
+		r d([ cis d)] e([ d) fis( e)] %80
+		r e([ dis e)] fis([ e) g( fis)]
+		fis8[ e16 d] e4
+		d8 h'4.~
+		h8[ fis16 h,] cis4
+		h r \markCa %85 finis
+	}
+}
+
+VerloeschtDennAltoLyrics = \lyricmode {
+	Ver -- löſcht denn %14
+	dei -- ne Lie -- be %15
+	nicht, da um dein
+	blo -- ßes An -- ge --
+	ſicht be -- reits die
+	To -- des Schat -- ten
+	ſchwe -- _ %20
+	_ _
+	_ _
+	_ _
+	_ _
+	ben, %25
+	
+	ver -- löſcht denn %32
+	dei -- ne Lie -- be
+	nicht, da um dein
+	blo -- ßes An -- ge -- %35
+	ſicht be -- reits die
+	To -- des Schat -- ten
+	ſchwe -- _
+	_ _
+	_ _ %40
+	_ _
+	_ _
+	ben,
+	da um dein
+	blo -- ßes An -- ge -- %45
+	ſicht be -- reits die
+	To -- des Schat -- ten
+	ſchwe -- _
+	_ _
+	_ _ %50
+	_ _
+	_ _
+	_ _
+	_ _
+	_ _ %55
+	ben?
+	
+	Nein, du willſt %64
+	noch vor dei -- nem %65
+	Todt der Lie -- be
+	hol -- des A -- bend --
+	roth, o __ Gna -- den --
+	ſon -- ne, von dir
+	ge -- _ %70
+	_ _
+	_ _
+	_ _
+	ben, du willſt noch vor dei -- nem
+	Todt der Lie -- be hol -- des A -- bend -- %75
+	roth, o Gna -- den --
+	ſon -- ne, von dir
+	ge -- _
+	_ _
+	_ _ %80
+	_ _
+	_ _
+	_ _
+	_
+	ben. %85 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

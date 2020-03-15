@@ -1774,6 +1774,186 @@ SoTraegstBassFigures = \figuremode {
 	<6 4>8 <5 3> r2. %26 finis
 }
 
+VerloeschtDennOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key g \major \time 2/4 \tempoVerloeschtDenn
+		g4\fE r8 a
+		h a h c
+		d-! d~ d16 g h d
+		d,8-! d~ d16 fis a c
+		d,8-! d~ d16 g h d %5
+		d,8 d a a
+		d d r4
+		g8 g r4
+		a8 a r4
+		h8 h r4 %10
+		cis8 a h cis
+		d d d d
+		d d d, d
+		g,4 r8 a\pE
+		h a h c %15
+		d-! \once \tieDashed d~ d16 g h d
+		d,8-! d~ d16 fis a c
+		d,8-! d~ d16 g h d
+		d,8 d a a
+		d d r4 %20
+		g,8 g r4
+		a8 a r4
+		h8 h r4
+		cis8 a h cis
+		d4 r8 e\fE %25
+		fis e fis g
+		a-! a,~ a16 d fis a
+		a,8-! a~ a16 cis e g
+		a,8-! a~ a16 d fis a
+		a,8 a e e %30
+		a a a a
+		d-! d~\pE d16 g h d
+		d,8-! \once \tieDashed d~ d16 fis a c^\critnote
+		g,8-! g~ g16 c e g
+		g,8-! g~ g16 h d f %35
+		g,8-! g~ g16 c e g
+		g,8 g d d
+		g g r4
+		c8 c r4
+		d8 d r4 %40
+		e8 e r4
+		fis8 d e fis
+		g g g, g
+		d'-! d~ d16 g h d
+		d,8-! d~ d16^\critnote fis a c %45
+		d,8-! d~ d16 g h d
+		d,8 d a a
+		d d r4
+		e8 e r4
+		fis8 fis r4 %50
+		g8 g r4
+		e8 e r4
+		h8 h r4
+		cis8 cis r4
+		d2\fermata %55
+		g,4 r8 a'\fE
+		h g a h
+		c a h c
+		d d r4
+		e,8 e r4 %60
+		fis8 fis r4
+		g8 g d d
+		g, h16 c d8 d,
+		g\fermata g'4\pE e8
+		fis dis h h' %65
+		e, g4 e8
+		a8 fis d! d'
+		g, g d a
+		d d r4
+		g8 g r4 %70
+		a8 a r4
+		h8 h r4
+		cis8 a h cis
+		d d d, d
+		d d a a %75
+		d d e e
+		fis fis r4
+		d8 d r4
+		e8 e r4
+		fis8 fis r4 %80
+		g8 g r4
+		ais,8 fis gis ais
+		h2
+		fis'\fermata
+		h,4 r \markPo %85 finis
+	}
+}
+
+VerloeschtDennBassFigures = \figuremode {
+	r4. <6>8
+	q <[6]> q <[6 5]>
+	r <6 4>4.
+	<7 5>2
+	<6 4> %5
+	<5 3>4 <7 _+>
+	r2
+	<6 5>
+	<6 4>
+	<6> %10
+	q8 <[_+]> <6> <[6 5]>
+	r4. <6 4>8
+	<5 3>4 <7! 5>
+	r4. <6>8
+	q <[6]> q <[6 5]> %15
+	r <6 4>4.
+	<7 5>2
+	<6 4>
+	<5 3>4 <7 _+>
+	r2 %20
+	<6 5>
+	<6 4>
+	<6>
+	<6>8 <[_+]> <6> <[6 5]>
+	r4. <6\\>8 %25
+	<6> <[6\\]> <[6]> <[6 5]>
+	<_+> <6 4>4.
+	<7 5 [_+]>2
+	<6 4>
+	<5 _+>4 <7 _+> %30
+	<_+>2
+	r8 <6 4>4.
+	<7! 5>2
+	<[5 3]>8 <6 4>4.
+	<7! 5>2 %35
+	<6 4>
+	<5 3>4 <7 _+>
+	r2
+	<6 5>
+	<6 4> %40
+	<6>
+	<6>4 q8 <[6 5]>
+	r2
+	r8 <6 4>4.
+	<7 5>2 %45
+	<6 4>
+	<5 3>4 <7 _+>
+	r2
+	<7>
+	<[6]> %50
+	r
+	r
+	<[6]>
+	<[6 5]>
+	<[6 4]>4 <[5 3]> %55
+	r4. <6>8
+	q q <6!> <[6 5!]>
+	r4 <6>8 <[6 5]>
+	r2
+	<7> %60
+	<6 5!>
+	r8 <6 4> <8 6> <7 5>
+	r <6> <6 4> <5 3>
+	r4 <6>
+	<[6\\]>4. \bassFigureExtendersOn <6\\>8 \bassFigureExtendersOff %65
+	r8 <[6]>4.
+	<[6]>4. \bassFigureExtendersOn <6>8 \bassFigureExtendersOff
+	r4. <[7 _+]>8
+	r2
+	<6 [5]> %70
+	<6 4>
+	<6>
+	<6>8 <[_+]> <6> <[6 5]>
+	r <[8 6]> <[7 5]> <[6 4]>
+	<5 3> <[6 4]> <8 6 [_+]> <7 5> %75
+	r4 <[6\\]>8 <[5]>
+	<[5+] _+>2
+	<6>
+	<6\\ 5>
+	<6 [4]> %80
+	<6>
+	<6 [_+]>8 <[5+ _+]> <6> <[6 5 _+]>
+	r2
+	<[6 4]>4 <[5+ _+]>
+	r2 %85 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

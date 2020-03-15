@@ -70,3 +70,90 @@ LiebsteHandOboeII = {
 		r8 e'\f c \bar "S-S" %66 finis
 	}
 }
+
+VerloeschtDennOboeII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoVerloeschtDenn
+		R2*2
+		r8 fis'4\fE d8
+		e e4 cis8
+		d d4 h8 %5
+		cis a h gis
+		a2~
+		a~
+		a~
+		a %10
+		h8 gis a h
+		a fis'16 d e cis d h
+		cis a g'! e fis d e cis
+		d4 r
+		R2 %15
+		r8 fis4\pE d8
+		e e4 cis8
+		d d4 h8
+		cis r h r
+		a2~ %20
+		a~
+		a~
+		a
+		h8 gis a h
+		e,4 r %25
+		R2
+		r8 cis'4\fE a8
+		h h4 gis8
+		a a4 fis8
+		gis e fis dis %30
+		e d'!16 h cis a h gis
+		a8 fis'4\pE d8
+		e e4 cis8
+		d h4 g8
+		a a4 fis8 %35
+		g g4 e8
+		fis r e r
+		d d'4.~
+		d2~
+		d~ %40
+		d
+		e8 cis d e
+		d fis16 d e cis d h
+		cis8 a4.~
+		a2~ %45
+		a~
+		a4 gis
+		a r8 cis
+		d4 r8 d
+		e4 r8 a, %50
+		d d r4
+		d8 d r4
+		d8 d r4
+		d8 d r4
+		cis8 a4.\fermata %55
+		d,4 r
+		R2*2
+		cis'4\fE r8 cis
+		d4 r8 d %60
+		e4 r8 a,
+		d, g'16 e fis d e cis
+		d cis32 h a16 g fis8 e
+		d4\fermata r
+		R2*4 %68
+		a'2~\pE
+		a~ %70
+		a~
+		a
+		h8 gis a h
+		e,4 r8 d
+		a'4 r8 gis %75
+		e4 d
+		cis r
+		fis2~
+		fis~
+		fis~ %80
+		fis
+		gis8 eis fis gis
+		fis4 r
+		eis\fermata r
+		fis4 r \markCa %85 finis
+	}
+}

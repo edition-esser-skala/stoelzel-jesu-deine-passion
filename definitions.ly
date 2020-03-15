@@ -344,6 +344,7 @@ tempoDuSpringst = \tempoMarkup "Choral"
 
 tempoHinwegIhr = \tempoMarkup "Choral"
 tempoSoTraegst = \tempoMarkup "Recitativo"
+tempoVerloeschtDenn = \tempoMarkup "Aria"
 
 
 

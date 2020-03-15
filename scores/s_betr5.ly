@@ -67,32 +67,83 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.2" "R E C I T A T I V O" "So trägſt du denn des Creutzes ſchwere Bürde"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Alto"
+% 					\new Voice = "Alto" { \dynamicUp \SoTraegstAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \SoTraegstAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SoTraegstOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SoTraegstBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.2" "R E C I T A T I V O" "So trägſt du denn des Creutzes ſchwere Bürde"
+			movement = \movementTitle "5.3" "A R I A" "Verlöſcht denn deine Liebe nicht"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "[in F]"
+						\new Staff {
+							\set Staff.instrumentName = "Grand oboe I"
+							\VerloeschtDennOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Grand oboe II"
+							\VerloeschtDennOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\VerloeschtDennViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\VerloeschtDennViolinoII
+						}
+					>>
+				>>
 				\new Staff {
 					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \SoTraegstAltoNotes }
+					\new Voice = "Alto" { \dynamicUp \VerloeschtDennAltoNotes }
 				}
-				\new Lyrics \lyricsto Alto \SoTraegstAltoLyrics
+				\new Lyrics \lyricsto Alto \VerloeschtDennAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\SoTraegstOrgano
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\VerloeschtDennOrgano
 					}
 				>>
-				\new FiguredBass { \SoTraegstBassFigures }
+				\new FiguredBass { \VerloeschtDennBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

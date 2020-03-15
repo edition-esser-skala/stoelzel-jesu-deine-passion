@@ -545,3 +545,95 @@ UnbeflecktesViolinoConcII = {
 		g4 r r \bar "S-S" %76 finis
 	}
 }
+
+VerloeschtDennViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \tempoVerloeschtDenn
+		r8 h'[\fE g' fis16 e]
+		d8 c d e
+		a,16 d cis d h' d, h' d,
+		r c h c a' c, a' c,
+		r h a h g' h, g' h, %5
+		fis' a, fis' a, e' g, e' g,
+		fis \once \slurDashed d( cis d) e( d) fis( e)
+		r \once \slurDashed e( dis e) fis( e) g( fis)
+		r \once \slurDashed fis( e fis) g( fis) a( g)
+		r \once \slurDashed g( fis g) a( g) h( a) %10
+		a8 cis, d e
+		d4 r8 h
+		a4 r8 c'
+		h g[\p g' fis16 e]
+		d8 c d e %15
+		a,16 d cis d h' d, h' d,
+		r c h c a' c, a' c,
+		r h a h g' h, g' h,
+		fis' a, fis' a, e' g, e' g,
+		d' fis, d8 r4 %20
+		g,8 g r4
+		a8 a r4
+		h8 h r4
+		cis8 cis h cis
+		d a'[\f d cis16 h] %25
+		a8 g a h
+		e,16 a gis a fis' a, fis' a,
+		r g fis g e' g, e' g,
+		r fis e fis d' fis, d' fis,
+		cis' e, cis' e, h' d, h' d, %30
+		a' cis, a8 r g'
+		fis16 d'[\p cis d] h' d, h' d,
+		r c h c a' c, a' c,
+		h g fis g e' g, e' g,
+		r f e f d' f, d' f, %35
+		r e d e c' e, c' e,
+		h' d, h' d, a' c, a' c,
+		g' d g,8 r4
+		c8 c r4
+		d8 d r4 %40
+		e8 e r4
+		fis8 d e fis
+		g4 r8 h
+		a16 d cis d h' d, h' d,
+		r c h c a' c, a' c, %45
+		r h a h g' h, g' h,
+		fis' a, fis' a, e' g, e' g,
+		d' fis, d8 r4
+		e8 e r4
+		fis8 fis r4 %50
+		g8 g r4
+		e8 e r4
+		h8 h r4
+		cis8 cis r4
+		d2\fermata %55
+		g,8 h'[\f g' fis16 e]
+		d8 h c d
+		g, c d e
+		a,16 d( cis d) e( d) fis( e)
+		r \once \slurDashed g( fis g) a( g) h( a) %60
+		r \once \slurDashed a( g a) h( a) c( h)
+		h4 r8 c,
+		h g4 fis8
+		g16\fermata g[\p fis g] e' g, e' g,
+		r fis e fis dis' fis, dis' fis, %65
+		e' h a h g' h, g' h,
+		r a g a fis' a, fis' a,
+		g' h, g' h, fis' a, e' g,
+		d' fis, d8 r4
+		g,8 g r4 %70
+		a8 a r4
+		h8 h r4
+		cis8 a h cis
+		d4 r8 h'
+		a4 r8 g %75
+		fis d e e
+		fis fis r4
+		d8 d r4
+		e8 e r4
+		fis8 fis r4 %80
+		g8 g r4
+		ais,8 fis' gis ais
+		h2
+		fis\fermata
+		h,4 r \markDa %85 finis
+	}
+}

@@ -108,3 +108,90 @@ JaPetreGehOboeI = {
 		d,8 d'\fE b! g r es'16( d) c( b) a( g) \bar "S-S" %31 finis
 	}
 }
+
+VerloeschtDennOboeI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoVerloeschtDenn
+		R2*2
+		r8 a''4\fE fis8
+		g g4 e8
+		fis fis4 d8 %5
+		e cis d h
+		cis2
+		h
+		cis
+		d4. fis16 e %10
+		e8 d16 cis d h'8 d,16
+		cis a a' fis g! e fis d
+		e cis h' g a fis g e
+		fis4 r
+		R2 %15
+		r8 a4\pE fis8
+		g g4 e8
+		fis8 fis4 d8
+		e r d r
+		cis2 %20
+		h
+		cis
+		d4. fis16 e
+		e8 d16 cis d4
+		cis r %25
+		R2
+		r8 e4\fE cis8
+		d d4 h8
+		cis cis4 a8
+		h gis a fis %30
+		gis16 e fis' d! e cis d h
+		cis8 a'4\pE fis8
+		g! g4 e8
+		fis d4 h8
+		c c4 a8 %35
+		h h4 g8
+		a r g r
+		fis fis'4.
+		e2
+		fis %40
+		g4. h16^\critnote a
+		a8 g16 fis g4
+		fis8 a16 fis g e fis d
+		e8 a,4.~
+		a2~ %45
+		a~
+		a4 gis
+		a a'~
+		a2~
+		a4. g8 %50
+		fis fis r4
+		fis8 fis r4
+		fis8 fis r4
+		e8 e r4
+		a,2\fermata %55
+		d,4 r
+		R2*2
+		a''2~\fE
+		a~ %60
+		a4. g8
+		fis h16 g a fis g e
+		fis8 d4 cis8
+		d4\fermata r
+		R2*4 %68
+		cis2\pE
+		h %70
+		cis
+		d4. fis16 e
+		e8 d16 cis d4
+		cis8 fis16 d e cis d h
+		cis a d h cis a h gis %75
+		a8 cis h8. a16
+		gis4 r
+		fis2
+		gis
+		a %80
+		h4. d16 cis
+		cis8 h16 a h4
+		a r
+		gis\fermata r
+		fis r \markDa %85 finis
+	}
+}
