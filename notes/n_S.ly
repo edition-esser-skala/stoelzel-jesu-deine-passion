@@ -737,6 +737,74 @@ KommtIhrSopranoLyrics = \lyricmode {
 	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
 }
 
+OEinGrosserSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 6/4 \autoBeamOff \tempoOEinGrosser
+		r2*3/2 r4 c' h
+		ais2 ais4 ais( h) e,
+		e8([ dis)] r4 r r2*3/2
+		r r4 d'!8 c h g
+		e'4 r e e( d8) c h g %5
+		fis'4 r r r8 r16 g \appoggiatura d4 c2\trill
+		h4 r r r c h
+		ais2 ais4 ais( h8[ fis g)] e
+		dis4 r r r f' e
+		dis2 dis4 dis( e8[ h c)] a %10
+		gis4 r r r2*3/2
+		r r4 d'!8 h a g
+		e'4 r e e d c
+		h2.~ h4 e, r
+		r c'8 h a fis dis'4 dis4. dis8 %15
+		e4 r r r8 r16 cis \appoggiatura e4 dis2\trill
+		e4 r r r2*3/2
+		R1.\fermataMarkup
+		r4 e8. c16 g'8 e e8. d16 d4 r
+		r f8. d16 a'8 f f8. e16 e4 cis8. a16 %20
+		a'4 r8 e g g f d f4. d8
+		b8. b16 d4. b8 gis e e'8. e16 e8 e
+		e8. dis16 dis4 fis8. h,16 h'4 r8 e, g e
+		cis4 e4. a,8 a'4 r8 d, fis d
+		h4 e e e4. cis8 d h %25
+		cis fis, e'4 r8 e dis4 r8 h a' fis
+		g4 c, c c4. a8 h g
+		a4 c2 \tuplet 3/2 4 { h8[ a g] } a2
+		g4 r r r2*3/2 \markDa %29 finis
+	}
+}
+
+OEinGrosserSopranoLyrics = \lyricmode {
+	O, ein
+	gro -- ßer To -- des --
+	fall,
+	Je -- ſus hö -- ret
+	auf zu le -- ben, hö -- ret %5
+	auf zu le --
+	ben, o, ein
+	gro -- ßer To -- des --
+	fall, o, ein
+	gro -- ßer To -- des -- %10
+	fall,
+	Je -- ſus hö -- ret
+	auf zu le -- _ _
+	_ ben,
+	Je -- ſus hö -- ret auf, hö -- ret %15
+	auf zu le --
+	ben.
+	
+	Zitt -- re, gan -- zer Er -- den -- ball,
+	zitt -- re, gan -- zer Er -- den -- ball, berſ -- tet %20
+	auf, ihr Fel -- ſen -- klüff -- te, öff -- net
+	euch, ihr Tod -- ten -- grüff -- te, un -- ter ei -- nen
+	Don -- ner -- knall weit und breit, ja ü -- ber --
+	all, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu -- %25
+	ge -- ben, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu --
+	ge -- _ _ _
+	ben. %29 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

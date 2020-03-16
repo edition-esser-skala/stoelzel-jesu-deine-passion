@@ -839,14 +839,46 @@ OWieTroestlichViolinoI = {
 	}
 }
 
-% TenoreNotes = {
+OEinGrosserViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 6/4 \tempoOEinGrosser
+		r8 r16 ais'[\fE h8. fis16 g8. dis16] e4 c'( h)
+		ais2.~ ais4 h( e,)
+		e8(\trill dis) r8 h'^\pizz h h r c c c c c
+		r c c c c c r c h h h h
+		r h a a a a r a a a h h %5
+		a4 r r r8 r16 g-\arco \appoggiatura d'4 c2\trill
+		h8.[ fis'16 g8. cis,16 d8. fis,16] g4 c( h)
+		ais2.~ ais4 h8( fis g e)
+		dis8.[ ais'16 h8. fis16 g8. dis16] e4 f'4( e)
+		dis2.~ dis4 e8( h c a) %10
+		gis4 r8 h^\pizz h h r c c c c c
+		r c c c c c r c h h h h
+		r h a a a a r a a a a a
+		r a a a a a r a g g g g
+		r g fis fis fis fis r fis fis fis fis fis %15
+		e4 r r r8 r16 cis'-\arco \appoggiatura e4 dis2\trill
+		e8.[ dis16 e8. h16 c!8. gis16] a!8.[ ais16 h8. fis16 g8. dis16]
+		e8. c'16 h4 h, e\fermata r r
+		g16\p g g g g g g g g g g g g g g g g g g g g g g g
+		a a a a a a a a a a a a a a a a a a a a a a a a %20
+		f' f f f g g g g g g g g f f f f f f f f d d d d
+		b b b b d d d d b b b b gis e' e e e e e e e e e e
+		e^\critnote e e dis dis dis dis dis dis dis dis dis e e e e e e e e e e e e
+		e e e e e e e e e e e e fis fis fis fis fis fis fis fis fis fis fis fis
+		d d d d h h h h e e e e e e e e e e e e d d d d %25
+		cis cis cis cis e e e e e e e e dis dis dis dis fis fis fis fis a a a a
+		g g g g g g g g g g g g fis fis fis fis fis fis fis fis g g g g
+		g g g g fis fis fis fis a a a a g g g g fis fis fis fis fis fis fis fis
+		g8.[ fis16\fE g8. cis,16 d8. fis,16] g4 g, r \markDa %29 finis
+	}
+}
+
+% ViolinoI = {
 % 	\relative c' {
-% 		\clef "treble_8"
+% 		\clef treble
 % 		
 % 		
 % 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
 % }

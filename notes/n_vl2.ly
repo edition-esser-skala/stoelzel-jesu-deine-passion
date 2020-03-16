@@ -637,3 +637,39 @@ VerloeschtDennViolinoII = {
 		h,4 r \markDa %85 finis
 	}
 }
+
+OEinGrosserViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 6/4 \tempoOEinGrosser
+		r8 r16 ais'[\fE h8. fis16 g8. dis16] e4 g2
+		fis2.~ fis2 g4
+		g8(\trill fis) r8 h^\pizz h h r a a a a a
+		r a a a a a r a g g g g
+		r g g g g g r fis fis fis g g %5
+		fis4 r r r8 r16 g-\arco g4( fis)
+		g8.[ fis'16 g8. cis,16 d8. fis,16] g4 g2
+		fis2.~ fis2 e4
+		dis8.[ ais'16 h8. fis16 g8. dis16] e4 c'!2
+		h2.~ h2 a4 %10
+		gis4 r8 h^\pizz h h r a a a a a
+		r a a a a a r a g g g g
+		r g g g g g r fis fis fis fis fis
+		r fis fis fis fis fis r fis e e e e
+		r c' c c c c r h h h h h %15
+		g4 r r r8 r16 fis-\arco \appoggiatura g4 fis2\trill
+		g8.[ dis'16 e8. h16 c!8. gis16] a!8.[ ais16 h8. fis16 g8. dis16]
+		e8. c'16 h4 h, e\fermata r r
+		e16\p e e e e e e e e e e e e e e e d d d d d d d d
+		f f f f f f f f f f f f f f f f e-\critnote e e e e e e e %20
+		d d d d cis' cis cis cis cis cis cis cis d d d d d d d d a a a a
+		f f f f b b b b f f f f e h' h h h h h h ais ais ais ais
+		h h h h h h h h h h h h h h h h h h h h h h h h
+		cis cis cis cis cis cis cis cis cis cis cis cis d d d d d d d d a a a a
+		h h h h g g g g h h h h ais ais ais ais ais ais ais ais h h h h %25
+		h h ais ais cis cis cis cis cis cis cis cis h h h h dis dis dis dis fis fis fis fis
+		e e e e c c c c c c c c c c c c c c c c h h h h
+		a a a a c c c c c c c c h h h h a a a a a a a a
+		g8.[ fis'16\fE g8. cis,16 d8. fis,16] g4 g, r \markCa %29 finis
+	}
+}

@@ -352,6 +352,7 @@ tempoSoWahrhaftig = \tempoMarkup "Choral"
 
 tempoKommtIhr = \tempoMarkup "Choral"
 tempoVerbirg = \tempoMarkup "Recitativo"
+tempoOEinGrosser = \tempoMarkup "Poco andante"
 
 
 

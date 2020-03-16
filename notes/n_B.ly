@@ -600,6 +600,74 @@ KommtIhrBassoLyrics = \lyricmode {
 	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
 }
 
+OEinGrosserBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 6/4 \autoBeamOff \tempoOEinGrosser
+		r2*3/2 r4 e e
+		e2 e4 h2 ais4
+		h r r r2*3/2
+		r4 a'!8 g fis d! h'4 r d
+		d( c h a) d, d'8 d %5
+		c4 r r r8 r16 h a4( d,)
+		g r r r e e
+		e2 e4 h2 ais4
+		h r r r a'! a
+		a2 a4 e2 dis4 %10
+		e r r r2*3/2
+		r4 a8 g fis d! h'4 r h
+		c2. d
+		dis, e4 h'8 a g e
+		c'4 r r r a a %15
+		ais r r r8 r16 ais h4( h,)
+		e r r r2*3/2
+		R1.\fermataMarkup
+		r4 c'8. g16 e8 c g'8. g16 g,4 r
+		r d''8. a16 f8 d a'8. a,16 a4 a'8. a16 %20
+		a4 r8 a a a d d, d4 d
+		d8. d16 d4. d8 d d c!8. c16 c'8 c
+		h8. h16 h4 a8. a16 g!4 r8 g g g
+		g4 g4. g8 fis4 r8 fis fis fis
+		g4 g g fis4. fis8 h h %25
+		fis fis fis4 r8 fis h4 r8 h h h
+		e,4 e' e d!4. d8 g, g
+		d'2 fis,4 g d2
+		g4 r r r2*3/2 \markDa %29 finis
+	}
+}
+
+OEinGrosserBassoLyrics = \lyricmode {
+	O, ein
+	gro -- ßer To -- des --
+	fall,
+	Je -- ſus hö -- ret auf zu
+	le -- ben, hö -- ret %5
+	auf zu le --
+	ben, o, ein
+	gro -- ßer To -- des --
+	fall, o, ein
+	gro -- ßer To -- des -- %10
+	fall,
+	Je -- ſus hö -- ret auf zu
+	le -- _
+	_ ben, Je -- ſus hö -- ret
+	auf, hö -- ret %15
+	auf zu le --
+	ben.
+	
+	Zitt -- re, gan -- zer Er -- den -- ball,
+	zitt -- re, gan -- zer Er -- den -- ball, berſ -- tet %20
+	auf, ihr Fel -- ſen -- klüff -- te, öff -- net
+	euch, ihr Tod -- ten -- grüff -- te, un -- ter ei -- nen
+	Don -- ner -- knall weit und breit, ja ü -- ber --
+	all, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu -- %25
+	ge -- ben, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu --
+	ge -- _ _ _
+	ben. %29 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

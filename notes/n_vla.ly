@@ -146,3 +146,39 @@ WeheDirViola = {
 		\kneeBeam e,16. f''32\fE e16. d32 c16. h32 a16. g32 f16. g32 f16. e32 d16. c32 h16. a32 \bar "S-S" %30 finis
 	}
 }
+
+OEinGrosserViola = {
+	\relative c' {
+		\clef alto
+		\key e \minor \time 6/4 \tempoOEinGrosser
+		r8 r16 ais'[\fE h8. fis16 g8. dis16] e4 e2
+		cis2.~ cis4 dis( cis)
+		h r8 e^\pizz e e r e e e e e
+		r fis fis fis fis fis r d d d d d
+		r e e e e e r e d d d d %5
+		d4 r r r8 r16 d-\arco e4( d)
+		d8.[ fis16 g8. cis16 d8. fis,16] g4 e2
+		cis2.~ cis4 dis( cis)
+		h8.[ ais'16 h8. fis16 g8. dis16] e4 a,! a'
+		fis2.~ fis4 gis( fis) %10
+		e4 r8 gis^\pizz gis gis r e e e e e
+		r fis! fis fis fis fis r d d d d d
+		r e e e e e r e d d c c
+		r h h h h h r h h h h h
+		r a a' a a a r dis, dis dis dis dis %15
+		cis4 r r r8 r16 cis-\arco h2
+		h8.[ dis'16 e8. h16 c!8. gis16] a!8.[ ais16 h8. fis16 g8. dis16]
+		e8. c'16 h4 h, e\fermata r r
+		c16\p c c c c c c c c c c c c c c c h h h h h h h h
+		a a a a d d d d d d d d d d d d cis cis cis cis cis cis cis cis %20
+		a a a a e' e e e e e e e d a' a a a a a a f f f f
+		d d d d f f f f d d d d h! gis' gis gis e e e e e e e e
+		fis fis fis fis fis fis fis fis fis fis fis fis g g g g g g g g g g g g
+		a a a a a a a a a a a a a a a a a a a a a a a a
+		g g g g g g g g g g g g cis, cis cis cis cis cis cis cis h h h h %25
+		fis' fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis dis dis dis dis
+		h h h h c! c c c e e e e a a a a a a a a g g g g
+		d d d d d d d d d d d d d d d d c c c c c c c c
+		h8.[ fis'16\fE g8. cis16 d8. fis,16] g4 g, r \markPo %29 finis
+	}
+}

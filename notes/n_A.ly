@@ -970,6 +970,74 @@ VerbirgAltoLyrics = \lyricmode {
 	Nacht. %21 finis
 }
 
+OEinGrosserAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 6/4 \autoBeamOff \tempoOEinGrosser
+		r2*3/2 r4 g' g
+		fis2 fis4 fis2 g4
+		g8([ fis)] h a g e c'4 r c
+		c2.~ c4 h2~
+		h4 a2~ a4. a8 g h %5
+		a4 r r r8 r16 g g4( fis)
+		g r r r g g
+		fis2 fis4 fis2 e4
+		dis r r r c'! c
+		h2 h4 h2 a4 %10
+		gis h8 a gis e c'4 r c
+		c2.~ c4 h2~
+		h4 a2~ a2.~
+		a~ a4 g2~
+		g4 a8 g fis dis h'4 h4. h8 %15
+		cis4 r r r8 r16 cis h2
+		g4 r r r2*3/2
+		R1.\fermataMarkup
+		r4 c8. c16 c8 c c8. h16 h4 r
+		r a8. a16 a8 d d8. cis16 cis4 a8. a16 %20
+		a4 r8 a a a a f a4. f8
+		d8. d16 d4. d8 h! h' h8. h16 ais8 ais
+		h8. h16 h4 h8. h16 h4 r8 h h h
+		a4 a4. a8 a4 r8 a a a
+		g4 h h ais4. ais8 h h
+		h ais ais4 r8 cis h4 r8 h h h
+		h4 g g fis4. fis8 g g
+		g4 fis a g8[ d] fis2
+		g4 r r r2*3/2 \markCa
+	}
+}
+
+OEinGrosserAltoLyrics = \lyricmode {
+	O, ein
+	gro -- ßer To -- des --
+	fall, Je -- ſus hö -- ret auf zu
+	le -- _
+	_ ben, hö -- ret %5
+	auf zu le --
+	ben, o, ein
+	gro -- ßer To -- des --
+	fall, o, ein
+	gro -- ßer To -- des -- %10
+	fall, Je -- ſus hö -- ret auf zu
+	le -- _
+	_
+	ben, __
+	Je -- ſus hö -- ret auf, hö -- ret %15
+	auf zu le --
+	ben.
+	
+	Zitt -- re, gan -- zer Er -- den -- ball,
+	zitt -- re, gan -- zer Er -- den -- ball, berſ -- tet %20
+	auf, ihr Fel -- ſen -- klüff -- te, öff -- net
+	euch, ihr Tod -- ten -- grüff -- te, un -- ter ei -- nen
+	Don -- ner -- knall weit und breit, ja ü -- ber --
+	all, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu -- %25
+	ge -- ben, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu --
+	ge -- _ _ _ _
+	ben. %29 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

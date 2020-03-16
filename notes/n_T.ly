@@ -998,6 +998,74 @@ KommtIhrTenoreLyrics = \lyricmode {
 	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
 }
 
+OEinGrosserTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 6/4 \autoBeamOff \tempoOEinGrosser
+		r2*3/2 r4 e e
+		cis2 cis4 cis( dis) cis
+		h r r r e8 d c a
+		fis'4 r a a g2~
+		g2. fis4. e8 d d %5
+		d4 r r r8 r16 d e4( d)
+		d r r r e e
+		cis2 cis4 cis( dis) cis
+		h r r r a'! a
+		fis2 fis4 fis( gis) fis %10
+		e r r r e8 d! c a
+		fis'!4 r a a g2~
+		g2. fis~
+		fis~ fis4 e2~
+		e4 fis2 r4 fis8 e dis h %15
+		g'4 r r r8 r16 fis \appoggiatura g4 fis2\trill
+		g4 r r r2*3/2
+		R1.\fermataMarkup
+		r4 c,8. c16 e8 g g8. g16 g4 r
+		r d8. d16 f8 a a8. a16 a4 e8. cis16 %20
+		f4 r8 cis e e d a d4 d
+		f8. f16 f4. f8 e e e8. e16 e8 e
+		fis8. fis16 fis4 dis8. dis16 e4 r8 e e e
+		e4 cis4. e8 d4 r8 d d d
+		d4 g g cis,4. cis8 h d %25
+		fis fis ais,4 r8 ais h4 r8 dis fis dis
+		e4 e c! d4. d8 d d
+		d2.~ \tuplet 3/2 4 { d8[ c h] } c2
+		h4 r r r2*3/2 \markPo %29 finis
+	}
+}
+
+OEinGrosserTenoreLyrics = \lyricmode {
+	O, ein
+	gro -- ßer To -- des --
+	fall, Je -- ſus hö -- ret
+	auf zu le --
+	_ _ ben, hö -- ret %5
+	auf zu le --
+	ben, o, ein
+	gro -- ßer To -- des --
+	fall, o, ein
+	gro -- ßer To -- des -- %10
+	fall, Je -- ſus hö -- ret
+	auf zu le -- _
+	_
+	_
+	ben, Je -- ſus hö -- ret %15
+	auf zu le --
+	ben.
+	
+	Zitt -- re, gan -- zer Er -- den -- ball,
+	zitt -- re, gan -- zer Er -- den -- ball, berſ -- tet %20
+	auf, ihr Fel -- ſen -- klüff -- te, öff -- net
+	euch, ihr Tod -- ten -- grüff -- te, un -- ter ei -- nen
+	Don -- ner -- knall weit und breit, ja ü -- ber --
+	all, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu -- %25
+	ge -- ben, weit und breit, ja ü -- ber --
+	all To -- des -- bo -- ten ab -- zu --
+	ge -- _
+	ben. %29 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

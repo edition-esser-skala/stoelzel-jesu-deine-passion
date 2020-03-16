@@ -2255,6 +2255,74 @@ VerbirgBassFigures = \figuremode {
 	<6 4>8 <5+ _+> r2. %21 finis
 }
 
+OEinGrosserOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 6/4 \tempoOEinGrosser
+		r8 r16 \mvTr ais'[\fE-\unisono h8. fis16 g8. dis16] e4 e, r
+		e'2. h2 ais4
+		h g-\pizz g a r r
+		d! r r g, r r
+		c r r d r r %5
+		c r r r8 r16 h-\arco a4 d
+		\kneeBeam g,8.[ fis''16-\unisono g8. cis,16 d8. fis,16] g4 e, e'
+		e2. h2 ais4
+		h8.[ ais'16-\unisono h8. fis16 g8. dis16] e4 a a,
+		a'2. e2 dis4 %10
+		e e,-\pizz e a r r
+		d! r r g r r
+		c, r r d r r
+		dis r r e r r
+		a, r r a' r r %15
+		ais r r r8 r16 ais-\arco h4 h,
+		e8.[ dis'16^\unisono e8. h!16 c8. gis16] a8.[ ais16 h8. fis16 g8. dis16]
+		e8. c'16 h4 h, e\fermata r r
+		c16\p c c c c c c c c c c c g g g g g g g g g g g g
+		d' d d d d d d d d d d d a a a a a a a a a a a a %20
+		a a a a a a a a a a a a d d d d d d d d d d d d
+		d d d d d d d d d d d d d d d d c! c c c c c c c
+		h h h h h h h h a a a a g! g g g g g g g g g g g
+		g' g g g g g g g g g g g fis fis fis fis fis fis fis fis fis fis fis fis
+		g g g g g g g g g g g g fis fis fis fis fis fis fis fis fis fis fis fis %25
+		fis fis fis fis fis fis fis fis fis fis fis fis h h h h h h h h h h h h
+		e, e e e e e e e e e e e d! d d d d d d d d d d d
+		d d d d d d d d d d d d d, d d d d d d d d d d d
+		\kneeBeam g8.[ \mvTr fis''16\fE-\unisono g8. cis,16 d8. fis,16] g4 g, r \markCaPo %29 finis
+	}
+}
+
+OEinGrosserBassFigures = \figuremode {
+	r2. r4 <6!> <5>
+	<[6+] 4+ 2>2. <7+ 5 [2+]>4 <8 [5] _+> <7! [_+]>
+	<[6 4]>8 <[5 _+]> <6>2 r2.
+	<7> <9 4>4 <8 3>2
+	<9 7>4 <8 6 [5]>2 <9>4 <8> <6 4> %5
+	<4 2>2. r8. <6>16 <7>4 q
+	r2. r4 <6!> <5>
+	<[6+] 4+ 2>2. <7+ 5 [2+]>4 <8 5 _+> <7 5 [_+]>
+	<_+>2. r4 <6!> <5>
+	<4+ 2>2. <7+ 5 2>4 <8 5 _+> <7! 5!> %10
+	<_+>1.
+	<7>2. <9 4>4 <8 3>2
+	<7>4 <6 5>2 <9>4 <8> <7>
+	<6 5!>2. <9 4>4 <8 3>2
+	<7>4 <6>2 <4+>2. %15
+	<7! 5! [_+]> r8. <6 5 [_+]>16 <6 4>4 <5 _+>
+	r1.
+	r
+	<5>2. <6 4>4 <5 3>2
+	<_!>2. <6! 4>4 <5 _+>2 %20
+	<8 6! 4>4 <7 5 _+>2 <_!>2.
+	<6- [_!]> <[6!] 4+ 2>4 <7> <6\\>
+	<5 4> <\t _+> <4+ 2> <6>2.
+	<4+ 2> <6>
+	<[5]>4 <6>2 <7 [5+] _+> <6 4>4 %25
+	<5+ 4>8 <\l _+> <[7 5+ _+]>2 <_+>2 <[7 _+]>4
+	<[5]> <6!>2 <7 5> <6 4>4
+	<5 4> <7 [3]>2 <6 4>4 <7 5 _+>2
+	r1. %29 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
