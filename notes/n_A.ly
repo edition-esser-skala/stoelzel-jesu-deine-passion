@@ -918,6 +918,58 @@ KommtIhrAltoLyrics = \lyricmode {
 	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
 }
 
+VerbirgAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoVerbirg
+		r8 d^\markup { \remark "Alto" } h' a c8. c16 c8 a
+		fis4 r16 fis fis g a8. a16 a8 a
+		c,8. c16 e8 d h h r16 h' h g
+		e4 r16 e g e cis8. cis16 g'8 fis
+		d4 r16 a' a a a8. gis16 d8 cis %5
+		cis cis r cis' a4 r
+		r h g!8 g h a
+		a d, r16 gis gis a a8 a \clef "treble_8" g4
+		r g8 fis e4 r8 e
+		e e fis cis d4 r16 d d cis %10
+		h8. h16 cis8 gis a4 r8 cis
+		a8. a16 gis8 fis d'4 r8 d
+		d d cis h e e r e
+		gis8. gis16 fis8 e a a \clef treble r e'^\markup { \remark "Canto" }
+		cis8. cis16 e8 a, d8. d16 a'4 %15
+		r8 a, c h h4 r16 d d d
+		g8 r16 h, h h d g, c8 c r16 c e c
+		ais8. ais16 cis8 fis, h h r h
+		gis8. gis16 h8 e, a4 r16 a e' dis
+		dis4 h r e8 g, %20
+		e4 r r2\fermata \bar "|." %21 finis
+	}
+}
+
+VerbirgAltoLyrics = \lyricmode {
+	Ver -- birg, o Son -- ne, nur das
+	Licht von dei -- nem An -- ge -- ſicht in
+	tief -- fe Finſ -- ter -- ni -- ße, dein fro -- her
+	Schein will kein be -- trüb -- ter Zeu -- ge
+	ſeyn, daß itzt mein Je -- ſus kla -- gen %5
+	mü -- ße, er ſey,
+	wer kan das E -- lend
+	fa -- ßen, von Gott ver -- la -- ßen. Ach!
+	flößt ihr ihm in
+	ſol -- cher ſchwe -- rer Pein nach Y -- ſo -- %10
+	pen nur E -- ßig ein, als
+	wä -- ret ihr be -- dacht, ihn
+	noch vor ſei -- nem En -- de, ihr
+	Mör -- der, zu er -- qui -- cken. Er
+	nimmt es den -- noch an und rufft: %15
+	Es iſt voll -- bracht, be -- fiehlt den
+	Geiſt in ſei -- nes Va -- ters Hän -- de, fängt an, die
+	Au -- gen zu -- zu -- drü -- cken, neigt
+	das er -- blaß -- te Haupt, und gibt dem
+	Le -- ben gu -- te %20
+	Nacht. %21 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

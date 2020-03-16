@@ -19,48 +19,76 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "6.1" "C H O R A L" "Kommt, ihr Geschöpffe, kommt herbey"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \KommtIhrSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \KommtIhrSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \KommtIhrAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \KommtIhrAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \KommtIhrTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \KommtIhrTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \KommtIhrBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \KommtIhrBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KommtIhrOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KommtIhrBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "6.1" "C H O R A L" "Kommt, ihr Geschöpffe, kommt herbey"
+			movement = \movementTitle "6.2" "R E C I T A T I V O" "Verbirg, o Sonne, nur das Licht"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \KommtIhrSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \KommtIhrSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \KommtIhrAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \KommtIhrAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \KommtIhrTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \KommtIhrTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \KommtIhrBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \KommtIhrBassoLyrics
-				>>
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Canto" "Alto" "Tenore" } }
+					\new Voice = "Alto" { \dynamicUp \VerbirgAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \VerbirgAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KommtIhrOrgano
+						\VerbirgOrgano
 					}
 				>>
-				\new FiguredBass { \KommtIhrBassFigures }
+				\new FiguredBass { \VerbirgBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

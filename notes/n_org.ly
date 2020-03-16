@@ -2203,6 +2203,58 @@ KommtIhrBassFigures = \figuremode {
 	r <6>2 <[7]> r1 r r <_+> %4 finis
 }
 
+VerbirgOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoVerbirg
+		g1~
+		g
+		g~
+		g
+		fis2 h %5
+		a cis~
+		cis1
+		fis4 h a2
+		ais1~
+		ais2 h %10
+		eis, fis~
+		fis1
+		gis
+		d2 cis
+		g' fis~ %15
+		fis g
+		f e~
+		e d~
+		d c!
+		h ais %20
+		h4 e, r2\fermata \bar "|." %21 finis
+	}
+}
+
+VerbirgBassFigures = \figuremode {
+	<5 3>2 <6 4>
+	<7+ 4 2>1
+	<\t \t \t>2 <8 3>
+	<6> <4+ 2>
+	<6> <7 5_+>4 <6\\> %5
+	<_+>2 <6>
+	<7 5!>1
+	<6>4 <6\\> <8 _+>4 <7! \t>
+	<\t _+>1
+	<6 \t>2 <5+ 3> %10
+	<6+ 5 _+> <5+ 3>
+	<\t \t> <6>
+	<5> <6>
+	<4+ 2> <6>
+	<4+ 2> <6> %15
+	<\t>4 <5!>2.
+	<2>2 <6>
+	<6+ 4+ 2+> <6 _+>
+	<4+ 2> <6!>
+	<5+ _+>2 <7! _+> %20
+	<6 4>8 <5+ _+> r2. %21 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
