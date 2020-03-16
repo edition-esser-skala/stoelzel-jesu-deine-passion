@@ -899,6 +899,25 @@ SoWahrhaftigAltoLyricsB = \lyricmode {
 	an mir aus dem Sün -- den -- koth. %2 finis
 }
 
+KommtIhrAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 5/1 \autoBeamOff \tempoKommtIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g' fis4( g) a2 h g g a g1\fermata
+		r2 g a h h a h c fis,1\fermata
+		r2 h c a h g g g fis1\fermata
+		\time 6/4 r2 a a a g g g e e1( dis)\fermata \bar "|." %4 finis
+	}
+}
+
+KommtIhrAltoLyrics = \lyricmode {
+	Kommt, ihr __ Ge -- schöpf -- fe, kommt her -- bey,
+	und ma -- chet bald ein Klag -- ge -- ſchrey,
+	das grau -- ſam ſey zur ſel -- ben Frist,
+	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

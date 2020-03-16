@@ -350,6 +350,8 @@ tempoWomitErquickt = \tempoMarkup "Recitativo"
 tempoOWieTroestlich = \tempoMarkup "Duetto"
 tempoSoWahrhaftig = \tempoMarkup "Choral"
 
+tempoKommtIhr = \tempoMarkup "Choral"
+
 
 
 

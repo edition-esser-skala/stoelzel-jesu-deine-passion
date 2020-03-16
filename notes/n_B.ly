@@ -581,6 +581,25 @@ SoWahrhaftigBassoLyricsB = \lyricmode {
 	an mir aus dem Sün -- den -- koth. %2 finis
 }
 
+KommtIhrBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 5/1 \autoBeamOff \tempoKommtIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 e d c h e e fis g1\fermata
+		r2 g fis e4( dis) e2 fis g4( gis) a( ais) h1\fermata
+		r2 g c fis, g g, h h4( c) d1\fermata
+		\time 6/1 r2 d fis d g c, g' a e1( h)\fermata \bar "|." %4 finis
+	}
+}
+
+KommtIhrBassoLyrics = \lyricmode {
+	Kommt, ihr Ge -- schöpf -- fe, kommt her -- bey,
+	und ma -- chet bald ein Klag -- ge -- ſchrey,
+	das grau -- ſam ſey zur ſel -- ben __ Frist,
+	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

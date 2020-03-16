@@ -10,8 +10,8 @@
 % \include "scores/s_betr2.ly"
 % \include "scores/s_betr3.ly"
 % \include "scores/s_betr4.ly"
-\include "scores/s_betr5.ly"
-% \include "scores/s_betr6.ly"
+% \include "scores/s_betr5.ly"
+\include "scores/s_betr6.ly"
 
 
 % \include "parts/p_ob1.ly"

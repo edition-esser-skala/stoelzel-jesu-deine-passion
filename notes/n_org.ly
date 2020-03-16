@@ -2184,6 +2184,25 @@ SoWahrhaftigBassFigures = \figuremode {
 	
 }
 
+KommtIhrOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 5/1 \tempoKommtIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 e d c h e e, fis g1\fermata
+		r2 g' fis e4 dis e2 fis g4 gis a ais h1\fermata
+		r2 g c fis, g g, h h4 c d1\fermata
+		\time 6/1 r2 d fis d g c, g' a e1 h\fermata \bar "|." %4 finis
+	}
+}
+
+KommtIhrBassFigures = \figuremode {
+	r1 <6>2 q q1 q2 q r1
+	r <6>2 r4 <[6]> r2 <6\\> <6>4 <[\t]> <[5]> <[\t]> <_+>1
+	r2 <5 3> r <6> r1 <6> r
+	r <6>2 <[7]> r1 r r <_+> %4 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

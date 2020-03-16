@@ -718,6 +718,25 @@ SoWahrhaftigSopranoLyricsB = \lyricmode {
 	an mir aus dem Sün -- den -- koth. %2 finis
 }
 
+KommtIhrSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 5/1 \autoBeamOff \tempoKommtIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 h' h c d h c d h1\fermata
+		r2 h d e4( fis) g2 fis e e h1\fermata
+		r2 d! e d d h d d a1\fermata
+		\time 6/1 r2 d d c h e d c h1~ h\fermata \bar "|."
+	}
+}
+
+KommtIhrSopranoLyrics = \lyricmode {
+	Kommt, ihr Ge -- schöpf -- fe, kommt her -- bey,
+	und ma -- chet bald ein Klag -- ge -- ſchrey,
+	das grau -- ſam ſey zur ſel -- ben Frist,
+	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

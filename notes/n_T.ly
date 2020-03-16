@@ -979,6 +979,25 @@ SoWahrhaftigTenoreLyricsB = \lyricmode {
 	an mir aus dem Sün -- den -- koth. %2 finis
 }
 
+KommtIhrTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 5/1 \autoBeamOff \tempoKommtIhr
+			\set Staff.timeSignatureFraction = 4/4
+		r2 e h e4( fis) g2 g e d d1\fermata
+		r2 d d g4( fis) e2 dis e2. e4 dis1\fermata
+		r2 g! g4( c,) d2 d d d d d1\fermata
+		\time 6/1 r2 fis d fis d c h a g1( fis)\fermata \bar "|." %4 finis
+	}
+}
+
+KommtIhrTenoreLyrics = \lyricmode {
+	Kommt, ihr Ge -- schöpf -- fe, kommt her -- bey,
+	und ma -- chet bald ein Klag -- ge -- ſchrey,
+	das grau -- ſam ſey zur ſel -- ben Frist,
+	da Gott am Creutz ver -- ſchie -- den iſt. __ %4 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
