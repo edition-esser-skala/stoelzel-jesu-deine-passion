@@ -673,3 +673,22 @@ OEinGrosserViolinoII = {
 		g8.[ fis'16\fE g8. cis,16 d8. fis,16] g4 g, r \markCa %29 finis
 	}
 }
+
+WasDuencketViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoWasDuencket
+		R1*23 %23
+		\tempoWasDuencketD c'8^\pizzE a c a c a c a
+		c a c a gis h gis h
+		a e a e g e g e
+		g e g e h' f h f
+		c' g c g c g a fis
+		g d g d d f d f
+		e g e g e g e g
+		e g e g f c f c
+		g' d g d g e g e
+		a4 r r2
+		g4 f e r\fermata \bar "|."
+	}
+}

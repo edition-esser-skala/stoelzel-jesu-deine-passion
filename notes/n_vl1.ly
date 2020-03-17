@@ -875,6 +875,25 @@ OEinGrosserViolinoI = {
 	}
 }
 
+WasDuencketViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoWasDuencket
+		R1*23 %23
+		\tempoWasDuencketD e'8^\pizzE c e c e c e c
+		e c e c d gis, d' gis, %25
+		c a c a c g c g
+		c g c g d' h d h
+		e c e c e c c a
+		h g h g d' h d h
+		c g c g b c, b' c, %30
+		b' c, b' c, a' f a f
+		h g h g c g c g
+		c4 r r2
+		c4 h c r\fermata \bar "|." %34 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

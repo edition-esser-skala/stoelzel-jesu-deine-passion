@@ -148,6 +148,7 @@ unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
 vlne = \markup { \remark "Vlne." }
 pizz = \markup { \remark "pizz." }
+pizzE = \markup { \remarkE "pizz." }
 arco = \markup { \remark "arco" }
 
 
@@ -353,6 +354,10 @@ tempoSoWahrhaftig = \tempoMarkup "Choral"
 tempoKommtIhr = \tempoMarkup "Choral"
 tempoVerbirg = \tempoMarkup "Recitativo"
 tempoOEinGrosser = \tempoMarkup "Poco andante"
+tempoWasDuencket = \tempoMarkup "Recitativo"
+	tempoWasDuencketB = \tempoMarkup "Arioſo"
+	tempoWasDuencketC = \tempoMarkup "[Recitativo]"
+	tempoWasDuencketD = \tempoMarkup "[Accompagnato]"
 
 
 

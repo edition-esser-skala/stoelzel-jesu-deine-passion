@@ -1038,6 +1038,65 @@ OEinGrosserAltoLyrics = \lyricmode {
 	ben. %29 finis
 }
 
+WasDuencketAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoWasDuencket
+		R1*2
+		r2 r4 r8 f
+		f f f f f4 r8 f
+		a8. f16 f8 e e d e h %5
+		\tempoWasDuencketB c c r c' h a16([ gis)] a gis a16. h32
+		gis4 r16 a gis a f8 d16([ e)] f8. e16
+		e4 r8 e a8. c,16 d8 e
+		\tempoWasDuencketC e e r4 r2
+		R1*3 %12
+		r2 r4 \clef bass r16 g, h g
+		e8. e16 d8 c fis fis r16 fis fis g
+		a8 d, c' h g g r d %15
+		fis a c h h4 r
+		R1*7 %23
+		\tempoWasDuencketD \clef treble r4 r8 e a8. a16 e8 c
+		a4 r16 e' c a gis'8. h16 d8 c %25
+		c c r4 r2
+		R1
+		r4 r16 g g g c8 c c8. h16
+		h4 r16 g g d f!8. f16 f8 e
+		e4 r8 g b8. b16 b8 b %30
+		g8. g16 b8 a a4 r8 a
+		h8. h16 h8 c c4 r
+		r r8 c c8. c16 h8 c
+		c([ g)] r4 r2\fermata \bar "|." %34 finis
+	}
+}
+
+WasDuencketAltoLyrics = \lyricmode {
+	Könnt %3
+	ihr uns der -- ge -- ſtallt der
+	trau -- ri -- gen Na -- tur nun -- meh -- ro %5
+	le -- ſen? Mein Je -- ſus ſey ein from -- mer
+	Menſch, mein Je -- ſus ſey ein from -- mer
+	Menſch und Got -- tes Sohn ge --
+	we -- ſen.
+	
+	Mein Je -- ſus %13
+	iſt be -- reits ver -- ſchie -- den, an dem er --
+	würg -- ten Oſ -- ter -- lam -- me bricht %15
+	man die Bei -- ne nicht.
+	
+	Der A -- bend köm -- met %24
+	nun. Wer nimmt das Lamm vom Creut -- zes %25
+	Stam -- me?
+	
+	Die neh -- men Je -- ſu Leich -- nam
+	ab, um -- bin -- den ihn mit Spe -- ce --
+	rey und wi -- ckeln ihn in %30
+	rei -- nen Lein -- wand ein, ver --
+	wah -- ren ihn im Grab
+	mit ei -- nem gro -- ßen
+	Stein. %34 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

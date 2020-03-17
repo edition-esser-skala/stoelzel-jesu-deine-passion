@@ -2323,6 +2323,84 @@ OEinGrosserBassFigures = \figuremode {
 	r1. %29 finis
 }
 
+WasDuencketOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoWasDuencket
+		c1~
+		c
+		b2 a~
+		a g~
+		g gis %5
+		\tempoWasDuencketB a8 h c a d e f d
+		e d c a d c h g
+		c h a g f2
+		\tempoWasDuencketC e d'
+		c1~ %10
+		c
+		h
+		c4 a h e
+		c1~
+		c2 h %15
+		a g~
+		g gis~
+		gis1
+		a
+		h2 c %20
+		b a
+		g f
+		fis g4 c
+		\tempoWasDuencketD a8-\pizz a' a, a' a, a' a, a'
+		a, a' a, a' a, a' a, a' %25
+		a, a' a, a' e, e' e, e'
+		e, e' e, e' d, d' d, d'
+		c, c' c, c' a a' a, a'
+		g, g' g, g' g, g' g, g'
+		c, c' c, c' c, c' c, c' %30
+		c, c' c, c' f,, f' f, f'
+		f, f' f, f' e, e' e, e'
+		fis4 r r2
+		g,8 g' g, g' c,4 r\fermata \bar "|." %34 finis
+	}
+}
+
+WasDuencketBassFigures = \figuremode {
+	<5 3>2 <7 4 2>
+	<\t \t \t> <8 3>
+	<2> <6>
+	r <7 _!>
+	r <6> %5
+	r4 <6> q8 <_+> <3>4
+	<_+>8 <\t> <6>4 <3>8 <\t> <6 5> <7>
+	r2 <7>4 <6>
+	<_+>2 <[4+ 2]>
+	<6>1 %10
+	r2 <4+ 2>
+	<6>1
+	r2 <6 4>8 <5+ _+>4.
+	<5 3>2 <4+ 2>
+	r <6> %15
+	<6\\>1
+	<7!>2 <6>
+	r1
+	<5>2 <6>
+	<6 5>1 %20
+	<[2]>2 <6>
+	<6 _->1
+	<7>2 <_!>
+	r1
+	r2 <7+ 4 2> %25
+	<[8 3]> <6>
+	r <6>
+	r <7>4 <6\\>
+	r2 <7!>
+	r <7-> %30
+	r1
+	<4! 2>2 <6>
+	<6 5>1
+	<6 4>4 <5 3>2. %34 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

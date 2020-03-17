@@ -182,3 +182,22 @@ OEinGrosserViola = {
 		h8.[ fis'16\fE g8. cis16 d8. fis,16] g4 g, r \markPo %29 finis
 	}
 }
+
+WasDuencketViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoWasDuencket
+		R1*23 %23
+		\tempoWasDuencketD a'8^\pizzE e a e a e a e
+		a e a e h d h d %25
+		e c e c e c e c
+		e c e c f d f d
+		g e g e g e fis a
+		d, h d h f' d f d
+		g e g e g e g e %30
+		g e g e c a c a
+		d h! d h e c e c
+		d4 r r2
+		e4 d c r\fermata \bar "|." %34 finis
+	}
+}

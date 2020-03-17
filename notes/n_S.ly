@@ -805,6 +805,73 @@ OEinGrosserSopranoLyrics = \lyricmode {
 	ben. %29 finis
 }
 
+WasDuencketSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoWasDuencket
+		r8 e' g c, h4 r16 h h c
+		d8. d16 f8 e e4 r16 e e e
+		e8. e16 d8 c f4 r
+		R1*2 %5
+		\tempoWasDuencketB R1*3
+		\tempoWasDuencketC \clef "treble_8" r4 r8 e, gis8. gis16 fis8 e
+		a a r e e c e c %10
+		a4 r16 a c a d8. a16 c8 h
+		g g r g' g8. d16 h8 g
+		e' e dis e e h r4
+		R1*2 %15
+		r2 r4 \clef treble r16 d' d d
+		f!8. f16 f8 e e4 r16 h h c
+		d8 r16 d f8 e d d e h
+		c c r16 c c a f'4 r8 f
+		a8. f16 f8 e e4 r16 e e e %20
+		g8. g16 e8 c f f r16 f f a,
+		b8. b16 d8 c a4 r16 c c c
+		e8. c16 h8 c g4 r
+		\tempoWasDuencketD R1*2 %25
+		\clef "treble_8" r4 r8 c, g'!8. g16 g8 e
+		c4 r16 c e c f8. f16 f8 e
+		e4 r16 e e e e8 e fis8. g16
+		g4 r16 h, h h d8. d16 d8 c
+		c4 r8 e g8. g16 g8 g %30
+		e8. e16 g8 f f4 r8 f
+		d8. d16 d8 c c4 r
+		r r8 d d8. d16 f!8 e
+		c4 r r2\fermata \bar "|." %34 finis
+	}
+}
+
+WasDuencketSopranoLyrics = \lyricmode {
+	Was dün -- cket euch, die ihr beym
+	Creut -- ze Je -- ſu steht, und die -- ſe
+	Trau -- er -- zei -- chen ſeht?
+
+	Ihr mör -- de -- ri -- ſchen %9
+	Jü -- den er -- ſucht Pi -- la -- tum %10
+	für, daß er die Bein ihm la -- ße
+	bre -- chen. Die Schrifft will euch hie --
+	rin -- nen wi -- der -- ſpre -- chen:
+
+	Ja weil die %16
+	Schrifft noch wei -- ter ſpricht: Sie wer -- den
+	ſehn, in wel -- chen ſie ge -- ſto -- chen
+	ha -- ben, ſo muß ein Speer durch
+	Je -- ſu Sei -- te gehn und hier den %20
+	Le -- bens -- brun -- nen gra -- ben, aus wel -- chen
+	Blut und Wa -- ßer quillt, ſo mir den
+	Durſt der See -- le ſtillt.
+
+	Ein Jo -- ſeph will es %26
+	thun, ein Ni -- co -- de -- mus ſteht ihm
+	bey. Die neh -- men Je -- ſu Leich -- nam
+	ab, um -- bin -- den ihn mit Spe -- ce --
+	rey und wi -- ckeln ihn in %30
+	rei -- nen Lein -- wand ein, ver --
+	wah -- ren ihn im Grab
+	mit ei -- nem gro -- ßen
+	Stein. %34 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

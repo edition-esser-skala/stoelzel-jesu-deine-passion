@@ -91,83 +91,131 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "6.3" "C O R O" "O, ein großer Todesfall"
+% 		}
+% 		\paper {
+% 			top-system-spacing =
+% 				#'((basic-distance . 50)
+% 					(minimum-distance . 50)
+% 					(padding . -100)
+% 					(stretchability . 0))
+% 			
+% 			top-markup-spacing =
+% 				#'((basic-distance . 30)
+% 					(minimum-distance . 30)
+% 					(padding . -100)
+% 					(stretchability . 0))
+% 			
+% 			markup-system-spacing =
+% 				#'((basic-distance . 20)
+% 					(minimum-distance . 20)
+% 					(padding . -100)
+% 					(stretchability . 0))
+% 			systems-per-page = #1
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OEinGrosserViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OEinGrosserViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\OEinGrosserViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \OEinGrosserSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \OEinGrosserSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \OEinGrosserAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \OEinGrosserAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName =  "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \OEinGrosserTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \OEinGrosserTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \OEinGrosserBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \OEinGrosserBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OEinGrosserOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \OEinGrosserBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "6.3" "C O R O" "O, ein großer Todesfall"
+			movement = \movementTitle "6.4" "R E C I T A T I V O" "Was düncket euch"
 		}
-		\paper {
-			top-system-spacing =
-				#'((basic-distance . 50)
-					(minimum-distance . 50)
-					(padding . -100)
-					(stretchability . 0))
-			
-			top-markup-spacing =
-				#'((basic-distance . 30)
-					(minimum-distance . 30)
-					(padding . -100)
-					(stretchability . 0))
-			
-			markup-system-spacing =
-				#'((basic-distance . 20)
-					(minimum-distance . 20)
-					(padding . -100)
-					(stretchability . 0))
-			systems-per-page = #1
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\OEinGrosserViolinoI
+							\WasDuencketViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\OEinGrosserViolinoII
+							\WasDuencketViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\OEinGrosserViola
+						\WasDuencketViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \OEinGrosserSopranoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Basſo" } }
+						\new Voice = "Alto" { \dynamicUp \WasDuencketAltoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \OEinGrosserSopranoLyrics
+					\new Lyrics \lyricsto Alto \WasDuencketAltoLyrics
 					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \OEinGrosserAltoNotes }
+						\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Tenore" } }
+						\new Voice = "Soprano" { \dynamicUp \WasDuencketSopranoNotes }
 					}
-					\new Lyrics \lyricsto Alto \OEinGrosserAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName =  "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \OEinGrosserTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \OEinGrosserTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \OEinGrosserBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \OEinGrosserBassoLyrics
+					\new Lyrics \lyricsto Soprano \WasDuencketSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OEinGrosserOrgano
+						\WasDuencketOrgano
 					}
 				>>
-				\new FiguredBass { \OEinGrosserBassFigures }
+				\new FiguredBass { \WasDuencketBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
