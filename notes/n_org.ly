@@ -2401,6 +2401,130 @@ WasDuencketBassFigures = \figuremode {
 	<6 4>4 <5 3>2. %34 finis
 }
 
+GottVersoehnerOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 3/4 \tempoGottVersoehner
+		a'8\fE a a a a a
+		gis gis gis gis g g
+		fis fis fis fis f f
+		e e e e e e
+		e e e e e e %5
+		e e e e e e
+		a, a a\pE a a a
+		gis gis gis gis g g
+		fis fis fis fis f f
+		e e e e e e %10
+		e e e e e e
+		e e e e e e
+		a a h h h h
+		e e e e e e
+		dis dis dis dis d d %15
+		cis cis cis cis c c
+		h h h h h h
+		h h h h h h
+		h h h h h h
+		e e e e e e %20
+		e e e e e e
+		f! f f f f f
+		e e e e e e
+		d d d d d d
+		c c c c a a %25
+		e' e e e e e
+		e e e e e e
+		e e e e e e
+		e, e e e e e
+		a4 r r %30
+		r8 a'16 g! f8 e d c
+		h a r4 r
+		r8 a'16 g f8 e d c
+		h a gis2
+		a2. %35
+		e'
+		a,8 a\fE a a a a
+		d d d d e e
+		f f f f e e
+		d d dis dis dis dis %40
+		e e e e e e
+		a,4 e2
+		a8\fermata a\pE a a a a
+		h h h h h h
+		h h h h h h %45
+		h4 r r
+		e8 e e e e e
+		a a a a a a
+		d, d d d d d
+		g g g g g g %50
+		g g g g g g
+		g g g g g g
+		c, c c c c c
+		d d d d d d
+		d d d d d d %55
+		d,2.
+		g4^\critnote r r \markPo %57 finis
+	}
+}
+
+GottVersoehnerBassFigures = \figuremode {
+	r2.
+	<6>
+	<7>4 <6>2
+	<_+>4 <7 \t>2
+	<6 4>2. %5
+	<5 _+>4 <[7 _+]>2
+	r2.
+	<6>
+	<7>4 <6>2
+	<_+>4 <7 \t>2 %10
+	<6 4>2.
+	<5 _+>4 <[7 _+]>2
+	r4 <6! 4> <5+ _+>
+	r2.
+	<[6 _+]> %15
+	<7>4 <6>2
+	<[5+] _+>4 <[7 5+ _+]>2
+	<6 4>2.
+	<[5+] _+>4 <[7 5+ _+]>2
+	<_+>4 <6 4>2 %20
+	<5 4>4 <\t _+>2
+	<7>4 <6>2
+	<7>4 <6>2
+	<7>4 <6>2
+	r4 <6>2 %25
+	<5 _+>4 <7 _+>2
+	<6 4>2.
+	<5 _+>4 <7 _+>2
+	<6 4>4 <5 _+>2
+	r2. %30
+	r4 <6>8 <6 4> <4\+ 3> <6>
+	<6\\>2.
+	r4 <6>8 <6 4> <4\+ 3> <6>
+	<6\\>4 <6 5>2
+	<9>4 <8>2 %35
+	<6 4>4 <5 _+>2
+	r2.
+	<6 5>2 <6 4>4
+	<6>2 <6 4>4
+	<6 5> <[6 5 _+]>2 %40
+	<_+>4 <[7! _+]>2
+	r4 <_+>2
+	r2 <6\\ 5>4
+	<[5+] _+> <7 [5+] _+>2
+	<6 4>2. %45
+	<6 4>8 <5+ _+> r2
+	r2.
+	<7 _+>
+	<_+>
+	<7!> %50
+	<6 4>
+	<5 4>4 <\t 3>2
+	r2 <6>4
+	<_+>4  <7 [_+]>2
+	<6 4>2. %55
+	q4 <5 _+>2
+	r2. %57 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

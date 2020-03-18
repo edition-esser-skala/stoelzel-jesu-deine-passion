@@ -894,6 +894,70 @@ WasDuencketViolinoI = {
 	}
 }
 
+GottVersoehnerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \tempoGottVersoehner
+		r16 c'(\fE dis, e) r c'( dis, e) r c'( dis, e)
+		r h'( dis, e) r h'( dis, e) r h'( dis, e)
+		r a( cis, d) r a'( cis, d) r a'( cis, d)
+		h( e gis h) d( f d h) gis( e d h)
+		c( e a c) e( a e c) a( e c a) %5
+		h( e gis h) d( f d h) gis( e d h)
+		c c'( dis, e) r c'(\pE dis, e) r c'( dis, e)
+		r h'( dis, e) r h'( dis, e) r h'( dis, e)
+		r a( cis, d) r a'( cis, d) r a'( cis, d)
+		h( e gis h) d( f d h) gis( e d h) %10
+		c( e a c) e( a e c) a( e c a)
+		h( e gis h) d( f d h) gis( e d h)
+		c c'( dis, e) r h'( dis, e) r h'( dis, e)
+		r g'!( ais, h) r g'( ais, h) r g'( ais, h)
+		r fis'( ais, h) r fis'( ais, h) r fis'( ais, h) %15
+		r e( gis, a) r e'( gis, a) r e'( gis, a)
+		fis( h dis fis) a( c a fis) dis( h a fis)
+		g( h e g) h( e h g) e( h g e)
+		fis( h dis fis) a( c a fis) dis( h a fis)
+		gis e'( dis, e) r c'( dis, e) r c'( dis, e) %20
+		r h'( dis, e) r h'( dis, e) r h'( dis, e)
+		r a( cis, d) r a'( cis, d) r a'( cis, d)
+		r g!( h, c) r g'( h, c) r g'( h, c)
+		r f( a, h) r f'( a, h) r f'( a, h)
+		g( c e g) c( e a e) c( a e a,) %25
+		h( e gis h) d( f d h) gis( e d h)
+		c( e a c) e( a e c) a( e c a)
+		h( e gis h) d( f d h) gis( e d h)
+		c e'( gis, a) e2\trill
+		a,4 r r %30
+		r8 a'16 g! f8 e d c
+		h8 a r4 r
+		r8 a'16 g f8 e d c
+		h8 a gis2
+		a2. %35
+		e'
+		a,16 e''(\fE gis, a) r e'( gis, a) r e'( gis, a)
+		r f'( gis, a) r f'( gis, a) r e'( gis, a)
+		r d( gis, a) r d( gis, a) r e'( gis, a)
+		r f'( gis, a) r fis'( gis, a) r fis'( gis, a) %40
+		h,( e gis h) d( f d h) gis( e d h)
+		\kneeBeam a c''( gis a) e,2
+		a,16\fermata c'(\pE dis, e) r c'( dis, e) r c'( dis, e)
+		h( dis fis h) dis( fis dis h) a( fis dis h)
+		e( g h e) g( h g e) h( g e h) %45
+		r g'( ais, h) r4 r
+		r16 h'( dis, e) r h'( dis, e) r e'( gis, a)
+		r e'( gis, a) r e'( gis, a) r a'( cis, d)
+		r a'( cis, d) r a'( cis, d) r d( fis, g)
+		r d'( fis, g) r d'( fis, g) r g( h, c) %50
+		r g'( h, c) r g'( h, c) r g'( h, c)
+		g g''( h, c) r g'( fis, g) r g'( fis, g)
+		r e'( d, e) r c'( d, e) r e'( gis, a)
+		r d( fis, g) r d'( fis, g) r d'( fis, g)
+		r g'( a, h) r g'( a, h) r g'( a, h) %55
+		d,2.
+		g4 r r \markPo %57 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

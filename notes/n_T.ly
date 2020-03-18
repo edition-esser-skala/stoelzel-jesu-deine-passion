@@ -1066,6 +1066,139 @@ OEinGrosserTenoreLyrics = \lyricmode {
 	ben. %29 finis
 }
 
+GottVersoehnerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 3/4 \autoBeamOff \tempoGottVersoehner
+		R2.*13 %13
+		r4 g' e
+		fis h,2 %15
+		e4.( g8) fis([ e)]
+		dis16([ cis)] h8 a4 a
+		g16([ fis)] e8 e'4 e
+		dis16([ cis)] h8 a([ a')] fis([ a)]
+		gis16([ fis)] e8 a2~ %20
+		a4 gis8[ fis] e4~
+		e8[ cis] d2~
+		d8[ h] c2~
+		c8[ a] h2
+		c4 c c %25
+		h8. c16 d4 d
+		c16([ h)] a8 a'4 a
+		gis16([ fis)] e8 d2
+		c16[ h a8] h2\trill
+		a8 e'16 d c8 h a g! %30
+		f e r4 r
+		r8 e'16 d c8 h a g
+		f e r4 r
+		h'8 c d4. c16[( h])
+		c2 h8[ a] %35
+		c4 h2\trill
+		a4 r r
+		R2.*5 %42
+		r8\fermata e'16 d c8 h a g!
+		fis16([ e)] dis8 fis'4 fis
+		e8. h16  e4 e %45
+		e8 dis r4 r
+		R2.
+		r8 e16 d! cis8 h a g!
+		fis16([ e)] d8 r4 r
+		r8 d'16 c h8 a g f %50
+		e16([ d)] c8 e'4. c8
+		d4 d2\trill
+		r8 g16 f! e8 d c h
+		a4 c c
+		h16[( a]) g8 h4 h %55
+		h16[( a)] c8 \appoggiatura h4 a4.\trill g8
+		g4 r r \markCa %57 finis
+	}
+}
+
+GottVersoehnerTenoreLyrics = \lyricmode {
+	Gott Ver -- %14
+	ſöh -- ner, %15
+	ſanft __ im __
+	Schlum -- mer ruhſt du
+	nach voll -- brach -- ten
+	Lei -- den in __ der __
+	ſtil -- len To -- %20
+	_ _
+	_
+	_
+	des --
+	nacht, ruhſt du %25
+	nach voll -- brach -- ten
+	Lei -- den in der
+	ſtil -- len To --
+	_ des --
+	nacht, Gott Ver -- ſöh -- ner, ſanft im %30
+	Schlum -- mer
+	ruhſt du nach voll -- brach -- ten
+	Lei -- den
+	in der ſtil -- len
+	To -- _ %35
+	_ des --
+	nacht.
+	
+	Nun kann ich be -- freit von %43
+	Kum -- mer glau -- bens --
+	voll und ſanfft ver -- %45
+	ſchei -- den,
+	
+	durch dich kann ich Ret -- tung
+	hof -- fen,
+	du zeigſt mir den Him -- mel of -- fen, Tod, wo %50
+	iſt nun,
+	Tod, wo iſt nun dei -- ne
+	Macht, Tod, wo
+	iſt, wo iſt nun %55
+	dei -- _ _ ne
+	Macht! %57 finis
+}
+
+GottVersoehnerTenoreLyricsOld = \lyricmode {
+	Weyh durch %14
+	dei -- ne %15
+	Gra -- bes --
+	ſtät -- te, Je -- ſus,
+	nun das Ster -- be --
+	bet -- te einſt __ zum __
+	ſanff -- ten La -- %20
+	_ _
+	_
+	_
+	ger
+	mir, Je -- ſus, %25
+	nun das Ster -- be --
+	bet -- te einſt zum
+	ſanff -- ten La --
+	_ ger
+	mir, weyh durch dei -- ne Gra -- bes -- %30
+	ſtät -- te,
+	Je -- ſus, nun das Ster -- be --
+	bet -- te
+	einſt zum ſanff -- ten
+	La -- _ %35
+	_ ger
+	mir.
+	
+	Schlägt in die -- ſem finſ -- tren %43
+	Tha -- le mir das
+	Hertz zum letz -- ten %45
+	Mah -- le
+	
+	und du ruf -- feſt mir ent --
+	ge -- gen,
+	daß du auch im Grab ge -- %50
+	le -- gen, o wie
+	ru -- hig,
+	o wie ru -- hig werd ich
+	ſeyn, o wie
+	ru -- hig, o wie %55
+	ru -- hig werd ich
+	ſeyn! %57 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

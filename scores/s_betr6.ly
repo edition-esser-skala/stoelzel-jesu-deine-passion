@@ -170,52 +170,109 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "6.4" "R E C I T A T I V O" "Was düncket euch"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WasDuencketViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WasDuencketViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WasDuencketViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Basſo" } }
+% 						\new Voice = "Alto" { \dynamicUp \WasDuencketAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WasDuencketAltoLyrics
+% 					
+% 						\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Tenore" } }
+% 						\new Voice = "Soprano" { \dynamicUp \WasDuencketSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WasDuencketSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WasDuencketOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WasDuencketBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "6.4" "R E C I T A T I V O" "Was düncket euch"
+			movement = \movementTitle "6.5" "D U E T T O" "Gott Verſöhner"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			systems-per-page = #2
+		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "[in F]"
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WasDuencketViolinoI
+							\set Staff.instrumentName = "Grand oboe I"
+							\GottVersoehnerOboeI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WasDuencketViolinoII
+							\set Staff.instrumentName = "Grand oboe II"
+							\GottVersoehnerOboeII
 						}
 					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\WasDuencketViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Basſo" } }
-						\new Voice = "Alto" { \dynamicUp \WasDuencketAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \WasDuencketAltoLyrics
-					
-						\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Tenore" } }
-						\new Voice = "Soprano" { \dynamicUp \WasDuencketSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \WasDuencketSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\WasDuencketOrgano
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
+						\GottVersoehnerViolinoI
 					}
 				>>
-				\new FiguredBass { \WasDuencketBassFigures }
+				\new ChoirStaff \with { \twoStanzaDistance } <<
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GottVersoehnerAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \GottVersoehnerAltoLyrics
+					\new Lyrics \lyricsto Alto \GottVersoehnerAltoLyricsOld
+					
+						\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \GottVersoehnerTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \GottVersoehnerTenoreLyrics
+					\new Lyrics \lyricsto Tenore \GottVersoehnerTenoreLyricsOld
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\GottVersoehnerOrgano
+					}
+				>>
+				\new FiguredBass { \GottVersoehnerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

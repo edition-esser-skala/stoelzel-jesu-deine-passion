@@ -1097,6 +1097,149 @@ WasDuencketAltoLyrics = \lyricmode {
 	Stein. %34 finis
 }
 
+GottVersoehnerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \autoBeamOff \tempoGottVersoehner
+		R2.*6 %6
+		r4 c'4 a
+		h e,2
+		a4.( c8) h([ a)]
+		gis16([ fis)] e8 d4 d %10
+		c16([ h)] a8 a'4 a
+		gis16([ fis)] e8 d([ d')] h([ d)]
+		c16([ h)] a8 g4 fis\trill
+		e r r
+		R2.*5 %19
+		r4 c'4 a %20
+		h e,2
+		a4.( c8) h([ a)]
+		g!4( \grace f8 e4) \appoggiatura d8 c4
+		f4.( a8) g([ f)]
+		e4 a a %25
+		gis16([ fis)] e8 h'4 h
+		a8. h16 c4 c
+		h4. e,8 gis16[ fis e8]
+		a16[ gis fis8] gis2\trill
+		a8 c16 h a8 g f e %30
+		d c r4 r
+		r8 c'16 h a8 g f e
+		d c r4 r
+		gis'8 a e4 h'~
+		h8 e, a2~ %35
+		a4 gis2\trill
+		a4 r r
+		R2.*5 %42
+		r8\fermata c16 h a8 g! fis e
+		dis16([ cis)] h8 a'4 a
+		g16([ fis)] e8 g4 g %45
+		g8 fis r4 r
+		r8 h16 a g8 fis e d!
+		cis16([ h)] a8 r4 r
+		r8 a'16 g fis8 e d c
+		h16([ a)] g8 d''4. g,8 %50
+		c8. c16 c4 c
+		c( h2)\trill
+		r8 e16 d c8 h a g
+		fis4 a4. d,8
+		g2.~ %55
+		g8 e \appoggiatura g4 fis4.\trill g8
+		g4 r r \markDa %57 finis
+	}
+}
+
+GottVersoehnerAltoLyrics = \lyricmode {
+	Gott Ver -- %7
+	ſöh -- ner,
+	ſanft __ im __
+	Schlum -- mer ruhſt du %10
+	nach voll -- brach -- ten
+	Lei -- den in __ der __
+	ſtil -- len To -- des --
+	nacht,
+	
+	Gott Ver -- %20
+	ſöh -- ner,
+	ſanft __ im __
+	Schlum -- mer
+	ru -- heſt __
+	du, ruhſt du %25
+	nach voll -- brach -- ten
+	Lei -- den in der
+	ſtil -- len To --
+	_ des --
+	nacht, Gott Ver -- ſöh -- ner, ſanft im %30
+	Schlum -- mer
+	ruhſt du nach voll -- brach -- ten
+	Lei -- den
+	in der ſtil -- _
+	len To -- %35
+	des --
+	nacht.
+	
+	Nun kann ich be -- freit von %43
+	Kum -- mer glau -- bens --
+	voll und ſanfft ver -- %45
+	ſchei -- den,
+	durch dich kann ich Ret -- tung
+	hof -- fen,
+	du zeigſt mir den Him -- mel
+	of -- fen, Tod, wo %50
+	iſt nun dei -- ne
+	Macht, __
+	Tod, wo iſt nun dei -- ne
+	Macht, Tod, wo
+	iſt __ %55
+	nun dei -- ne
+	Macht! %57 finis
+}
+
+GottVersoehnerAltoLyricsOld = \lyricmode {
+	Weyh durch %7
+	dei -- ne
+	Gra -- bes --
+	ſtät -- te, Je -- ſus, %10
+	nun das Ster -- be --
+	bet -- te einſt __ zum __
+	ſanff -- ten La -- ger
+	mir,
+	
+	weyh durch %20
+	dei -- ne
+	Gra -- bes --
+	ſtät -- te,
+	Je -- ſus, __
+	nun, Je -- ſus %25
+	nun das Ster -- be --
+	bet -- te einſt zum
+	ſanff -- ten La --
+	_ ger
+	mir, weyh durch dei -- ne Gra -- bes -- %30
+	ſtät -- te,
+	Je -- ſus, nun das Ster -- be --
+	bet -- te
+	einſt zum ſanff -- _
+	ten La -- %35
+	ger
+	mir.
+	
+	Schlägt in die -- ſem finſ -- tren %43
+	Tha -- le mir das
+	Hertz zum letz -- ten %45
+	Mah -- le
+	und du ruf -- feſt mir ent --
+	ge -- gen,
+	daß du auch im Grab ge --
+	le -- gen, o wie %50
+	ru -- hig werd ich
+	ſeyn, __
+	o wie ru -- hig werd ich
+	ſeyn, o wie
+	ru -- %55
+	hig werd ich
+	ſeyn! %57 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

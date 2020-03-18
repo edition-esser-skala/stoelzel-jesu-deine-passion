@@ -157,3 +157,61 @@ VerloeschtDennOboeII = {
 		fis4 r \markCa %85 finis
 	}
 }
+
+GottVersoehnerOboeII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoGottVersoehner
+		h'2.~\fE
+		h~
+		h4 a2
+		h4 fis fis
+		e e' e %5
+		dis16( cis h8) r fis' fis fis
+		e4 h2~\pE
+		h2.~
+		h4 a2
+		h8 h h h h h %10
+		h h h h h h
+		h h h h h h
+		g g fis fis fis fis
+		d!4 fis2~
+		fis2.~ %15
+		fis4 e2
+		fis8 fis fis fis fis fis
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		fis4 r r %20
+		R2.*5 %25
+		h8 h h h h h
+		h h h h h h
+		h h h h h h
+		h h h h h h
+		e,4 r r %30
+		r8 e e8. e16 dis8 e
+		dis e r4 r
+		r8 e' e e dis e
+		fis h, r4 r
+		R2.*2 %36
+		r4 e2~\fE
+		e2.~
+		e~
+		e2 e4 %40
+		dis16 cis h8 r fis' fis fis
+		e h dis2
+		e4\fermata r r
+		R2.*2 %45
+		r4 ais,4\pE ais8.(\trill gis32 ais)
+		h2.~
+		h8 gis gis4. fis16 gis
+		a!2.~
+		a4 fis4. e16 fis %50
+		g!8 d d d d d
+		d4 a' a
+		g r r
+		a8 a a a a a
+		a a a a a a %55
+		a4 r r
+		d, r r \markCa %57 finis
+	}
+}
