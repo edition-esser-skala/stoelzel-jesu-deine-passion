@@ -668,14 +668,26 @@ OEinGrosserBassoLyrics = \lyricmode {
 	ben. %29 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+JaVerlassBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 5/1 \autoBeamOff \tempoJaVerlass
+			\set Staff.timeSignatureFraction = 4/4
+		a'2 e c h a f' d( e) a,1\fermata
+		\time 4/1 a'2 gis c h a4( g) f2 e1\fermata \bar ":|."
+		\time 5/1 c'2 a e f d c g'1 c,\fermata
+		a'2 g c, f d a' e1 a\fermata \bar "|." %4 finis
+	}
+}
+
+JaVerlassBassoLyricsA = \lyricmode {
+	Ja, ver -- laß die finſ -- tre Höl -- le
+	dei -- ner ſchwart -- zen Tod -- ten Gruft,
+	Komm und ſey mir ſtets im Sin -- ne,
+	bis ich dich recht lieb ge -- win -- ne. %4 finis
+}
+
+JaVerlassBassoLyricsB = \lyricmode {
+	komm und ruh in mei -- ner See -- le,
+	die gantz ſehn -- lich nach dir ruft.
+}

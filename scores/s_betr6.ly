@@ -218,61 +218,109 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "6.5" "D U E T T O" "Gott Verſöhner"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #25
+% 			system-system-spacing.minimum-distance = #25
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\set GrandStaff.instrumentName = "[in F]"
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Grand oboe I"
+% 							\GottVersoehnerOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Grand oboe II"
+% 							\GottVersoehnerOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
+% 						\GottVersoehnerViolinoI
+% 					}
+% 				>>
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GottVersoehnerAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GottVersoehnerAltoLyrics
+% 					\new Lyrics \lyricsto Alto \GottVersoehnerAltoLyricsOld
+% 					
+% 						\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \GottVersoehnerTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GottVersoehnerTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \GottVersoehnerTenoreLyricsOld
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+% 						\GottVersoehnerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \GottVersoehnerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 70 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "6.5" "D U E T T O" "Gott Verſöhner"
+			movement = \movementTitle "6.6" "S C H L U S S C H O R A L" "Ja, verlaß die finſtre Hölle"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #25
-			system-system-spacing.minimum-distance = #25
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "[in F]"
-						\new Staff {
-							\set Staff.instrumentName = "Grand oboe I"
-							\GottVersoehnerOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Grand oboe II"
-							\GottVersoehnerOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
-						\GottVersoehnerViolinoI
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \JaVerlassSopranoNotes }
 					}
-				>>
-				\new ChoirStaff \with { \twoStanzaDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GottVersoehnerAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \GottVersoehnerAltoLyrics
-					\new Lyrics \lyricsto Alto \GottVersoehnerAltoLyricsOld
+					\new Lyrics \lyricsto Soprano \JaVerlassSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \JaVerlassSopranoLyricsB
 					
-						\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \GottVersoehnerTenoreNotes }
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \JaVerlassAltoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GottVersoehnerTenoreLyrics
-					\new Lyrics \lyricsto Tenore \GottVersoehnerTenoreLyricsOld
+					\new Lyrics \lyricsto Alto \JaVerlassAltoLyricsA
+					\new Lyrics \lyricsto Alto \JaVerlassAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \JaVerlassTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \JaVerlassTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \JaVerlassTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \JaVerlassBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \JaVerlassBassoLyricsA
+					\new Lyrics \lyricsto Basso \JaVerlassBassoLyricsB
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
-						\GottVersoehnerOrgano
+						\set Staff.instrumentName = "Organo"
+						\JaVerlassOrgano
 					}
 				>>
-				\new FiguredBass { \GottVersoehnerBassFigures }
+				\new FiguredBass { \JaVerlassBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

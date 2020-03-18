@@ -1240,14 +1240,26 @@ GottVersoehnerAltoLyricsOld = \lyricmode {
 	ſeyn! %57 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+JaVerlassAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 5/1 \autoBeamOff \tempoJaVerlass
+			\set Staff.timeSignatureFraction = 4/4
+		e2 e e gis a a a( gis) e1\fermata
+		\time 4/1 a2 e e gis a a gis1\fermata \bar ":|."
+		\time 5/1 g2 a g a h c c( h) g1\fermata
+		a2 h c c4( h) a2 a a( gis) e1\fermata \bar "|." %4 finis
+	}
+}
+
+JaVerlassAltoLyricsA = \lyricmode {
+	Ja, ver -- laß die finſ -- tre Höl -- le
+	dei -- ner ſchwart -- zen Tod -- ten Gruft,
+	Komm und ſey mir ſtets im Sin -- ne,
+	bis ich dich recht lieb ge -- win -- ne. %4 finis
+}
+
+JaVerlassAltoLyricsB = \lyricmode {
+	komm und ruh in mei -- ner See -- le,
+	die gantz ſehn -- lich nach dir ruft.
+}

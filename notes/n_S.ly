@@ -872,14 +872,26 @@ WasDuencketSopranoLyrics = \lyricmode {
 	Stein. %34 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+JaVerlassSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 5/1 \autoBeamOff \tempoJaVerlass
+			\set Staff.timeSignatureFraction = 4/4
+		a'2 gis a h c d h1 a\fermata
+		\time 4/1 c2 h a h c d e1\fermata \bar ":|."
+		\time 5/1 e2 f g c, f e d1 c\fermata
+		c2 h e a, d c h1 a\fermata \bar "|." %4 finis
+	}
+}
+
+JaVerlassSopranoLyricsA = \lyricmode {
+	Ja, ver -- laß die finſ -- tre Höl -- le
+	dei -- ner ſchwart -- zen Tod -- ten Gruft,
+	Komm und ſey mir ſtets im Sin -- ne,
+	bis ich dich recht lieb ge -- win -- ne. %4 finis
+}
+
+JaVerlassSopranoLyricsB = \lyricmode {
+	komm und ruh in mei -- ner See -- le,
+	die gantz ſehn -- lich nach dir ruft.
+}

@@ -1199,14 +1199,26 @@ GottVersoehnerTenoreLyricsOld = \lyricmode {
 	ſeyn! %57 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+JaVerlassTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 5/1 \autoBeamOff \tempoJaVerlass
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h a d e d f( e) c1\fermata
+		\time 4/1 e2 e c d e f h,1\fermata \bar ":|."
+		\time 5/1 c2 c c c d e g2.( f4) e1\fermata
+		e2 g g f f e e2.( d4) c1\fermata \bar "|." %4 finis
+	}
+}
+
+JaVerlassTenoreLyricsA = \lyricmode {
+	Ja, ver -- laß die finſ -- tre Höl -- le
+	dei -- ner ſchwart -- zen Tod -- ten Gruft,
+	Komm und ſey mir ſtets im Sin -- ne,
+	bis ich dich recht lieb ge -- win -- ne. %4 finis
+}
+
+JaVerlassTenoreLyricsB = \lyricmode {
+	komm und ruh in mei -- ner See -- le,
+	die gantz ſehn -- lich nach dir ruft.
+}

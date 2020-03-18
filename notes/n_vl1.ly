@@ -904,7 +904,7 @@ GottVersoehnerViolinoI = {
 		h( e gis h) d( f d h) gis( e d h)
 		c( e a c) e( a e c) a( e c a) %5
 		h( e gis h) d( f d h) gis( e d h)
-		c c'( dis, e) r c'(\pE dis, e) r c'( dis, e)
+		c c'( dis, e) r c'( dis, e) r c'( dis, e)
 		r h'( dis, e) r h'( dis, e) r h'( dis, e)
 		r a( cis, d) r a'( cis, d) r a'( cis, d)
 		h( e gis h) d( f d h) gis( e d h) %10
@@ -957,11 +957,3 @@ GottVersoehnerViolinoI = {
 		g4 r r \markPo %57 finis
 	}
 }
-
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }

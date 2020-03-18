@@ -2525,14 +2525,21 @@ GottVersoehnerBassFigures = \figuremode {
 	r2. %57 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+JaVerlassOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 5/1 \autoBeamOff \tempoJaVerlass
+			\set Staff.timeSignatureFraction = 4/4
+		a2 e' c h a f' d e a,1\fermata
+		\time 4/1 a'2 gis c h a4 g f2 e1\fermata \bar ":|."
+		\time 5/1 c'2 a e f d c g'1 c,\fermata
+		a'2 g c, f d a e'1 a,\fermata \bar "|." %4 finis
+	}
+}
+
+JaVerlassBassFigures = \figuremode {
+	r2 <_+> <6> <6\\> r <6> <6 5> <_+> r1
+	r2 <6> q <6\\> r <6> <_+>1
+	r2 <6> q1 q <4>2 <3> r1
+	r r r <4>2 <_+> r1 %4 finis
+}

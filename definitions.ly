@@ -359,6 +359,7 @@ tempoWasDuencket = \tempoMarkup "Recitativo"
 	tempoWasDuencketC = \tempoMarkup "[Recitativo]"
 	tempoWasDuencketD = \tempoMarkup "[Accompagnato]"
 tempoGottVersoehner = \tempoMarkup "Larghetto"
+tempoJaVerlass = \tempoMarkup "Choral"
 
 
 
