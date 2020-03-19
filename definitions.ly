@@ -266,35 +266,6 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
-markDaCapo = {
-	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-	\mark \markup { \remark "da capo" }
-}
-
-markDaCaPo = {
-	\override TextScript.extra-offset = #'(0 . 5.5)
-	s128-\markup { \override #'(baseline-skip . 2) \italic \center-column { "Da" "Ca" "po" } } \hide Staff.BarLine
-}
-
-markCaPo = {
-	\override TextScript.extra-offset = #'(0 . 4.5)
-	s128-\markup { \fontsize #2 \override #'(baseline-skip . 2) \italic \center-column { "Ca" "po" } } \hide Staff.BarLine
-}
-
-markDa = {
-	\override TextScript.extra-offset = #'(0 . 4)
-	s128-\markup { \fontsize #5 \italic "Da" } \hide Staff.BarLine
-}
-
-markCa = {
-	\override TextScript.extra-offset = #'(0 . 4)
-	s128-\markup { \fontsize #5 \italic "Ca" } \hide Staff.BarLine
-}
-
-markPo = {
-	\override TextScript.extra-offset = #'(0 . 3)
-	s128-\markup { \fontsize #5 \italic "po" } \hide Staff.BarLine
-}
 
 markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
@@ -448,7 +419,7 @@ tempoJaVerlass = \tempoMarkup "Choral"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
@@ -546,8 +517,12 @@ tempoJaVerlass = \tempoMarkup "Choral"
 	}
 }
 
-\include "notes/n_ob1.ly"
-\include "notes/n_ob2.ly"
+% \include "definitions_scores.ly"
+\include "definitions_parts.ly"
+
+\include "notes/n_obdc1.ly"
+\include "notes/n_obdc2.ly"
+\include "notes/n_fag.ly"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"

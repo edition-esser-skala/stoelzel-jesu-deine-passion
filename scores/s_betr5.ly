@@ -5,6 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
+\include "../definitions_scores.ly"
 
 \paper { first-page-number = #97 }
 
@@ -57,7 +58,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\HinwegIhrOrgano
 					}
 				>>
@@ -85,7 +86,7 @@
 				\new Lyrics \lyricsto Alto \SoTraegstAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\SoTraegstOrgano
 					}
 				>>
@@ -136,7 +137,7 @@
 				\new Lyrics \lyricsto Alto \VerloeschtDennAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\VerloeschtDennOrgano
 					}
 				>>
@@ -164,7 +165,7 @@
 				\new Lyrics \lyricsto Soprano \WomitErquicktSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\WomitErquicktOrgano
 					}
 				>>
@@ -212,7 +213,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\OWieTroestlichOrgano
 					}
 				>>
@@ -260,7 +261,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\SoWahrhaftigOrgano
 					}
 				>>

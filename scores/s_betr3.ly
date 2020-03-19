@@ -5,6 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
+\include "../definitions_scores.ly"
 
 \paper { first-page-number = #47 }
 
@@ -57,7 +58,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\JesuDerDuOrgano
 					}
 				>>
@@ -105,7 +106,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\SchauHannasOrgano
 					}
 				>>
@@ -153,7 +154,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\WeheDirOrgano
 					}
 				>>
@@ -181,7 +182,7 @@
 				\new Lyrics \lyricsto Alto \UndPetreAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\UndPetreOrgano
 					}
 				>>
@@ -210,7 +211,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
+						\set Staff.instrumentName = "Violini"
 						\JaPetreGehViolinoI
 					}
 				>>
@@ -221,11 +222,11 @@
 				\new Lyrics \lyricsto Alto \JaPetreGehAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basſono" } }
 						\JaPetreGehCello
 					}
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\JaPetreGehOrgano
 					}
 				>>
@@ -273,7 +274,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\IchBittOrgano
 					}
 				>>

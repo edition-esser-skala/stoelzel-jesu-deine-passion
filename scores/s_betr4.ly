@@ -5,6 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
+\include "../definitions_scores.ly"
 
 \paper { first-page-number = #73 }
 
@@ -57,7 +58,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\JesusFuerOrgano
 					}
 				>>
@@ -85,7 +86,7 @@
 				\new Lyrics \lyricsto Soprano \KaumWirdMeinSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\KaumWirdMeinOrgano
 					}
 				>>
@@ -133,7 +134,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Viola" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\DuVerschmitzterOrgano
 					}
 				>>
@@ -161,7 +162,7 @@
 				\new Lyrics \lyricsto Tenore \EsScheuenTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\EsScheuenOrgano
 					}
 				>>
@@ -185,16 +186,16 @@
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato I" } }
+							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato I" "[Violino I]" } }
 							\UnbeflecktesViolinoConcI
 						}
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato II" } }
+							\set Staff.instrumentName = \markup { \center-column { "Violino" "concertato II" "[Violino II]" } }
 							\UnbeflecktesViolinoConcII
 						}
 					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "pizz." } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "[Viola]" } }
 						\UnbeflecktesViolinoI
 					}
 				>>
@@ -205,7 +206,7 @@
 				\new Lyrics \lyricsto Tenore \UnbeflecktesTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\UnbeflecktesOrgano
 					}
 				>>
@@ -249,7 +250,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\DuSpringstOrgano
 					}
 				>>

@@ -11,11 +11,13 @@
 % \include "scores/s_betr3.ly"
 % \include "scores/s_betr4.ly"
 % \include "scores/s_betr5.ly"
-\include "scores/s_betr6.ly"
+% \include "scores/s_betr6.ly"
 
 
 % \include "parts/p_ob1.ly"
 % \include "parts/p_ob2.ly"
+% \include "parts/p_obdc1.ly"
+% \include "parts/p_obdc2.ly"
 % \include "parts/p_vl1.ly"
 % \include "parts/p_vl2.ly"
 % \include "parts/p_vla.ly"

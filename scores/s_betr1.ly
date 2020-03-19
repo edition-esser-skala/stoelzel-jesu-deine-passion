@@ -5,6 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
+\include "../definitions_scores.ly"
 
 \paper { first-page-number = #1 }
 
@@ -59,7 +60,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\JesuDeineOrgano
 					}
 				>>
@@ -87,7 +88,7 @@
 				\new Lyrics \lyricsto Tenore \SoTustDuTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\SoTustDuOrgano
 					}
 				>>
@@ -127,7 +128,7 @@
 				\new Lyrics \lyricsto Tenore \WieHurtigTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\WieHurtigOrgano
 					}
 				>>
@@ -207,11 +208,11 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column {  "[Violoncello]" "[Basſono]" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basſono" } }
 						\WachtUndCello
 					}
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\WachtUndOrgano
 					}
 				>>
@@ -255,7 +256,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\WachetAufOrgano
 					}
 				>>

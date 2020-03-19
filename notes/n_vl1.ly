@@ -393,7 +393,7 @@ JaPetreGehViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoJaPetreGeh
-		c8\fE c c c f f f f \bar "S-S"
+		\mvTr c8\fE-\pizz c c c f f f f \bar "S-S"
 		g g g g d d d d
 		g g g g f! f f f
 		es es es es d d d d
@@ -589,7 +589,7 @@ UnbeflecktesViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/4 \tempoUnbeflecktes
-		e8.[\fE e16 e8. e16 e8. e16] \bar "S-S"
+		\mvTr e8.[\fE-\pizz e16 e8. e16 e8. e16] \bar "S-S"
 		\grace s8 e8.[ e16 e8. e16 e8. e16]
 		fis8.[ fis16 d8. d16 d8. d16]
 		g8.[ g16 g8. g16 e8. e16]

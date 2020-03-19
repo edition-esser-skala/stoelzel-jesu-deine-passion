@@ -5,6 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
+\include "../definitions_scores.ly"
 
 \paper { first-page-number = #27 }
 
@@ -57,7 +58,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\JudasDerOrgano
 					}
 				>>
@@ -85,7 +86,7 @@
 				\new Lyrics \lyricsto Alto \WasKoemmestAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\WasKoemmestOrgano
 					}
 				>>
@@ -136,7 +137,7 @@
 				\new Lyrics \lyricsto Alto \LiebsteHandAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "[Viola]" "Organo" } }
+						\set Staff.instrumentName = "Fondamento"
 						\LiebsteHandOrgano
 					}
 				>>
@@ -164,7 +165,7 @@
 				\new Lyrics \lyricsto Tenore \UndWieIhrTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\UndWieIhrOrgano
 					}
 				>>
@@ -216,11 +217,11 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "Basſono" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basſono" } }
 						\AchIhrJuengerCello
 					}
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\AchIhrJuengerOrgano
 					}
 				>>
@@ -268,7 +269,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = "Fondamento"
 						\HerrLassOrgano
 					}
 				>>

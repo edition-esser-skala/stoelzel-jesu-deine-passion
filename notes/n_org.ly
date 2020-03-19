@@ -932,7 +932,7 @@ JesuDerDuOrgano = {
 		\key a \minor \time 5/1 \tempoJesuDerDu
 			\set Staff.timeSignatureFraction = 4/4
 		a2 c e a gis a e1 a,\fermata
-		\time 4/1 a'2 a, d f e a, e'1\fermata \bar ":|." \noBreak
+		\time 4/1 a'2 a, d f e a, e'1\fermata \bar ":|."
 		\time 5/1 g!2 e h e a, h c( d) g1\fermata
 		e2 d c f d c g'1 c,\fermata
 		\time 4/1 c2 c4( d) e2 a gis a e1\fermata %5
@@ -2166,7 +2166,7 @@ SoWahrhaftigOrgano = {
 		\key c \major \time 5/1 \tempoSoWahrhaftig
 			\set Staff.timeSignatureFraction = 4/4
 		c2 h c g a h4( c) d1 g,\fermata
-		\time 4/1 e'2 h c f, c' g c1\fermata \bar ":|." \noBreak
+		\time 4/1 e'2 h c f, c' g c1\fermata \bar ":|."
 		c'2 a e f c g' c1\fermata
 		c2 c, f e d c g'1\fermata
 		\time 5/1 c2 h a c f, d c1 f\fermata %5
