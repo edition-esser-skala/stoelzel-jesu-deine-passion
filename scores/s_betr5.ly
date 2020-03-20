@@ -271,4 +271,8 @@
 			\midi { \tempo 2 = 90 }
 		}
 	}
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\markup \null
+	}
 }

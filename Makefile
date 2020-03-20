@@ -5,9 +5,9 @@
 
 # change the following variables according to your project
 project = Stoelzel_Jesu_Deine_Passion
-zipname = Stoelzel_Jesu_Deine_Passion
-notes = ob1 ob2 fag vl1 vl2 vla S A T B org
-parts = ob1 ob2 vl1 vl2 vla soli coro org b
+zipname = Stoelzel_Jesu_Deine_Passion_Engraving_Files
+notes = obdc1 obdc2 fag vl1 vl2 vla vlc S A T B org
+parts = ob1 ob2 obdc1 obdc2 vl1 vl2 vla soli coro org b
 movements = betr1 betr2 betr3 betr4 betr5 betr6
 
 

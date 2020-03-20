@@ -517,8 +517,8 @@ tempoJaVerlass = \tempoMarkup "Choral"
 	}
 }
 
-% \include "definitions_scores.ly"
-\include "definitions_parts.ly"
+\include "definitions_scores.ly"
+% \include "definitions_parts.ly"
 
 \include "notes/n_obdc1.ly"
 \include "notes/n_obdc2.ly"
