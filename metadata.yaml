@@ -1,17 +1,18 @@
 composer: Stölzel, Gottfried Heinrich
 title: Jesu, deine Passion
-id: (D-B Mus.ms. 21401)
 genre: passion
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 ob da caccia, fag, 2 vl, vla, vlc, b, org
+scoring:
+  - S, A, T, B (solo), S, A, T, B (coro),
+  - 2 ob, 2 ob da caccia, fag, 2 vl, vla, vlc, b, org
 sources:
-  1:
+  B1:
     siglum: D-B
     shelfmark: Mus.ms. 21401
-    type: autograph manuscript
     date: 1745
     rism: 452511072
     url: http://resolver.staatsbibliothek-berlin.de/SBB00022B3F00000000
-github: stoelzel-jesu-deine-passion
+    principal: true
 imslp: Passion_in_VI_Betrachtungen_(Stölzel,_Gottfried_Heinrich)
-notes:
-
+parts:
+  obdc1: Oboe da caccia I
+  obdc2: Oboe da caccia II
