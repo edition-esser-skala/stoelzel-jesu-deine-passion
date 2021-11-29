@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0 - 2021-11-28
+## 2.0.0 - 2021-11-29
 
 ### Changed
 
@@ -12,4 +12,3 @@
 ### Added
 
 - initial release
-

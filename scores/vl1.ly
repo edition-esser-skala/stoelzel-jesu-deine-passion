@@ -97,9 +97,26 @@
   \bookpart {
     \section "3.2" "Recitativo" "Schau, Hannas, den"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper {
+      system-system-spacing.basic-distance = #16
+      system-system-spacing.minimum-distance = #16
+      systems-per-page = #4
+    }
     \score {
       <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \SchauHannasTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \SchauHannasTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \SchauHannasBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \SchauHannasBassoLyrics
+        >>
         \new Staff { \SchauHannasViolinoI }
       >>
     }
