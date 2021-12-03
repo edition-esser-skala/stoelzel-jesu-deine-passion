@@ -1,4 +1,6 @@
-composer: Stölzel, Gottfried Heinrich
+composer:
+  last: Stölzel
+  first: Gottfried Heinrich
 title: Jesu, deine Passion
 genre: passion
 scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 ob, 2 ob da caccia, fag, 2 vl, vla, vlc, b, org
