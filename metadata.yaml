@@ -1,9 +1,8 @@
 composer: Stölzel, Gottfried Heinrich
 title: Jesu, deine Passion
 genre: passion
-scoring:
-  - S, A, T, B (solo), S, A, T, B (coro),
-  - 2 ob, 2 ob da caccia, fag, 2 vl, vla, vlc, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 ob, 2 ob da caccia, fag, 2 vl, vla, vlc, b, org
+license: cc-by-nc-sa-4.0
 sources:
   B1:
     siglum: D-B
@@ -11,6 +10,7 @@ sources:
     date: 1745
     rism: 452511072
     url: http://resolver.staatsbibliothek-berlin.de/SBB00022B3F00000000
+    license: CC BY-NC-SA 4.0
     principal: true
 imslp: Passion_in_VI_Betrachtungen_(Stölzel,_Gottfried_Heinrich)
 parts:
