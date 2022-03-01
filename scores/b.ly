@@ -217,7 +217,7 @@
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A^"
+            \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \UndPetreAltoNotes }
           }
           \new Lyrics \lyricsto Alto \UndPetreAltoLyrics
