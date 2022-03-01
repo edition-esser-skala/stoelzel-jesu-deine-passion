@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.1.0 - 2022-03-01
+
+### Added
+
+- previously missing fag and vlc part
+
+### Fixed
+
+- instrument name for A solo in movement 3.4
+
+
 ## 2.0.0 - 2021-12-03
 
 ### Changed
